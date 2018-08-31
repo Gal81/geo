@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+}
+
+#demo-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 760px;
+}
+#geoMapBox {
+  position: relative;
+  width: 100%;
+}
+#geoMap {
+  height: 700px;
+}
+
+.or-view-as {
+    margin: 0.5em 0;
+}
+#geoUp {
+  height: 20px;
+  margin: 50px auto 0;
+  /* max-width: 400px; */
+  padding: 0 20px;
+}
+#geoUp a {
+  cursor: pointer;
+  padding-left: 40px;
+}
+
+.loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
+}
+
+@media (max-width: 768px) {
+  #demo-wrapper {
+    width: auto;
+    height: auto;
+  }
+  #geoMapBox {
+    width: auto;
+    float: none;
+  }
+  #geoMap {
+    height: 310px;
+  }
+}
+
+#geoMessage {
+  background: rgba(125, 125, 255, 0.5);
+  border: 1px solid #00a;
+  border-radius: 5px;
+  color: #00a;
+  font-size: 12px;
+  opacity: 1;
+  padding: 20px;
+  position: absolute;
+  top: -30px;
+  right: 0;
+  transition-property: opacity, right;
+  transition-duration: 0.5s;
+}
+
+#geoMessage.fade-out-me {
+  opacity: 0;
+  right: -100%;
+}

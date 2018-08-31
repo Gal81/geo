@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Geo</title>
+
+  <link rel="stylesheet" href="styles/index.css?v=1">
+</head>
+<body>
+
+  <div id="demo-wrapper">
+    <div id="geoMapBox"
+      data-value="custom/world-highres.js"
+      data-desc="World">
+      <div id="geoUp"></div>
+
+      <div id="geoMap"></div>
+      <div id="geoMessage" class="fade-out-me">
+        Click on a location for a more detailed breakdown
+      </div>
+    </div>
+  </div>
+
+  <script src="js/lib/jq/jquery-3.3.1.min.js"></script>
+
+  <script src="js/lib/highcharts/highmaps.js"></script>
+  <script src="js/lib/highcharts/drilldown.js"></script>
+  <script src="js/lib/highcharts/exporting.js"></script>
+
+  <script src="https://code.highcharts.com/mapdata/index.js?1"></script>
+
+  <script src="data/geoComplianceData.js"></script>
+  <script src="data/dk/dk-Nordjylland-all.js"></script>
+  <script src="data/dk/dk-Midtjylland-all.js"></script>
+  <script src="data/dk/dk-Syddanmark-all.js"></script>
+
+  <script src="js/geoCompliance.js?v=0"></script>
+
+</body>
+</html>
