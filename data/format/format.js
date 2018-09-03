@@ -4,7 +4,7 @@ const fs = require('fs');
 // 2. http://jsfiddle.net/Gal81/TUy7x/3893/
 // 3. RAW data from http://svg-to-wkt.linfiniti.com/
 
-fs.readFile('./data/dataRaw.txt', 'utf8', function(err, raw) {
+fs.readFile('./data/format/dataRaw.txt', 'utf8', function(err, raw) {
   if(err) {
     return console.log(err);
   }
@@ -20,7 +20,7 @@ fs.readFile('./data/dataRaw.txt', 'utf8', function(err, raw) {
     }).toString();
 
 
- fs.writeFile('./data/dataFormatted.txt', `[${format}\n]`,
+ fs.writeFile('./data/format/dataFormatted.txt', `[${format}\n]`,
   function(errr) {
     if(errr) {
       return console.log(errr);

@@ -4,17 +4,22 @@
   "description": "",
   "main": "index.js",
   "watch": {
-    "format": "data/dataRaw.txt"
+    "format": "data/format/dataRaw.txt",
+    "svg": "data/format/dataSVG.svg"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "node data/format.js",
+    "format": "node data/format/format.js",
+    "svg": "node data/format/SVGtoWKT.js",
     "watch": "npm-watch format"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jquery": "^3.3.1",
+    "jsdom": "^12.0.0",
+    "lodash": "^4.17.10",
     "npm-watch": "^0.3.0"
   }
 }
