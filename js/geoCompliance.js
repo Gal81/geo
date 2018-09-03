@@ -52,6 +52,7 @@
     'Nordjylland, admin2': 'countries/dk/dk-3568-all.js',
     'Midtjylland, admin2': 'countries/dk/dk-6326-all.js',
     'Syddanmark, admin2': 'countries/dk/dk-3564-all.js',
+    'Sjælland, admin2': 'countries/dk/dk-3563-all.js',
   };
 
   $.each(Highcharts.mapDataIndex, function (mapGroup, maps) {
@@ -86,7 +87,11 @@
     // When the map is loaded or ready from cache...
     function mapReady() {
       var mapGeoJSON = Highcharts.maps[mapKey];
-      var data = [];
+      var data = [{
+        id: 'DUMMY',
+        key: 'DUMMY',
+        value: 1
+      }];
       var parent;
       var match;
 
@@ -162,7 +167,8 @@
         chart: {
           events: {
             load: function () {
-              var country = $('#geoMap').highcharts().get('DK'); // FIXME
+              var target = 'DK'; // FIXME
+              var country = $('#geoMap').highcharts().get(target);
               if (country) {
                 country.zoomTo();
               }
@@ -185,7 +191,7 @@
           enabled: true,
         },
         xAxis: {
-          minRange: minRange,
+          // minRange: minRange,
           events: {
             afterSetExtremes: function (e) {
               if (window.zoomMessageExist && !(e.min === e.dataMin && e.max === e.dataMax)) {
