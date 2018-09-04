@@ -53,6 +53,7 @@
     'Midtjylland, admin2': 'countries/dk/dk-6326-all.js',
     'Syddanmark, admin2': 'countries/dk/dk-3564-all.js',
     'Sjælland, admin2': 'countries/dk/dk-3563-all.js',
+    'Hovedstaden, admin2': 'countries/dk/dk-6325-all.js',
   };
 
   $.each(Highcharts.mapDataIndex, function (mapGroup, maps) {

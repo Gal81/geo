@@ -311,7 +311,7 @@ function pathToGeometry(path) {
   const wkt = SVGtoWKT.convert(`<svg><path d="${path}" /></svg>`);
 
   let geometry = wkt.replace('GEOMETRYCOLLECTION(POLYGON((', '')
-    .replace(')))', '');
+    .replace(/[()]/g, '');
 
   geometry = geometry.split(',')
     .map(function(pair, index) {
@@ -323,9 +323,6 @@ function pathToGeometry(path) {
 }
 
 function regionsToGeoJSON(regions) {
-  const COUNTRY_CODE = 'DK';
-  const REGION_NAME = 'Hovedstaden';
-
   const map = {
     title: REGION_NAME,
     version: '0.1',
@@ -366,15 +363,23 @@ function regionsToGeoJSON(regions) {
   return map;
 }
 
+const PARENT_ID = '6325';
+const COUNTRY_CODE = 'DK';
+const REGION_NAME = 'Hovedstaden';
+
 fs.readFile('./data/tmp/dataSeries.json', 'utf8', function(err, data) {
   if(err) {
     return console.log(err);
   }
 
   const regions = seriesToRegions(data);
-  const map = regionsToGeoJSON(regions);
+  const geoJson = regionsToGeoJSON(regions);
+  const dir = COUNTRY_CODE.toLowerCase();
+  const file = `${dir}-${REGION_NAME}-all`
+  const mapKey = `countries/${dir}/${dir}-${PARENT_ID}-all`;
+  const map = `Highcharts.maps['${mapKey}'] = ${JSON.stringify(geoJson)}`;
 
-  fs.writeFile('./data/tmp/dataMap.json', JSON.stringify(map),
+  fs.writeFile(`./data/${dir}/${file}.js`, map,
   function(errr) {
     if(errr) {
       return console.log(errr);
