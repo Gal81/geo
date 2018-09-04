@@ -14,23 +14,17 @@ const SVGtoWKT = {
   DENSITY: 1,
 };
 
+// SVG-to-WKT
 (function() {
   SVGtoWKT.convert = function(svg) {
-
     // Halt if svg is undefined or empty.
     if (_.isUndefined(svg) || _.isEmpty(svg.trim())) {
-      throw new Error('Empty XML.');
+      throw new Error('___ Empty XML ___');
     }
 
     var els = [];
     var xml;
 
-    // svg = `
-    //   <svg>
-    //     <polygon points="1,2 3,4 5,6" />
-    //     <line x1="7" y1="8" x2="9" y2="10" />
-    //     <path d="M150 0 L75 200 L225 200 Z" />
-    //   </svg>`;
     // Strip out tabs and linebreaks.
     svg = svg.replace(/\r\n|\r|\n|\t/g, '');
 
@@ -40,7 +34,7 @@ const SVGtoWKT = {
     } catch (e) {
       // Halt if malformed.
       console.log(e);
-      throw new Error('Invalid XML.');
+      throw new Error('___ Invalid XML ___');
     }
 
     // Match `<polygon>` elements.
@@ -100,16 +94,10 @@ const SVGtoWKT = {
     return 'GEOMETRYCOLLECTION(' + els.join(',') + ')';
   };
 
-  /**
-   * Construct a WKT line from SVG start/end point coordinates.
-   */
   SVGtoWKT.line = function(x1, y1, x2, y2) {
     return 'LINESTRING('+x1+' '+-y1+','+x2+' '+-y2+')';
   };
 
-  /**
-   * Construct a WKT linestrimg from SVG `points` attribute value.
-   */
   SVGtoWKT.polyline = function(points) {
     // "1,2 3,4 " => "1 2,3 4"
     var pts = _.map(points.trim().split(' '), function(pt) {
@@ -120,9 +108,6 @@ const SVGtoWKT = {
     return 'LINESTRING(' + pts.join() + ')';
   };
 
-  /**
-   * Construct a WKT polygon from SVG `points` attribute value.
-   */
   SVGtoWKT.polygon = function(points) {
     // "1,2 3,4 " => "1 2,3 4"
     var pts = _.map(points.trim().split(' '), function(pt) {
@@ -136,9 +121,6 @@ const SVGtoWKT = {
     return 'POLYGON((' + pts.join() + '))';
   };
 
-  /**
-   * Construct a WKT polygon from SVG rectangle origin and dimensions.
-   */
   SVGtoWKT.rect = function(x, y, width, height) {
     var pts = [];
 
@@ -157,9 +139,6 @@ const SVGtoWKT = {
     return 'POLYGON((' + pts.join() + '))';
   };
 
-  /**
-   * Construct a WKT polygon for a circle from origin and radius.
-   */
   SVGtoWKT.circle = function(cx, cy, r) {
     var wkt = 'POLYGON((';
     var pts = [];
@@ -185,9 +164,6 @@ const SVGtoWKT = {
     return wkt + pts.join() + '))';
   };
 
-  /**
-   * Construct a WKT polygon for an ellipse from origin and radii.
-   */
   SVGtoWKT.ellipse = function(cx, cy, rx, ry) {
     var wkt = 'POLYGON((';
     var pts = [];
@@ -215,12 +191,7 @@ const SVGtoWKT = {
     return wkt + pts.join() + '))';
   };
 
-  /**
-   * Construct a WKT polygon from a SVG path string. Approach from:
-   * http://whaticode.com/2012/02/01/converting-svg-paths-to-polygons/
-   */
   SVGtoWKT.path = function(d) {
-
     // Try to extract polygon paths closed with 'Z'.
     var polys = _.map(d.trim().match(/[^z|Z]+[z|Z]/g), function(p) {
       return __pathElement(p.trim()+'z');
@@ -243,25 +214,14 @@ const SVGtoWKT = {
       var line = __pathElement(d);
       return 'LINESTRING(' + __pathPoints(line, d).join() + ')';
     }
-
   };
 
-  /**
-   * Construct a SVG path element.
-   */
   var __pathElement = function(d) {
-    // const SVGNS = 'http://www.w3.org/2000/svg';
-    // var path = dom.window.document.createElementNS(SVGNS, 'path');
-    // path.setAttributeNS(null, 'd', d);
-
     const path = new DOMParser().parseFromString('<path />');
     path.documentElement.setAttributeNS(null, 'd', d);
     return path;
   };
 
-  /**
-   * Construct a SVG path element.
-   */
   var __pathPoints = function(path, d, closed) {
     closed = closed || false;
     var pts = [];
@@ -291,6 +251,8 @@ const SVGtoWKT = {
     return Math.round(val * root) / root;
   };
 }.call(this));
+
+
 
 function seriesToRegions(data) {
   const series = JSON.parse(data);
