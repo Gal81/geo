@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "watch": {
-    "format": "data/format/dataRaw.txt",
-    "svg": "data/format/dataSVG.svg"
+    "format": "data/tmp/dataRaw.txt",
+    "svg": "data/tmp/dataSVG.svg"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

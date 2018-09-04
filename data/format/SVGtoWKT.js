@@ -401,14 +401,14 @@ const SVGtoWKT = {};
 
 
 
-fs.readFile('./data/format/dataSVG.svg', 'utf8', function(err, svg) {
+fs.readFile('./data/tmp/dataSVG.svg', 'utf8', function(err, svg) {
   if(err) {
     return console.log(err);
   }
 
   const geometry = SVGtoWKT.convert(svg);
 
-  fs.writeFile('./data/format/dataRaw.txt', geometry,
+  fs.writeFile('./data/tmp/dataRaw.txt', geometry,
   function(errr) {
     if(errr) {
       return console.log(errr);
