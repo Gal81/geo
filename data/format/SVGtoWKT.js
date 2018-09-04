@@ -1,42 +1,16 @@
+const DOMParser = require('xmldom').DOMParser;
 const jsdom  = require('jsdom');
 const $ = require('jquery')(new jsdom.JSDOM().window);
 const _ = require('lodash');
 const fs = require('fs');
+const svgPath = require('svg-path-properties');
 
-global.dom = new jsdom.JSDOM();
-
-const SVGtoWKT = {};
+const SVGtoWKT = {
+  PRECISION: 3,
+  DENSITY: 1,
+};
 
 (function() {
-  var SVGNS = 'http://www.w3.org/2000/svg';
-
-  /**
-   * The number of decimal places computed during curve interpolation when
-   * generating points for `<circle>`, `<ellipse>`, and `<path>` elements.
-   *
-   * @public
-   */
-  SVGtoWKT.PRECISION = 3;
-
-
-  /**
-   * The number of points computed during curve interpolation per unit of
-   * linear pixel length. For example, if a a path is 10px in length, and
-   * `DENSITY` is set to 2, the path will be rendered with 20 points.
-   *
-   * @public
-   */
-  SVGtoWKT.DENSITY = 1;
-
-
-  /**
-   * SVG => WKT.
-   *
-   * @param {String} svg: SVG markup.
-   * @return {String}: Generated WKT.
-   *
-   * @public
-   */
   SVGtoWKT.convert = function(svg) {
 
     // Halt if svg is undefined or empty.
@@ -48,15 +22,13 @@ const SVGtoWKT = {};
     var xml;
 
     // Strip out tabs and linebreaks.
-    svg = `
-      <svg>
-        <polygon points="1,2 3,4 5,6" />
-        <line x1="7" y1="8" x2="9" y2="10" />
-        <path d="M150 0 L75 200 L225 200 Z" />
-      </svg>`;
+    // svg = `
+    //   <svg>
+    //     <polygon points="1,2 3,4 5,6" />
+    //     <line x1="7" y1="8" x2="9" y2="10" />
+    //     <path d="M150 0 L75 200 L225 200 Z" />
+    //   </svg>`;
     svg = svg.replace(/\r\n|\r|\n|\t/g, '');
-    // svg = `'${svg}'`.replace(/\r\n|\r|\n|\t/g, '');
-    console.log(svg);
 
     try {
       // Parse the raw XML.
@@ -122,9 +94,7 @@ const SVGtoWKT = {};
     });
 
     return 'GEOMETRYCOLLECTION(' + els.join(',') + ')';
-
   };
-
 
   /**
    * Construct a WKT line from SVG start/end point coordinates.
@@ -141,7 +111,6 @@ const SVGtoWKT = {};
     return 'LINESTRING('+x1+' '+-y1+','+x2+' '+-y2+')';
   };
 
-
   /**
    * Construct a WKT linestrimg from SVG `points` attribute value.
    *
@@ -151,7 +120,6 @@ const SVGtoWKT = {};
    * @public
    */
   SVGtoWKT.polyline = function(points) {
-
     // "1,2 3,4 " => "1 2,3 4"
     var pts = _.map(points.trim().split(' '), function(pt) {
       pt = pt.split(','); pt[1] = -pt[1];
@@ -160,7 +128,6 @@ const SVGtoWKT = {};
 
     return 'LINESTRING(' + pts.join() + ')';
   };
-
 
   /**
    * Construct a WKT polygon from SVG `points` attribute value.
@@ -171,7 +138,6 @@ const SVGtoWKT = {};
    * @public
    */
   SVGtoWKT.polygon = function(points) {
-
     // "1,2 3,4 " => "1 2,3 4"
     var pts = _.map(points.trim().split(' '), function(pt) {
       pt = pt.split(','); pt[1] = -pt[1];
@@ -182,9 +148,7 @@ const SVGtoWKT = {};
     pts.push(pts[0]);
 
     return 'POLYGON((' + pts.join() + '))';
-
   };
-
 
   /**
    * Construct a WKT polygon from SVG rectangle origin and dimensions.
@@ -198,7 +162,6 @@ const SVGtoWKT = {};
    * @public
    */
   SVGtoWKT.rect = function(x, y, width, height) {
-
     var pts = [];
 
     // 0,0 origin by default.
@@ -213,11 +176,8 @@ const SVGtoWKT = {};
     pts.push(String(x)+' '+String(-y));              // close
 
     // TODO: Corner rounding.
-
     return 'POLYGON((' + pts.join() + '))';
-
   };
-
 
   /**
    * Construct a WKT polygon for a circle from origin and radius.
@@ -230,7 +190,6 @@ const SVGtoWKT = {};
    * @public
    */
   SVGtoWKT.circle = function(cx, cy, r) {
-
     var wkt = 'POLYGON((';
     var pts = [];
 
@@ -253,9 +212,7 @@ const SVGtoWKT = {};
     pts.push(pts[0]);
 
     return wkt + pts.join() + '))';
-
   };
-
 
   /**
    * Construct a WKT polygon for an ellipse from origin and radii.
@@ -269,7 +226,6 @@ const SVGtoWKT = {};
    * @public
    */
   SVGtoWKT.ellipse = function(cx, cy, rx, ry) {
-
     var wkt = 'POLYGON((';
     var pts = [];
 
@@ -294,9 +250,7 @@ const SVGtoWKT = {};
     pts.push(pts[0]);
 
     return wkt + pts.join() + '))';
-
   };
-
 
   /**
    * Construct a WKT polygon from a SVG path string. Approach from:
@@ -319,7 +273,7 @@ const SVGtoWKT = {};
 
       var parts = [];
       _.each(polys, function(poly) {
-        parts.push('(' + __pathPoints(poly, true).join() + ')');
+        parts.push('(' + __pathPoints(poly, d, true).join() + ')');
       });
 
       return 'POLYGON(' + parts.join() + ')';
@@ -329,7 +283,7 @@ const SVGtoWKT = {};
     // Otherwise, construct a `LINESTRING` from the unclosed path.
     else {
       var line = __pathElement(d);
-      return 'LINESTRING(' + __pathPoints(line).join() + ')';
+      return 'LINESTRING(' + __pathPoints(line, d).join() + ')';
     }
 
   };
@@ -343,12 +297,14 @@ const SVGtoWKT = {};
    * @private
    */
   var __pathElement = function(d) {
-    // var path = dom.window.document.createElementNS(SVGNS, 'path').outerHTML;
-    var path = dom.window.document.createElementNS(SVGNS, 'path');
-    path.setAttributeNS(null, 'd', d);
+    // const SVGNS = 'http://www.w3.org/2000/svg';
+    // var path = dom.window.document.createElementNS(SVGNS, 'path');
+    // path.setAttributeNS(null, 'd', d);
+
+    const path = new DOMParser().parseFromString('<path />');
+    path.documentElement.setAttributeNS(null, 'd', d);
     return path;
   };
-
 
   /**
    * Construct a SVG path element.
@@ -359,18 +315,18 @@ const SVGtoWKT = {};
    *
    * @private
    */
-  var __pathPoints = function(path, closed) {
-
+  var __pathPoints = function(path, d, closed) {
     closed = closed || false;
     var pts = [];
 
+    const properties = svgPath.svgPathProperties(d);
     // Get number of points.
-    var length = path.getTotalLength();
+    var length = properties.getTotalLength();
     var count = Math.round(length * SVGtoWKT.DENSITY);
 
     // Interpolate points.
-    _(count+1).times(function(i) {
-      var point = path.getPointAtLength((length * i) / count);
+    _(count + 1).times(function(i) {
+      var point = properties.getPointAtLength((length * i) / count);
       pts.push(String(__round(point.x))+' '+String(__round(-point.y)));
     });
 
@@ -378,9 +334,7 @@ const SVGtoWKT = {};
     if (closed) pts.push(pts[0]);
 
     return pts;
-
   };
-
 
   /**
    * Round a number to the number of decimal places in `PRECISION`.
@@ -394,9 +348,6 @@ const SVGtoWKT = {};
     var root = Math.pow(10, SVGtoWKT.PRECISION);
     return Math.round(val * root) / root;
   };
-
-
-  // this.SVGtoWKT = SVGtoWKT;
 }.call(this));
 
 
