@@ -21,13 +21,13 @@ const SVGtoWKT = {
     var els = [];
     var xml;
 
-    // Strip out tabs and linebreaks.
     // svg = `
     //   <svg>
     //     <polygon points="1,2 3,4 5,6" />
     //     <line x1="7" y1="8" x2="9" y2="10" />
     //     <path d="M150 0 L75 200 L225 200 Z" />
     //   </svg>`;
+    // Strip out tabs and linebreaks.
     svg = svg.replace(/\r\n|\r|\n|\t/g, '');
 
     try {
@@ -98,14 +98,6 @@ const SVGtoWKT = {
 
   /**
    * Construct a WKT line from SVG start/end point coordinates.
-   *
-   * @param {Number} x1: Start X.
-   * @param {Number} y1: Start Y.
-   * @param {Number} x2: End X.
-   * @param {Number} y2: End Y.
-   * @return {String}: Generated WKT.
-   *
-   * @public
    */
   SVGtoWKT.line = function(x1, y1, x2, y2) {
     return 'LINESTRING('+x1+' '+-y1+','+x2+' '+-y2+')';
@@ -113,11 +105,6 @@ const SVGtoWKT = {
 
   /**
    * Construct a WKT linestrimg from SVG `points` attribute value.
-   *
-   * @param {String} points: <polyline> `points` attribute value.
-   * @return {String}: Generated WKT.
-   *
-   * @public
    */
   SVGtoWKT.polyline = function(points) {
     // "1,2 3,4 " => "1 2,3 4"
@@ -131,11 +118,6 @@ const SVGtoWKT = {
 
   /**
    * Construct a WKT polygon from SVG `points` attribute value.
-   *
-   * @param {String} points: <polygon> `points` attribute value.
-   * @return {String}: Generated WKT.
-   *
-   * @public
    */
   SVGtoWKT.polygon = function(points) {
     // "1,2 3,4 " => "1 2,3 4"
@@ -152,14 +134,6 @@ const SVGtoWKT = {
 
   /**
    * Construct a WKT polygon from SVG rectangle origin and dimensions.
-   *
-   * @param {Number} x: Top left X.
-   * @param {Number} y: Top left Y.
-   * @param {Number} width: Rectangle width.
-   * @param {Number} height: Rectangle height.
-   * @return {String}: Generated WKT.
-   *
-   * @public
    */
   SVGtoWKT.rect = function(x, y, width, height) {
     var pts = [];
@@ -181,13 +155,6 @@ const SVGtoWKT = {
 
   /**
    * Construct a WKT polygon for a circle from origin and radius.
-   *
-   * @param {Number} cx: Center X.
-   * @param {Number} cy: Center Y.
-   * @param {Number} r: Radius.
-   * @return {String} wkt: Generated WKT.
-   *
-   * @public
    */
   SVGtoWKT.circle = function(cx, cy, r) {
     var wkt = 'POLYGON((';
@@ -216,14 +183,6 @@ const SVGtoWKT = {
 
   /**
    * Construct a WKT polygon for an ellipse from origin and radii.
-   *
-   * @param {Number} cx: Center X.
-   * @param {Number} cy: Center Y.
-   * @param {Number} rx: Horizontal radius.
-   * @param {Number} ry: Vertical radius.
-   * @return {String} wkt: Generated WKT.
-   *
-   * @public
    */
   SVGtoWKT.ellipse = function(cx, cy, rx, ry) {
     var wkt = 'POLYGON((';
@@ -255,11 +214,6 @@ const SVGtoWKT = {
   /**
    * Construct a WKT polygon from a SVG path string. Approach from:
    * http://whaticode.com/2012/02/01/converting-svg-paths-to-polygons/
-   *
-   * @param {String} d: <path> `d` attribute value.
-   * @return {String}: Generated WKT.
-   *
-   * @public
    */
   SVGtoWKT.path = function(d) {
 
@@ -290,11 +244,6 @@ const SVGtoWKT = {
 
   /**
    * Construct a SVG path element.
-   *
-   * @param {String} d: <path> `d` attribute value.
-   * @return {SVGPathElement}: The new <path> element.
-   *
-   * @private
    */
   var __pathElement = function(d) {
     // const SVGNS = 'http://www.w3.org/2000/svg';
@@ -308,12 +257,6 @@ const SVGtoWKT = {
 
   /**
    * Construct a SVG path element.
-   *
-   * @param {SVGPathElement} path: A <path> element.
-   * @param {Boolean} closed: True if the path should be closed.
-   * @return array: An array of space-delimited coords.
-   *
-   * @private
    */
   var __pathPoints = function(path, d, closed) {
     closed = closed || false;
@@ -338,11 +281,6 @@ const SVGtoWKT = {
 
   /**
    * Round a number to the number of decimal places in `PRECISION`.
-   *
-   * @param {Number} val: The number to round.
-   * @return {Number}: The rounded value.
-   *
-   * @private
    */
   var __round = function(val) {
     var root = Math.pow(10, SVGtoWKT.PRECISION);
@@ -351,15 +289,38 @@ const SVGtoWKT = {
 }.call(this));
 
 
+function seriesToRegions(data) {
+  const series = JSON.parse(data);
+  const regions = [];
+  series.data.forEach(({ name, path }) => {
+    let region = regions.find(item  => item.name === name);
 
-fs.readFile('./data/tmp/dataSVG.svg', 'utf8', function(err, svg) {
+    if (!region) {
+      region = {
+        name,
+        path: []
+      };
+      regions.push(region);
+    }
+    region.path.push(path);
+  });
+
+  return regions;
+}
+
+function regionsToGeometry(regions) {
+
+}
+
+fs.readFile('./data/tmp/dataSeries.json', 'utf8', function(err, data) {
   if(err) {
     return console.log(err);
   }
 
-  const geometry = SVGtoWKT.convert(svg);
+  // const geometry = SVGtoWKT.convert(series);
+  const regions = seriesToRegions(data);
 
-  fs.writeFile('./data/tmp/dataRaw.txt', geometry,
+  fs.writeFile('./data/tmp/dataRaw.json', JSON.stringify(regions),
   function(errr) {
     if(errr) {
       return console.log(errr);

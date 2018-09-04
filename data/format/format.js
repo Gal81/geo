@@ -1,9 +1,5 @@
 const fs = require('fs');
 
-// 1. https://www.highcharts.com/studies/map-from-svg.htm
-// 2. http://jsfiddle.net/Gal81/TUy7x/3893/
-// 3. RAW data from http://svg-to-wkt.linfiniti.com/
-
 fs.readFile('./data/tmp/dataRaw.txt', 'utf8', function(err, raw) {
   if(err) {
     return console.log(err);

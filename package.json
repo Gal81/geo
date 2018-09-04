@@ -5,12 +5,12 @@
   "main": "index.js",
   "watch": {
     "format": "data/tmp/dataRaw.txt",
-    "svg": "data/tmp/dataSVG.svg"
+    "series": "data/tmp/series.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "node data/format/format.js",
-    "svg": "node data/format/SVGtoWKT.js",
+    "series": "node data/format/SVGtoWKT.js",
     "watch": "npm-watch format"
   },
   "keywords": [],
