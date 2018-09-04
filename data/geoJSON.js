@@ -288,7 +288,6 @@ const SVGtoWKT = {
   };
 }.call(this));
 
-
 function seriesToRegions(data) {
   const series = JSON.parse(data);
   const regions = [];
@@ -308,8 +307,63 @@ function seriesToRegions(data) {
   return regions;
 }
 
-function regionsToGeometry(regions) {
+function pathToGeometry(path) {
+  const wkt = SVGtoWKT.convert(`<svg><path d="${path}" /></svg>`);
 
+  let geometry = wkt.replace('GEOMETRYCOLLECTION(POLYGON((', '')
+    .replace(')))', '');
+
+  geometry = geometry.split(',')
+    .map(function(pair, index) {
+      const point = pair.split(' ');
+      return [Math.round(point[0] * 10) / 10, Math.round(point[1] * 10) / 10];
+    });
+
+  return geometry;
+}
+
+function regionsToGeoJSON(regions) {
+  const COUNTRY_CODE = 'DK';
+  const REGION_NAME = 'Hovedstaden';
+
+  const map = {
+    title: REGION_NAME,
+    version: '0.1',
+    type: 'FeatureCollection',
+    features: [],
+  };
+
+  regions.forEach((region, index) => {
+    const id = `${COUNTRY_CODE}.${REGION_NAME.slice(0, 2).toUpperCase()}.${index}`;
+    const hcKey = id.toLowerCase().split('.').join('-');
+    const hcA2 = region.name.slice(0, 2).toUpperCase();
+    const polygon = region.path.length > 1 ? 'MultiPolygon' : 'Polygon';
+    const coordinates = [];
+
+    region.path.forEach(path => {
+      const geometry = pathToGeometry(path);
+      coordinates.push(geometry);
+    });
+
+    const feature = {
+      id,
+      type: 'Feature',
+      properties: {
+        name: region.name,
+        'hc-group': 'admin2',
+        'hc-key': hcKey,
+        'hc-a2': hcA2,
+      },
+      geometry: {
+        type: polygon,
+        coordinates: region.path.length > 1 ? [coordinates] : coordinates,
+      },
+    };
+
+    map.features.push(feature);
+  });
+
+  return map;
 }
 
 fs.readFile('./data/tmp/dataSeries.json', 'utf8', function(err, data) {
@@ -317,15 +371,15 @@ fs.readFile('./data/tmp/dataSeries.json', 'utf8', function(err, data) {
     return console.log(err);
   }
 
-  // const geometry = SVGtoWKT.convert(series);
   const regions = seriesToRegions(data);
+  const map = regionsToGeoJSON(regions);
 
-  fs.writeFile('./data/tmp/dataRaw.json', JSON.stringify(regions),
+  fs.writeFile('./data/tmp/dataMap.json', JSON.stringify(map),
   function(errr) {
     if(errr) {
       return console.log(errr);
     }
 
-    console.log("::: Raw Geometry saved! :::");
+    console.log("::: GeoJSON saved! :::");
   });
 });
