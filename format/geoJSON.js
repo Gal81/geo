@@ -5,9 +5,9 @@ const _ = require('lodash');
 const fs = require('fs');
 const svgPath = require('svg-path-properties');
 
-const PARENT_ID = '6325';
+const PARENT_ID = '3568';
 const COUNTRY_CODE = 'DK';
-const REGION_NAME = 'Hovedstaden';
+const REGION_NAME = 'Nordjylland';
 
 const SVGtoWKT = {
   PRECISION: 3,
