@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "watch": {
-    "geo": "data/tmp/dataSeries.js"
+    "geo": "format/tmp/dataSeries.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "geo": "node data/geoJSON.js",
+    "geo": "node format/geoJSON.js",
     "watch": "npm-watch geo"
   },
   "keywords": [],

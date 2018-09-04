@@ -5,6 +5,10 @@ const _ = require('lodash');
 const fs = require('fs');
 const svgPath = require('svg-path-properties');
 
+const PARENT_ID = '6325';
+const COUNTRY_CODE = 'DK';
+const REGION_NAME = 'Hovedstaden';
+
 const SVGtoWKT = {
   PRECISION: 3,
   DENSITY: 1,
@@ -368,11 +372,7 @@ function regionsToGeoJSON(regions) {
   return map;
 }
 
-const PARENT_ID = '6325';
-const COUNTRY_CODE = 'DK';
-const REGION_NAME = 'Hovedstaden';
-
-fs.readFile('./data/tmp/dataSeries.json', 'utf8', function(err, data) {
+fs.readFile('./format/tmp/dataSeries.json', 'utf8', function(err, data) {
   if(err) {
     return console.log(err);
   }
@@ -384,7 +384,7 @@ fs.readFile('./data/tmp/dataSeries.json', 'utf8', function(err, data) {
   const mapKey = `countries/${dir}/${dir}-${PARENT_ID}-all`;
   const map = `Highcharts.maps['${mapKey}'] = ${JSON.stringify(geoJson)}`;
 
-  fs.writeFile(`./data/${dir}/${file}.js`, map,
+  fs.writeFile(`./format/tmp/${file}.js`, map,
   function(errr) {
     if(errr) {
       return console.log(errr);
