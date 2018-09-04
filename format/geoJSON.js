@@ -379,12 +379,12 @@ fs.readFile('./format/tmp/dataSeries.json', 'utf8', function(err, data) {
 
   const regions = seriesToRegions(data);
   const geoJson = regionsToGeoJSON(regions);
-  const dir = COUNTRY_CODE.toLowerCase();
-  const file = `${dir}-${REGION_NAME}-all`
-  const mapKey = `countries/${dir}/${dir}-${PARENT_ID}-all`;
+  const country = COUNTRY_CODE.toLowerCase();
+  const file = `${country}-${REGION_NAME}-all`
+  const mapKey = `countries/${country}/${country}-${PARENT_ID}-all`;
   const map = `Highcharts.maps['${mapKey}'] = ${JSON.stringify(geoJson)}`;
 
-  fs.writeFile(`./format/tmp/${file}.js`, map,
+  fs.writeFile(`./maps/${country}/${file}.js`, map,
   function(errr) {
     if(errr) {
       return console.log(errr);
