@@ -291,7 +291,7 @@ const SVGtoWKT = {
 function seriesToRegions(data) {
   const series = JSON.parse(data);
   const regions = [];
-  series.data.forEach(({ name, path }) => {
+  series.data.forEach(({ name, key, path }) => {
     let region = regions.find(item  => item.name === name);
 
     if (!region) {
@@ -301,6 +301,11 @@ function seriesToRegions(data) {
       };
       regions.push(region);
     }
+
+    if (key) {
+      region.key = key;
+    }
+
     region.path.push(path);
   });
 
@@ -333,7 +338,7 @@ function regionsToGeoJSON(regions) {
   regions.forEach((region, index) => {
     const id = `${COUNTRY_CODE}.${REGION_NAME.slice(0, 2).toUpperCase()}.${index}`;
     const hcKey = id.toLowerCase().split('.').join('-');
-    const hcA2 = region.name.slice(0, 2).toUpperCase();
+    const hcA2 = region.key || region.name.slice(0, 2).toUpperCase();
     const polygon = region.path.length > 1 ? 'MultiPolygon' : 'Polygon';
     const coordinates = [];
 
