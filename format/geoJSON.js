@@ -372,7 +372,7 @@ function regionsToGeoJSON(regions) {
   return map;
 }
 
-fs.readFile('./format/tmp/dataSeries.json', 'utf8', function(err, data) {
+fs.readFile('./format/series/tmpSeries.json', 'utf8', function(err, data) {
   if(err) {
     return console.log(err);
   }
