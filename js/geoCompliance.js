@@ -44,9 +44,6 @@
   // Base path to maps
   var baseMapPath = 'https://code.highcharts.com/mapdata/';
   var showDataLabels = true; // Switch for data labels enabled/disabled
-  var searchText;
-  var mapCount = 0;
-  var mapOptions = '';
 
   Highcharts.mapDataIndex['Denmark'] = {
     'Nordjylland, admin2': 'countries/dk/dk-3568-all.js',
