@@ -85,11 +85,7 @@
     // When the map is loaded or ready from cache...
     function mapReady() {
       var mapGeoJSON = Highcharts.maps[mapKey];
-      var data = [{
-        id: 'DUMMY',
-        key: 'DUMMY',
-        value: 1
-      }];
+      var data = [];
       var parent;
       var match;
 
@@ -157,9 +153,10 @@
         );
       }
 
-      // var minRange = Math.max.apply(null, data.map(function(item) { return item.value; }));
+      function getMaxValue() {
+        return Math.max.apply(null, data.map(function(item) { return item.value; })) || 1;
+      }
       var minRange = 500;
-      // console.log(minRange);
 
       $('#geoMap').highcharts('Map', {
         chart: {
@@ -200,11 +197,9 @@
             }
           }
         },
-        // yAxis: {
-        //   minRange: 100,
-        // },
         colorAxis: {
           min: 0,
+          max: getMaxValue(),
           stops: [
             [0, COLORS[11]],
             [0.3, COLORS[8]],
