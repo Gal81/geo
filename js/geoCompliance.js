@@ -10,12 +10,16 @@
   ];
 
   var MAPS = [
+    'Canada Provinces Admin 2',
     'Countries',
     'Custom',
+    'Denmark',
+    'France Regions Admin 2',
     'Germany Bundesländer Admin 2',
     'Germany Bundesländer Admin 3',
+    'Netherlands Provinces',
     'Norway Counties',
-    'Denmark'
+    'USA States',
   ];
 
   var REGIONS = [];
