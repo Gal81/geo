@@ -4,7 +4,7 @@ const colors = require('colors');
 
 
 const getShortCoordinates = (coordinates, type, precision = 1) => {
-  const divider = precision * 10;
+  const divider = precision * 1000;
 
   const getShortPair = pair => [
     Math.round(pair[0] * divider) / divider,
@@ -63,7 +63,10 @@ fs.readFile(`./format/gadm/tmp/${fileName}.geojson`, 'utf8', (error, geoJson) =>
   let number = 0;
   let country = '';
   let isProcessBusy = false;
-  const locationsIndex = {};
+  const locationsIndex = {
+    index: {},
+    files: [],
+  };
 
   Object.keys(regions).forEach(key => {
     isProcessBusy = true;
@@ -109,7 +112,8 @@ fs.readFile(`./format/gadm/tmp/${fileName}.geojson`, 'utf8', (error, geoJson) =>
       console.log(` ${country.toUpperCase()} ${key} saved! `.bgGreen.white);
     });
 
-    locationsIndex[`${key}, admin2`] = mapKey;
+    locationsIndex.index[`${key}, admin2`] = `${mapKey}.js`;
+    locationsIndex.files.push(`<script src='maps/${country}/${file}.js'></script>`);
   });
 
   const interval = setInterval(() => {
