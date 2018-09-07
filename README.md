@@ -24,13 +24,13 @@
 # 1. Download country's ‘Shapefile’ from
     https://gadm.org/download_country_v3.html
 
-# 2. Convert GADM fles to geoJson
+# 2. Convert GADM files to geoJson
     https://mygeodata.cloud/converter/
 
-# 3. Put it to ./format/gadm/tmp
+# 3. Put <filename.geojson> to ./format/gadm/tmp
 
 # 4. Run geoJson splitter
-    npm run split <file-name>
+    npm run split <filename[without extension!]>
 
 
 

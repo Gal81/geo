@@ -1,14 +1,4 @@
 (function() {
-  var COUNTRIES = [
-    { id: 'DK', name: 'Denmark' },
-    { id: 'FI', name: 'Finland' },
-    { id: 'DE', name: 'Germany' },
-    { id: 'NO', name: 'Norway' },
-    { id: 'SE', name: 'Sweden' },
-    { id: 'GB', name: 'United Kingdom' },
-    { id: 'VN', name: 'Vietnam' }
-  ];
-
   var MAPS = [
     'Canada Provinces Admin 2',
     'Countries',
