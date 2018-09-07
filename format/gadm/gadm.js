@@ -22,9 +22,9 @@ const getShortCoordinates = (coordinates, type, precision = 1) => {
 }
 
 const fileName = process.argv.slice(2)[0];
-fs.readFile(`./format/gadm/tmp/${fileName}.geojson`, 'utf8', function(err, geoJson) {
-  if(err) {
-    return console.error(`${err}`.bgRed.white);
+fs.readFile(`./format/gadm/tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
+  if(error) {
+    return console.error(`${error}`.bgRed.white);
   }
 
   const { features } = JSON.parse(geoJson);
@@ -60,14 +60,20 @@ fs.readFile(`./format/gadm/tmp/${fileName}.geojson`, 'utf8', function(err, geoJs
     });
   });
 
+  let number = 0;
+  let country = '';
+  let isProcessBusy = false;
+  const locationsIndex = {};
+
   Object.keys(regions).forEach(key => {
+    isProcessBusy = true;
+
     const geoJson = {
       title: key,
       type: 'FeatureCollection',
       features: regions[key],
     };
 
-    let country = '';
     try {
       country = regions[key][0].id.split('.')[0].toLowerCase();
     } catch(ex) {
@@ -79,27 +85,44 @@ fs.readFile(`./format/gadm/tmp/${fileName}.geojson`, 'utf8', function(err, geoJs
     try {
       regionID = regions[key][0].id.split('.')[1].toLowerCase();;
     } catch(ex) {
-      const error = new Error(' Missing region ID in ‘${key}’ region! ');
-      return console.error(`${error.message}`.bgRed.white);
+      const err = new Error(' Missing region ID in ‘${key}’ region! ');
+      return console.error(`${err.message}`.bgRed.white);
     }
 
     const file = `${country}-${key.replace(/[\']/g, '')}-all`
     const mapKey = `countries/${country}/${country}-${regionID}-all`;
-    const map = `Highcharts.maps['${mapKey}'] = ${JSON.stringify(geoJson)}`
+    const map = `Highcharts.maps['${mapKey}'] = ${JSON.stringify(geoJson, null, 2)}`
     const dir = `./maps/${country}`;
 
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir);
     }
 
-    fs.writeFile(`${dir}/${file}.js`, map,
-      function(errr) {
-        if(errr) {
-          return console.error(`${errr}`.bgRed.white);
-        }
+    fs.writeFile(`${dir}/${file}.js`, map, err => {
+      isProcessBusy = false;
 
-        console.log(` ${country.toUpperCase()} ${key} saved! `.bgGreen.white);
-      });
+      if(err) {
+        return console.error(`${err}`.bgRed.white);
+      }
+
+      number++;
+      console.log(` ${country.toUpperCase()} ${key} saved! `.bgGreen.white);
+    });
+
+    locationsIndex[`${key}, admin2`] = mapKey;
   });
 
+  const interval = setInterval(() => {
+    if (!isProcessBusy) {
+      fs.writeFile(`./maps/${country}/__locations.json`, JSON.stringify(locationsIndex, null, 2), err => {
+        if(err) {
+          return console.error(`${err}`.bgRed.white);
+        }
+
+        console.log(` List of ${number} locations saved to ‘./maps/${country}/__locations.json’ `.bgMagenta.white);
+      });
+
+      clearInterval(interval);
+    }
+  }, 100);
 });

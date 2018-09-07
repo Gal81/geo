@@ -156,7 +156,7 @@
         chart: {
           events: {
             load: function () {
-              var target = 'DK'; // FIXME
+              var target = 'UA'; // FIXME
               var country = $('#geoMap').highcharts().get(target);
               if (country) {
                 country.zoomTo();
