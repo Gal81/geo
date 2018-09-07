@@ -30,7 +30,7 @@
 # 3. Put it to ./format/gadm/tmp
 
 # 4. Run geoJson splitter
-    npm run split
+    npm run split <file-name>
 
 
 

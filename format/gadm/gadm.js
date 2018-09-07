@@ -1,6 +1,8 @@
 const fs = require('fs');
 const colors = require('colors');
 
+
+
 const getShortCoordinates = (coordinates, type, precision = 1) => {
   const divider = precision * 10;
 
@@ -19,7 +21,8 @@ const getShortCoordinates = (coordinates, type, precision = 1) => {
   }
 }
 
-fs.readFile('./format/gadm/tmp/tmp.geojson', 'utf8', function(err, geoJson) {
+const fileName = process.argv.slice(2)[0];
+fs.readFile(`./format/gadm/tmp/${fileName}.geojson`, 'utf8', function(err, geoJson) {
   if(err) {
     return console.error(`${err}`.bgRed.white);
   }
@@ -83,14 +86,19 @@ fs.readFile('./format/gadm/tmp/tmp.geojson', 'utf8', function(err, geoJson) {
     const file = `${country}-${key.replace(/[\']/g, '')}-all`
     const mapKey = `countries/${country}/${country}-${regionID}-all`;
     const map = `Highcharts.maps['${mapKey}'] = ${JSON.stringify(geoJson)}`
+    const dir = `./maps/${country}`;
 
-    fs.writeFile(`./maps/${country}/${file}.js`, map,
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir);
+    }
+
+    fs.writeFile(`${dir}/${file}.js`, map,
       function(errr) {
         if(errr) {
           return console.error(`${errr}`.bgRed.white);
         }
 
-        console.log(` ${country} ${key} saved! `.bgGreen.white);
+        console.log(` ${country.toUpperCase()} ${key} saved! `.bgGreen.white);
       });
   });
 
