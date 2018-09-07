@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "watch": {
-    "geo": "format/tmp/dataSeries.js"
+    "convert": "format/tmp/dataSeries.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "geo": "node format/geoJSON.js",
-    "gadm": "node format/gadm/gadm.js",
-    "watch": "npm-watch geo"
+    "convert": "node format/geoJSON.js",
+    "split": "node format/gadm/gadm.js",
+    "watch": "npm-watch convert"
   },
   "keywords": [],
   "author": "",

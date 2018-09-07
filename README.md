@@ -16,11 +16,11 @@
     REGION_NAME = 'Hovedstaden';
 
 # 5. Run geoJSON formatter
-    npm run geo
+    npm run convert
 
 
 
-### GADM
+### GADM geoJson to geoJsons
 # 1. Download country's ‘Shapefile’ from
     https://gadm.org/download_country_v3.html
 
@@ -30,4 +30,4 @@
 # 3. Put it to ./format/gadm/tmp
 
 # 4. Run geoJson splitter
-    npm run gadm
+    npm run split
