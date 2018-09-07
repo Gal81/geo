@@ -11,6 +11,7 @@
     'Norway Counties',
     'USA States',
     'Ukraine',
+    'Sweden',
   ];
 
   var REGIONS = [];
@@ -46,6 +47,11 @@
     'Syddanmark, admin2': 'countries/dk/dk-3564-all.js',
     'Sjælland, admin2': 'countries/dk/dk-3563-all.js',
     'Hovedstaden, admin2': 'countries/dk/dk-6325-all.js',
+  };
+
+  Highcharts.mapDataIndex['Sweden'] = {
+    "Blekinge, admin2": "countries/se/se-bl-all.js",
+    "Dalarna, admin2": "countries/se/se-ko-all.js"
   };
 
   Highcharts.mapDataIndex['Ukraine'] = {
@@ -88,7 +94,6 @@
       });
     }
   });
-  console.log(REGIONS);
 
   function numberGroup(num) {
     return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
@@ -228,7 +233,7 @@
           max: getMaxValue(),
           stops: [
             [0, COLORS[11]],
-            [0.3, COLORS[8]],
+            [0.01, COLORS[8]],
             [0.5, COLORS[8]],
             [0.7, COLORS[8]],
             [1, Highcharts.Color(COLORS[8]).brighten(-0.5).get()]
