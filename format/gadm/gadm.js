@@ -1,7 +1,7 @@
 const fs = require('fs');
 const colors = require('colors');
 
-function getShortCoordinates(coordinates, type, precision = 1) {
+const getShortCoordinates = (coordinates, type, precision = 1) => {
   const divider = precision * 10;
 
   const getShortPair = pair => [
@@ -21,20 +21,20 @@ function getShortCoordinates(coordinates, type, precision = 1) {
 
 fs.readFile('./format/gadm/tmp/tmp.geojson', 'utf8', function(err, geoJson) {
   if(err) {
-    return console.log(err);
+    return console.error(`${err}`.bgRed.white);
   }
 
   const { features } = JSON.parse(geoJson);
   const regions = {};
   features.forEach(feature => {
     const { properties, geometry: { type, coordinates } } = feature;
-    const regionName = properties['NAME_1'];
     const hasc2 = properties['HASC_2'];
 
     if (!hasc2) {
       return false;
     }
-    console.log(hasc2);
+
+    const regionName = properties['NAME_1'];
 
     if (!regions[regionName]) {
       regions[regionName] = [];
@@ -57,12 +57,41 @@ fs.readFile('./format/gadm/tmp/tmp.geojson', 'utf8', function(err, geoJson) {
     });
   });
 
-  fs.writeFile(`./format/gadm/tmp/test.js`, JSON.stringify(regions),
-    function(errr) {
-      if(errr) {
-        return console.log(errr);
-      }
+  Object.keys(regions).forEach(key => {
+    const geoJson = {
+      title: key,
+      type: 'FeatureCollection',
+      features: regions[key],
+    };
 
-    console.log("::: GeoJSON saved! :::");
+    let country = '';
+    try {
+      country = regions[key][0].id.split('.')[0].toLowerCase();
+    } catch(ex) {
+      const error = new Error(' Missing country code in ‘${key}’ region! ');
+      return console.error(`${error.message}`.bgRed.white);
+    }
+
+    let regionID = '';
+    try {
+      regionID = regions[key][0].id.split('.')[1].toLowerCase();;
+    } catch(ex) {
+      const error = new Error(' Missing region ID in ‘${key}’ region! ');
+      return console.error(`${error.message}`.bgRed.white);
+    }
+
+    const file = `${country}-${key.replace(/[\']/g, '')}-all`
+    const mapKey = `countries/${country}/${country}-${regionID}-all`;
+    const map = `Highcharts.maps['${mapKey}'] = ${JSON.stringify(geoJson)}`
+
+    fs.writeFile(`./maps/${country}/${file}.js`, map,
+      function(errr) {
+        if(errr) {
+          return console.error(`${errr}`.bgRed.white);
+        }
+
+        console.log(` ${country} ${key} saved! `.bgGreen.white);
+      });
   });
+
 });

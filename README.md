@@ -31,3 +31,7 @@
 
 # 4. Run geoJson splitter
     npm run split
+
+
+
+### Files will be stored into ./maps
