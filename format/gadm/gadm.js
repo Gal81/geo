@@ -1,4 +1,5 @@
 const fs = require('fs');
+const colors = require('colors');
 
 function getShortCoordinates(coordinates, type, precision = 1) {
   const divider = precision * 10;
@@ -13,8 +14,8 @@ function getShortCoordinates(coordinates, type, precision = 1) {
   } else if (type === 'MultiPolygon') {
     return [coordinates[0].map(item => item.map(pair => getShortPair(pair)))];
   } else {
-    const error = new TypeError(`..... Unexpected geometry type ‘${type}’! .....`);
-    console.error(error.message);
+    const error = new TypeError(` Unexpected geometry type ‘${type}’! `);
+    console.error(`${error.message}`.bgRed.white);
   }
 }
 
