@@ -9,6 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "geo": "node format/geoJSON.js",
+    "gadm": "node format/gadm.js",
     "watch": "npm-watch geo"
   },
   "keywords": [],
