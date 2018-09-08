@@ -1,8 +1,6 @@
 const fs = require('fs');
 const colors = require('colors');
 
-
-
 const getShortCoordinates = (coordinates, type, precision = 1) => {
   const divider = precision * 1000;
 
@@ -17,23 +15,107 @@ const getShortCoordinates = (coordinates, type, precision = 1) => {
     return [coordinates[0].map(item => item.map(pair => getShortPair(pair)))];
   } else {
     const error = new TypeError(` Unexpected geometry type ‘${type}’! `);
-    console.error(`${error.message}`.bgRed.white);
+    console.error(` ${error.message} `.bgRed.white);
   }
 }
+
+const saveRegions = (regions, country) => {
+  let number = 0;
+  let dir = '';
+  let maps = '';
+  let countryCode = '';
+  const regionsCodes = {};
+
+  Object.keys(regions).forEach(key => {
+    const region = regions[key];
+    const geoJson = {
+      title: key,
+      type: 'FeatureCollection',
+      features: region,
+    };
+
+    if (!countryCode) {
+      try {
+        countryCode = region[0].id.split('.')[0].slice(0, 2).toLowerCase();
+      } catch(ex) {
+        const error = new Error(` Missing Country Code in ‘${key}’ region! `);
+        return console.error(` ${error.message} `.bgRed.white);
+      }
+    }
+
+    if (!dir) {
+      dir = `./maps/${countryCode}`;
+    }
+
+    const regionCode = region[0].id.split('.')[1].toLowerCase();
+    const featureKey = `${countryCode}-${regionCode}-all`;
+    const mapKey = `countries/${countryCode}/${featureKey}`;
+    const map = `Highcharts.maps['${mapKey}'] = ${JSON.stringify(geoJson, null, 2)};`;
+
+    maps = `${maps}\n${map}`;
+    regionsCodes[key] = regionCode;
+    number++;
+
+    console.log(` ${country} region ‘${key}’ added... `.bgGreen.white);
+  });
+
+  const extras = {
+    country,
+    regionsCodes,
+    index: {
+      [`${country}, admin2`]: `countries/${countryCode}/${countryCode}-regions-all.js`,
+    },
+    script: `<script src='maps/${countryCode}/${countryCode}-regions-all.js'></script>`,
+  };
+
+
+
+  if (!fs.existsSync(dir)) {
+    try {
+      fs.mkdirSync(dir);
+    } catch(ex) {
+      return console.error(` ${ex.message} ‘${dir}’ `.bgRed.white);
+    }
+  }
+
+  fs.writeFile(`${dir}/${countryCode}-regions-all.js`, maps, err => {
+    if(err) {
+      return console.error(` ${err} `.bgRed.white);
+    }
+
+    console.log(` ${country} with ${number} regions saved! `.bgGreen.white);
+  });
+
+  fs.writeFile(`./maps/${countryCode}/__extras.json`, JSON.stringify(extras, null, 2), err => {
+    if(err) {
+      return console.error(` ${err} `.bgRed.white);
+    }
+
+    console.log(` ${country}’s extras saved to ‘./maps/${countryCode}/__extras.json’ `.bgMagenta.white);
+  });
+}
+
+
 
 const fileName = process.argv.slice(2)[0];
 fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
   if(error) {
-    return console.error(`${error}`.bgRed.white);
+    return console.error(` ${error} `.bgRed.white);
   }
 
-  const { features } = JSON.parse(geoJson);
+  let country = '';
   const regions = {};
+  const { features } = JSON.parse(geoJson);
   features.forEach(feature => {
     const { properties, geometry: { type, coordinates } } = feature;
     const hasc2 = properties['HASC_2'];
+    const gid2 = properties['GID_2'];
+    const featureID = hasc2 || gid2;
 
-    if (!hasc2) {
+    // console.log(properties);
+    if (!featureID) {
+      const error = new TypeError(` Missed ‘HASC_2’ and ‘GID_2’ for ‘${properties['NAME_2']}’! `);
+      console.error(` ${error.message} `.bgRed.white);
       return false;
     }
 
@@ -43,15 +125,19 @@ fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
       regions[regionName] = [];
     }
 
+    if (!country) {
+      country = properties['NAME_0'];
+    }
+
     regions[regionName].push({
-      id: hasc2,
+      id: featureID,
       type: 'Feature',
       properties: {
         name: properties['NAME_2'],
         type: properties['TYPE_2'],
         'hc-group': 'admin2',
-        'hc-key': hasc2.split('.').join('-').toLowerCase(),
-        'hc-a2': hasc2.split('.')[2],
+        'hc-key': featureID.split('.').join('-').toLowerCase(),
+        'hc-a2': featureID.split('.')[2],
       },
       geometry: {
         type,
@@ -60,73 +146,5 @@ fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
     });
   });
 
-  let number = 0;
-  let country = '';
-  let isProcessBusy = false;
-  const locationsIndex = {
-    index: {},
-    files: [],
-  };
-
-  Object.keys(regions).forEach(key => {
-    isProcessBusy = true;
-
-    const geoJson = {
-      title: key,
-      type: 'FeatureCollection',
-      features: regions[key],
-    };
-
-    try {
-      country = regions[key][0].id.split('.')[0].toLowerCase();
-    } catch(ex) {
-      const error = new Error(' Missing country code in ‘${key}’ region! ');
-      return console.error(`${error.message}`.bgRed.white);
-    }
-
-    let regionID = '';
-    try {
-      regionID = regions[key][0].id.split('.')[1].toLowerCase();;
-    } catch(ex) {
-      const err = new Error(' Missing region ID in ‘${key}’ region! ');
-      return console.error(`${err.message}`.bgRed.white);
-    }
-
-    const file = `${country}-${key.replace(/[\']/g, '')}-all`
-    const mapKey = `countries/${country}/${country}-${regionID}-all`;
-    const map = `Highcharts.maps['${mapKey}'] = ${JSON.stringify(geoJson, null, 2)}`
-    const dir = `./maps/${country}`;
-
-    if (!fs.existsSync(dir)) {
-      fs.mkdirSync(dir);
-    }
-
-    fs.writeFile(`${dir}/${file}.js`, map, err => {
-      isProcessBusy = false;
-
-      if(err) {
-        return console.error(`${err}`.bgRed.white);
-      }
-
-      number++;
-      console.log(` ${country.toUpperCase()} ${key} saved! `.bgGreen.white);
-    });
-
-    locationsIndex.index[`${key}, admin2`] = `${mapKey}.js`;
-    locationsIndex.files.push(`<script src='maps/${country}/${file}.js'></script>`);
-  });
-
-  const interval = setInterval(() => {
-    if (!isProcessBusy) {
-      fs.writeFile(`./maps/${country}/__locations.json`, JSON.stringify(locationsIndex, null, 2), err => {
-        if(err) {
-          return console.error(`${err}`.bgRed.white);
-        }
-
-        console.log(` List of ${number} locations saved to ‘./maps/${country}/__locations.json’ `.bgMagenta.white);
-      });
-
-      clearInterval(interval);
-    }
-  }, 100);
+  saveRegions(regions, country);
 });

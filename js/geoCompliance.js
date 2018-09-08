@@ -12,6 +12,7 @@
     'USA States',
     'Ukraine',
     'Sweden',
+    'Finland',
   ];
 
   var REGIONS = [];
@@ -82,6 +83,10 @@
     "Volyn, admin2": "countries/ua/ua-vo-all.js",
     "Zaporizhzhya, admin2": "countries/ua/ua-zp-all.js",
     "Zhytomyr, admin2": "countries/ua/ua-zt-all.js"
+  };
+
+  Highcharts.mapDataIndex['Finland'] = {
+    "Finland, admin2": "countries/fi/fi-regions-all.js"
   };
 
   $.each(Highcharts.mapDataIndex, function (mapGroup, maps) {
