@@ -1,4 +1,4 @@
-### SVG-to-geoJson
+### SVG to geoJson
 # 1. Data preparing
     https://www.highcharts.com/studies/map-from-svg.htm
 
@@ -10,7 +10,7 @@
 
 # 3.1 Add keys for regions if needed (by hands)
 
-# 4. Change constants in ./format/geoJSON.js
+# 4. Change constants in ./format/SVGtoGeoJSON.js
     PARENT_ID = '6325'; // parent's region ID
     COUNTRY_CODE = 'DK';
     REGION_NAME = 'Hovedstaden';
@@ -27,7 +27,7 @@
 # 2. Convert GADM files to geoJson
     https://mygeodata.cloud/converter/
 
-# 3. Put <filename.geojson> to ./format/gadm/tmp
+# 3. Put <filename.geojson> to ./tmp
 
 # 4. Run geoJson splitter
     npm run split <filename[without extension!]>

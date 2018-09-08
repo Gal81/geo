@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "convert": "node format/geoJSON.js",
-    "split": "node format/gadm/gadm.js",
+    "convert": "node format/SVGtoGeoJSON.js",
+    "split": "node format/gadm.js",
     "watch": "npm-watch convert"
   },
   "keywords": [],

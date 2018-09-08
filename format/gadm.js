@@ -22,7 +22,7 @@ const getShortCoordinates = (coordinates, type, precision = 1) => {
 }
 
 const fileName = process.argv.slice(2)[0];
-fs.readFile(`./format/gadm/tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
+fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
   if(error) {
     return console.error(`${error}`.bgRed.white);
   }
