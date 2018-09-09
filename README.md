@@ -25,9 +25,10 @@
     https://gadm.org/download_country_v3.html
 
 # 2. Convert GADM files to geoJson
+    https://mapshaper.org/
     https://mygeodata.cloud/converter/
 
-# 3. Put <filename.geojson> to ./tmp
+# 3. Put <filename.json> to ./tmp
 
 # 4. Run geoJson splitter
     npm run split <filename[without extension!]>

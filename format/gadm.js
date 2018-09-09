@@ -24,7 +24,7 @@ const saveRegions = (regions, country) => {
   let dir = '';
   let maps = '';
   let countryCode = '';
-  const regionsCodes = {};
+  const regionsList = {};
 
   Object.keys(regions).forEach(key => {
     const region = regions[key];
@@ -50,22 +50,28 @@ const saveRegions = (regions, country) => {
     const regionCode = region[0].id.split('.')[1].toLowerCase();
     const featureKey = `${countryCode}-${regionCode}-all`;
     const mapKey = `countries/${countryCode}/${featureKey}`;
-    const map = `Highcharts.maps['${mapKey}'] = ${JSON.stringify(geoJson, null, 2)};`;
+    const map = `Highcharts.maps['${mapKey}'] = ${JSON.stringify(geoJson, null, 2)};\n`;
 
-    maps = `${maps}\n${map}`;
-    regionsCodes[key] = regionCode;
+    maps = `${maps}${map}`;
+    regionsList[key] = regionCode;
     number++;
 
     console.log(` ${country} region ‘${key}’ added... `.bgGreen.white);
   });
 
+  const getIndex = list => {
+    const index = {};
+    for (key in list) {
+      index[`${key}, admin2`] = `countries/${countryCode}/${countryCode}-${list[key]}-all.js`;
+    }
+    return index;
+  }
+
   const extras = {
     country,
-    regionsCodes,
-    index: {
-      [`${country}, admin2`]: `countries/${countryCode}/${countryCode}-regions-all.js`,
-    },
-    script: `<script src='maps/${countryCode}/${countryCode}-regions-all.js'></script>`,
+    regions: regionsList,
+    index: getIndex(regionsList),
+    script: `<script src='maps/${countryCode}/${countryCode}-admin2-all.js'></script>`,
   };
 
 
@@ -78,7 +84,7 @@ const saveRegions = (regions, country) => {
     }
   }
 
-  fs.writeFile(`${dir}/${countryCode}-regions-all.js`, maps, err => {
+  fs.writeFile(`${dir}/${countryCode}-admin2-all.js`, maps, err => {
     if(err) {
       return console.error(` ${err} `.bgRed.white);
     }
@@ -98,7 +104,7 @@ const saveRegions = (regions, country) => {
 
 
 const fileName = process.argv.slice(2)[0];
-fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
+fs.readFile(`./tmp/${fileName}.json`, 'utf8', (error, geoJson) => {
   if(error) {
     return console.error(` ${error} `.bgRed.white);
   }
@@ -109,12 +115,13 @@ fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
   features.forEach(feature => {
     const { properties, geometry: { type, coordinates } } = feature;
     const hasc2 = properties['HASC_2'];
+    const hasc3 = properties['HASC_3'];
     const gid2 = properties['GID_2'];
-    const featureID = hasc2 || gid2;
+    const featureID = hasc2 || hasc3 || gid2;
 
     // console.log(properties);
     if (!featureID) {
-      const error = new TypeError(` Missed ‘HASC_2’ and ‘GID_2’ for ‘${properties['NAME_2']}’! `);
+      const error = new TypeError(` Missed ‘HASC_2’ and ‘HASC_3’ and ‘GID_2’ for ‘${properties['NAME_2']}’! `);
       console.error(` ${error.message} `.bgRed.white);
       return false;
     }
@@ -134,7 +141,7 @@ fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
       type: 'Feature',
       properties: {
         name: properties['NAME_2'],
-        type: properties['TYPE_2'],
+        type: properties['TYPE_2'] || properties['TYPE_3'],
         'hc-group': 'admin2',
         'hc-key': featureID.split('.').join('-').toLowerCase(),
         'hc-a2': featureID.split('.')[2],
