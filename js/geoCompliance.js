@@ -1,23 +1,4 @@
 (function() {
-  var MAPS = [
-    'Canada Provinces Admin 2',
-    'Countries',
-    'Custom',
-    'Denmark',
-    'France Regions Admin 2',
-    'Germany Bundesländer Admin 2',
-    'Germany Bundesländer Admin 3',
-    'Netherlands Provinces',
-    'Norway Counties',
-    'USA States',
-    'Ukraine, Admin 2',
-    'United Kingdom countries',
-    'United Kingdom, Admin 2',
-    'Sweden, Admin 2',
-    'Finland, Admin 2',
-    'Vietnam, Admin 2',
-  ];
-
   var REGIONS = [];
   var REPLACE = {
     'countries/gb/gb': 'countries/gb/custom/gb-countries',
@@ -48,15 +29,13 @@
   var baseMapPath = 'https://code.highcharts.com/mapdata/';
   var showDataLabels = true; // Switch for data labels enabled/disabled
 
-  $.each(Highcharts.mapDataIndex, function (mapGroup, maps) {
-    if (MAPS.includes(mapGroup)) {
-      $.each(maps, function (desc, path) {
-        REGIONS.push({
-          value: path,
-          desc: desc
-        });
+  $.each(Highcharts.mapDataIndex, function(group, maps) {
+    $.each(maps, function(desc, path) {
+      REGIONS.push({
+        value: path,
+        desc: desc
       });
-    }
+    });
   });
 
   function numberGroup(num) {
