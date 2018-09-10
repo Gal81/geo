@@ -13,6 +13,7 @@
     'Ukraine',
     'Sweden',
     'Finland',
+    'Vietnam',
   ];
 
   var REGIONS = [];

@@ -116,12 +116,13 @@ fs.readFile(`./tmp/${fileName}.json`, 'utf8', (error, geoJson) => {
     const { properties, geometry: { type, coordinates } } = feature;
     const hasc2 = properties['HASC_2'];
     const hasc3 = properties['HASC_3'];
+    const gid2 = properties['GID_2'];
     const gid3 = properties['GID_3'];
-    const featureID = hasc2 || hasc3 || gid3;
+    const featureID = hasc3 || hasc2 || gid3 || gid2;
 
     // console.log(properties);
     if (!featureID) {
-      const error = new TypeError(` Missed ‘HASC_2’ and ‘HASC_3’ and ‘GID_3’ for ‘${properties['NAME_2']}’! `);
+      const error = new TypeError(` Missed ‘featureID’ for ‘${properties['NAME_2']}’! `);
       console.error(` ${error.message} `.bgRed.white);
       return false;
     }
