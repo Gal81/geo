@@ -38,6 +38,13 @@ Highcharts.mapDataIndex['Finland'] = {
   "Western Finland, admin2": "countries/fi/fi-ls-all.js"
 };
 
+Highcharts.mapDataIndex['United Kingdom'] = {
+  "England, admin2": "countries/gb/gb-eng-all.js",
+  "Northern Ireland, admin2": "countries/gb/gb-nir-all.js",
+  "Scotland, admin2": "countries/gb/gb-sct-all.js",
+  "Wales, admin2": "countries/gb/gb-wls-all.js"
+};
+
 Highcharts.mapDataIndex['Vietnam'] = {
   "An Giang, admin2": "countries/vn/vn-tt-all.js",
   "Bạc Liêu, admin2": "countries/vn/vn-cb-all.js",

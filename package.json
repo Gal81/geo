@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "convert": "node format/SVGtoGeoJSON.js",
-    "split": "node format/gadm.js",
+    "gadm": "node format/gadm.js",
     "watch": "npm-watch convert"
   },
   "keywords": [],
