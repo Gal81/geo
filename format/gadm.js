@@ -28,12 +28,12 @@ const saveRegions = (regions, country, countryCode, minify = true) => {
   const dir = `./maps/${countryCode}`;;
   let number = 0;
   let maps = '';
-  let mapping = '';
+  let locationKeys = '';
 
   try {
-    fs.readFile(`${dir}/__mapping.json`, 'utf8', (err, data) => {
+    fs.readFile(`${dir}/__keys.json`, 'utf8', (err, data) => {
       if (data) {
-        mapping = JSON.parse(data);
+        locationKeys = JSON.parse(data);
       }
     });
   } catch(ex) {
@@ -41,7 +41,7 @@ const saveRegions = (regions, country, countryCode, minify = true) => {
   }
 
   const locationKey = (key, code) => {
-    return mapping && mapping[key] ? mapping[key] : code;
+    return locationKeys && locationKeys[key] ? locationKeys[key] : code;
   }
 
   const doSave = () => {
