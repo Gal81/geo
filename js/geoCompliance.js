@@ -10,16 +10,18 @@
     'Netherlands Provinces',
     'Norway Counties',
     'USA States',
-    'Ukraine',
-    'United Kingdom',
+    'Ukraine, Admin 2',
     'United Kingdom countries',
-    'Sweden',
-    'Finland',
-    'Vietnam',
+    'United Kingdom, Admin 2',
+    'Sweden, Admin 2',
+    'Finland, Admin 2',
+    'Vietnam, Admin 2',
   ];
 
   var REGIONS = [];
-  var GB_CUSTOM = 'countries/gb/custom/gb-countries';
+  var REPLACE = {
+    'countries/gb/gb': 'countries/gb/custom/gb-countries',
+  };
 
   var COLORS = [
     '#17D6D8',
@@ -120,7 +122,7 @@
 
       // Is there a layer above this?
       match = mapKey.match(/^(countries\/[a-z]{2}\/[a-z]{2})-[a-z0-9]+-all$/) ||
-              mapKey.match(/^(countries\/[a-z]{2}\/custom\/)[a-z]{2}-countries$/);
+              mapKey.match(/^(countries\/[a-z]{2}\/custom\/)[a-z]{2}-countries$/); // 'countries/gb/custom/gb-countries'
       if (/^countries\/[a-z]{2}\/[a-z]{2}-all$/.test(mapKey) ||
           /^countries\/[a-z]{2}\/custom\/[a-z]{2}-countries$/.test(mapKey)) { // country
         parent = {
@@ -130,7 +132,7 @@
       } else if (match) { // admin1
         parent = {
           desc: $('#geoMapBox').attr('data-desc'),
-          key: match[1] === 'countries/gb/gb' ? GB_CUSTOM : match[1] + '-all'
+          key: REPLACE[match[1]] ? REPLACE[match[1]] : match[1] + '-all'
         };
       }
 
@@ -227,17 +229,15 @@
                 var key = this.key;
                 window.parentLevel = this.name;
                 console.log(key);
-                REGIONS
-                  .filter(function(region) { return region.value !== 'countries/gb/gb-all.js'; })
-                  .forEach(function(region) {
-                    if ((region.value === GB_CUSTOM + '.js' && key === 'gb') ||
-                        (region.value === 'countries/' + key.substr(0, 2) + '/' + key + '-all.js')) {
-                      $('#geoMapBox')
-                        .attr('data-value', region.value)
-                        .attr('data-desc', region.desc);
-                      initLocation();
-                      return true;
-                    }
+                REGIONS.forEach(function(region) {
+                  if ((region.value === 'countries/' + key.substr(0, 2) + '/' + key + '-all.js') ||
+                      (region.value === 'countries/' + key.substr(0, 2) + '/custom/' + key.substr(0, 2) + '-countries.js')) {
+                    $('#geoMapBox')
+                      .attr('data-value', region.value)
+                      .attr('data-desc', region.desc);
+                    initLocation();
+                    return true;
+                  }
                 });
               }
             }
