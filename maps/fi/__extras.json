@@ -1,0 +1,18 @@
+{
+  "country": "Finland",
+  "regions": {
+    "Eastern Finland": "is",
+    "Lapland": "2",
+    "Oulu": "ou",
+    "Southern Finland": "es",
+    "Western Finland": "ls"
+  },
+  "index": {
+    "Eastern Finland, admin2": "countries/fi/fi-is-all.js",
+    "Lapland, admin2": "countries/fi/fi-2-all.js",
+    "Oulu, admin2": "countries/fi/fi-ou-all.js",
+    "Southern Finland, admin2": "countries/fi/fi-es-all.js",
+    "Western Finland, admin2": "countries/fi/fi-ls-all.js"
+  },
+  "script": "<script src='maps/fi/fi-admin2-all.js'></script>"
+}

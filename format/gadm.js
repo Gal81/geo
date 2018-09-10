@@ -116,12 +116,12 @@ fs.readFile(`./tmp/${fileName}.json`, 'utf8', (error, geoJson) => {
     const { properties, geometry: { type, coordinates } } = feature;
     const hasc2 = properties['HASC_2'];
     const hasc3 = properties['HASC_3'];
-    const gid2 = properties['GID_2'];
-    const featureID = hasc2 || hasc3 || gid2;
+    const gid3 = properties['GID_3'];
+    const featureID = hasc2 || hasc3 || gid3;
 
     // console.log(properties);
     if (!featureID) {
-      const error = new TypeError(` Missed ‘HASC_2’ and ‘HASC_3’ and ‘GID_2’ for ‘${properties['NAME_2']}’! `);
+      const error = new TypeError(` Missed ‘HASC_2’ and ‘HASC_3’ and ‘GID_3’ for ‘${properties['NAME_2']}’! `);
       console.error(` ${error.message} `.bgRed.white);
       return false;
     }
@@ -136,15 +136,18 @@ fs.readFile(`./tmp/${fileName}.json`, 'utf8', (error, geoJson) => {
       country = properties['NAME_0'];
     }
 
+    const splitted = featureID.split('.');
+    const hcKey = splitted.join('-').toLowerCase();
+    const hcA2 = featureID.split('.')[splitted.lenght - 1];
     regions[regionName].push({
       id: featureID,
       type: 'Feature',
       properties: {
-        name: properties['NAME_2'],
+        name: properties['NAME_3'] ? properties['NAME_3'] : properties['NAME_2'],
         type: properties['TYPE_2'] || properties['TYPE_3'],
         'hc-group': 'admin2',
-        'hc-key': featureID.split('.').join('-').toLowerCase(),
-        'hc-a2': featureID.split('.')[2],
+        'hc-key': hcKey,
+        'hc-a2': hcA2,
       },
       geometry: {
         type,

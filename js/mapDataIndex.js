@@ -33,9 +33,9 @@ Highcharts.mapDataIndex['Sweden'] = {
 Highcharts.mapDataIndex['Finland'] = {
   "Eastern Finland, admin2": "countries/fi/fi-3296-all.js",
   "Lapland, admin2": "countries/fi/fi-3285-all.js",
-  "Oulu, admin2": "countries/fi/fi-3-all.js",
-  "Southern Finland, admin2": "countries/fi/fi-4-all.js",
-  "Western Finland, admin2": "countries/fi/fi-5-all.js"
+  "Oulu, admin2": "countries/fi/fi-ou-all.js",
+  "Southern Finland, admin2": "countries/fi/fi-es-all.js",
+  "Western Finland, admin2": "countries/fi/fi-ls-all.js"
 };
 
 Highcharts.mapDataIndex['Ukraine'] = {
