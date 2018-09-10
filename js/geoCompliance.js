@@ -60,8 +60,6 @@
     function mapReady() {
       var mapGeoJSON = Highcharts.maps[mapKey];
       var data = [];
-      var parent;
-      var match;
 
       $.each(mapGeoJSON.features, function (index, feature) {
         var key = feature.properties['hc-key'];
@@ -99,8 +97,8 @@
         }
       });
 
-      // Is there a layer above this?
-      match = mapKey.match(/^(countries\/[a-z]{2}\/[a-z]{2})-[a-z0-9]+-all$/) ||
+      var parent;
+      var match = mapKey.match(/^(countries\/[a-z]{2}\/[a-z]{2})-[a-z0-9]+-all$/) ||
               mapKey.match(/^(countries\/[a-z]{2}\/custom\/)[a-z]{2}-countries$/); // 'countries/gb/custom/gb-countries'
       if (/^countries\/[a-z]{2}\/[a-z]{2}-all$/.test(mapKey) ||
           /^countries\/[a-z]{2}\/custom\/[a-z]{2}-countries$/.test(mapKey)) { // country

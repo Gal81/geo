@@ -3,15 +3,15 @@ const colors = require('colors');
 
 const getShortCoordinates = (coordinates, type, precision = 4) => {
   const zoom = 10;
-  const getShortPair = pair => [
+  const getShortXY = pair => [
     Math.round(pair[0] * Math.pow(zoom, precision)) / zoom,
     Math.round(pair[1] * Math.pow(zoom, precision)) / zoom
   ];
 
   if (type === 'Polygon') {
-    return [coordinates[0].map(pair => getShortPair(pair))];
+    return [coordinates[0].map(pair => getShortXY(pair))];
   } else if (type === 'MultiPolygon') {
-    return [coordinates.map(item => item[0].map(pair => getShortPair(pair)))];
+    return [coordinates.map(item => item[0].map(pair => getShortXY(pair)))];
   } else {
     const error = new TypeError(` Unexpected geometry type ‘${type}’! `);
     console.error(` ${error.message} `.bgRed.white);
