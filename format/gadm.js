@@ -1,16 +1,19 @@
 const fs = require('fs');
 const colors = require('colors');
 
-const getShortCoordinates = (coordinates, type, zoom = 1000) => {
+const getShortCoordinates = (coordinates, type, zoom = 10) => {
+  // return coordinates;
   const getShortPair = pair => [
-    Math.round(pair[0] * zoom),
-    Math.round(pair[1] * zoom)
+    pair[0] * zoom,
+    pair[1] * zoom
+    // Math.round(pair[0] * zoom) / zoom,
+    // Math.round(pair[1] * zoom) / zoom
   ];
 
   if (type === 'Polygon') {
     return [coordinates[0].map(pair => getShortPair(pair))];
   } else if (type === 'MultiPolygon') {
-    return [coordinates[0].map(item => item.map(pair => getShortPair(pair)))];
+    return [coordinates.map(item => item[0].map(pair => getShortPair(pair)))];
   } else {
     const error = new TypeError(` Unexpected geometry type ‘${type}’! `);
     console.error(` ${error.message} `.bgRed.white);
@@ -147,7 +150,7 @@ fs.readFile(`./tmp/${fileName}.json`, 'utf8', (error, geoJson) => {
     }
 
     if (!countryCode) {
-      countryCode = splitted[0].slice(0, 2);
+      countryCode = splitted[0].slice(0, 2).toLowerCase();
     }
 
     const hcKey = splitted.join('-').toLowerCase();
