@@ -15,7 +15,7 @@
     COUNTRY_CODE = 'DK';
     REGION_NAME = 'Hovedstaden';
 
-# 5. Run geoJSON formatter
+# 5. Run geoJson formatter
     npm run convert
 
 
@@ -30,8 +30,8 @@
 
 # 3. Put <filename.json> to ./tmp
 
-# 4. Run geoJson splitter
-    npm run split <filename[without extension!]>
+# 4. Run geoJson formatter
+    npm run gadm <filename[without extension!]>
 
 
 
