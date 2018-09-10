@@ -8,7 +8,26 @@ Highcharts.mapDataIndex['Denmark'] = {
 
 Highcharts.mapDataIndex['Sweden'] = {
   "Blekinge, admin2": "countries/se/se-bl-all.js",
-  "Dalarna, admin2": "countries/se/se-ko-all.js"
+  "Dalarna, admin2": "countries/se/se-ko-all.js",
+  "Gävleborg, admin2": "countries/se/se-gv-all.js",
+  "Gotland, admin2": "countries/se/se-gt-all.js",
+  "Halland, admin2": "countries/se/se-ha-all.js",
+  "Jämtland, admin2": "countries/se/se-ja-all.js",
+  "Jönköping, admin2": "countries/se/se-jo-all.js",
+  "Kalmar, admin2": "countries/se/se-ka-all.js",
+  "Kronoberg, admin2": "countries/se/se-kr-all.js",
+  "Norrbotten, admin2": "countries/se/se-nb-all.js",
+  "Orebro, admin2": "countries/se/se-or-all.js",
+  "Östergötland, admin2": "countries/se/se-og-all.js",
+  "Skåne, admin2": "countries/se/se-sn-all.js",
+  "Södermanland, admin2": "countries/se/se-sd-all.js",
+  "Stockholm, admin2": "countries/se/se-st-all.js",
+  "Uppsala, admin2": "countries/se/se-up-all.js",
+  "Värmland, admin2": "countries/se/se-vr-all.js",
+  "Västerbotten, admin2": "countries/se/se-vb-all.js",
+  "Västernorrland, admin2": "countries/se/se-vn-all.js",
+  "Västmanland, admin2": "countries/se/se-vm-all.js",
+  "Västra Götaland, admin2": "countries/se/se-vg-all.js"
 };
 
 Highcharts.mapDataIndex['Finland'] = {
