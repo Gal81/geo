@@ -18,7 +18,7 @@ const getShortCoordinates = (coordinates, type, precision = 4) => {
   }
 }
 
-const saveRegions = (regions, country, countryCode) => {
+const saveRegions = (regions, country, countryCode, minify = true) => {
   if (!countryCode) {
     const error = new Error(` Missing Country Code in! `);
     return console.error(` ${error.message} `.bgRed.white);
@@ -40,6 +40,10 @@ const saveRegions = (regions, country, countryCode) => {
     console.error(` ${ex.message} `.bgRed.white);
   }
 
+  const locationKey = (key, code) => {
+    return mapping && mapping[key] ? mapping[key] : code;
+  }
+
   const doSave = () => {
     Object.keys(regions).forEach(key => {
       const region = regions[key];
@@ -50,9 +54,9 @@ const saveRegions = (regions, country, countryCode) => {
       };
 
       const regionCode = region[0].id.split('.')[1].toLowerCase();
-      const featureKey = `${countryCode}-${mapping ? mapping[key] : regionCode}-all`;
+      const featureKey = `${countryCode}-${locationKey(key, regionCode)}-all`;
       const mapKey = `countries/${countryCode}/${featureKey}`;
-      const map = `Highcharts.maps['${mapKey}'] = ${JSON.stringify(geoJson, null, 2)};\n`;
+      const map = `Highcharts.maps['${mapKey}'] = ${minify ? JSON.stringify(geoJson) : JSON.stringify(geoJson, null, 2)};\n`;
 
       maps = `${maps}${map}`;
       regionsList[key] = regionCode;
@@ -65,7 +69,7 @@ const saveRegions = (regions, country, countryCode) => {
     const getIndex = list => {
       const index = {};
       for (key in list) {
-        index[`${key}, admin2`] = `countries/${countryCode}/${countryCode}-${mapping ? mapping[key] : list[key]}-all.js`;
+        index[`${key}, admin2`] = `countries/${countryCode}/${countryCode}-${locationKey(key, list[key])}-all.js`;
       }
       return index;
     }

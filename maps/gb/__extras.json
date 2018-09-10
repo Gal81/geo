@@ -7,10 +7,10 @@
     "Wales": "ay"
   },
   "index": {
-    "England, admin2": "countries/gb/gb-bx-all.js",
-    "Northern Ireland, admin2": "countries/gb/gb-at-all.js",
-    "Scotland, admin2": "countries/gb/gb-ar-all.js",
-    "Wales, admin2": "countries/gb/gb-ay-all.js"
+    "England, admin2": "countries/gb/gb-eng-all.js",
+    "Northern Ireland, admin2": "countries/gb/gb-nir-all.js",
+    "Scotland, admin2": "countries/gb/gb-sct-all.js",
+    "Wales, admin2": "countries/gb/gb-wls-all.js"
   },
   "script": "<script src='maps/gb/gb-admin2-all.js'></script>"
 }

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GeoJson</title>
+
+  <style>
+    #container {
+      height: 500px;
+      min-width: 310px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .loading {
+      margin-top: 10em;
+      text-align: center;
+      color: gray;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container"></div>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
+
+  <!-- var geoJsonTest =  -->
+  <!-- <script src="tmp/gadm36_DNK_2.json"></script> -->
+  <script src="maps/dk/dk-admin2-all.js"></script>
+
+  <script>
+    // Prepare random data
+    var data = [
+      ['dk-nd-aa', 728],
+      ['dk-nd-bd', 710],
+      ['dk-nd-fr', 963],
+      ['dk-nd-hj', 541],
+      ['dk-nd-ja', 622],
+      ['dk-nd-la', 866],
+      ['dk-nd-mf', 398],
+    ];
+
+    Highcharts.mapChart('container', {
+        chart: {
+            // map: geoJsonTest
+            map: Highcharts.maps["countries/dk/dk-3568-all"]
+        },
+
+        title: {
+            text: 'GeoJSON in Highmaps'
+        },
+
+        mapNavigation: {
+            enabled: true,
+            buttonOptions: {
+                verticalAlign: 'bottom'
+            }
+        },
+
+        colorAxis: {
+            tickPixelInterval: 100
+        },
+
+        series: [{
+            data: data,
+            keys: ['hc-key', 'value'],
+            joinBy: 'hc-key',
+            name: 'Random data',
+            states: {
+                hover: {
+                    color: '#a4edba'
+                }
+            },
+            dataLabels: {
+                enabled: true,
+                format: '{point.properties.postal}'
+            }
+        }]
+    });
+  </script>
+</body>
+</html>

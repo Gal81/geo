@@ -1,0 +1,18 @@
+{
+  "country": "Denmark",
+  "regions": {
+    "Hovedstaden": "hs",
+    "Midtjylland": "mj",
+    "Nordjylland": "nd",
+    "Sjælland": "sl",
+    "Syddanmark": "sd"
+  },
+  "index": {
+    "Hovedstaden, admin2": "countries/dk/dk-6325-all.js",
+    "Midtjylland, admin2": "countries/dk/dk-6326-all.js",
+    "Nordjylland, admin2": "countries/dk/dk-3568-all.js",
+    "Sjælland, admin2": "countries/dk/dk-3563-all.js",
+    "Syddanmark, admin2": "countries/dk/dk-3564-all.js"
+  },
+  "script": "<script src='maps/dk/dk-admin2-all.js'></script>"
+}
