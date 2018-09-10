@@ -16,13 +16,9 @@ body {
   height: 700px;
 }
 
-.or-view-as {
-    margin: 0.5em 0;
-}
 #geoUp {
   height: 20px;
   margin: 50px auto 0;
-  /* max-width: 400px; */
   padding: 0 20px;
 }
 #geoUp a {
@@ -31,9 +27,9 @@ body {
 }
 
 .loading {
-    margin-top: 10em;
-    text-align: center;
-    color: gray;
+  margin-top: 10em;
+  text-align: center;
+  color: gray;
 }
 
 @media (max-width: 768px) {

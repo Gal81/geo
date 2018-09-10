@@ -1,13 +1,11 @@
 const fs = require('fs');
 const colors = require('colors');
 
-const getShortCoordinates = (coordinates, type, zoom = 10) => {
-  // return coordinates;
+const getShortCoordinates = (coordinates, type, precision = 4) => {
+  const zoom = 10;
   const getShortPair = pair => [
-    pair[0] * zoom,
-    pair[1] * zoom
-    // Math.round(pair[0] * zoom) / zoom,
-    // Math.round(pair[1] * zoom) / zoom
+    Math.round(pair[0] * Math.pow(zoom, precision)) / zoom,
+    Math.round(pair[1] * Math.pow(zoom, precision)) / zoom
   ];
 
   if (type === 'Polygon') {
