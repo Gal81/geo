@@ -10,6 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "convert": "node format/SVGtoGeoJSON.js",
     "gadm": "node format/gadm.js",
+    "area": "node format/area.js",
     "watch": "npm-watch convert"
   },
   "keywords": [],
