@@ -163,6 +163,21 @@ fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
     return console.error(` ${error} `.bgRed.white);
   }
 
+  const getFeatureID = properties => {
+    const keys = [
+      // 'HASC_2',
+      // 'HASC_3',
+      'GID_2',
+      // 'GID_3',
+    ];
+
+    for (var i = 0; i < keys.length; i++) {
+      if (properties[keys[i]]) {
+        return properties[keys[i]];
+      }
+    }
+  };
+
   let country = '';
   let countryCode = '';
   const regions = {};
@@ -171,11 +186,7 @@ fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
     const { properties, geometry: { type, coordinates } } = feature;
     // const regionName = properties['NAME_2'] || properties['NAME_1'];
     const regionName = properties['NAME_1'];
-    const hasc2 = properties['HASC_2'];
-    const hasc3 = properties['HASC_3'];
-    const gid2 = properties['GID_2'];
-    const gid3 = properties['GID_3'];
-    const featureID = hasc3 || hasc2 || gid3 || gid2;
+    const featureID = getFeatureID(properties);
 
     if (!featureID) {
       const error = new TypeError(` Missed ‘featureID’ for ‘${properties['NAME_2']}’! `);

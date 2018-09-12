@@ -115,8 +115,9 @@
 
       $('#geoUp').html('');
       if (parent) {
+        var goUp = REGIONS.find(function(region) { return region.value === parent.key + '.js'; });
         $('#geoUp').append(
-          $('<a><i></i> Back</a>')
+          $('<a><i></i> ' + goUp.desc + (parent.desc === 'World' ? '' : ' \\ ' + parent.desc) + '</a>')
             .attr({ title: parent.key })
             .click(function () {
               $('#geoMapBox')
@@ -136,7 +137,7 @@
         chart: {
           events: {
             load: function () {
-              var target = 'SE'; // FIXME
+              var target = 'VN'; // FIXME
               var country = $('#geoMap').highcharts().get(target);
               if (country) {
                 country.zoomTo();
@@ -204,14 +205,15 @@
               // On click, look for a detailed map
               click: function () {
                 var key = this.key;
-                window.parentLevel = this.name;
-                console.log(this.name, ':', key);
+                var name = this.name;
+                window.parentLevel = name;
+                console.log(name, ':', key);
                 REGIONS.forEach(function(region) {
                   if ((region.value === 'countries/' + key.substr(0, 2) + '/' + key + '-all.js') ||
                       (region.value === 'countries/' + key.substr(0, 2) + '/custom/' + key.substr(0, 2) + '-countries.js')) {
                     $('#geoMapBox')
                       .attr('data-value', region.value)
-                      .attr('data-desc', region.desc);
+                      .attr('data-desc', name /* region.desc */);
                     initLocation();
                     return true;
                   }

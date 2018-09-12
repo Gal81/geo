@@ -12,6 +12,7 @@
     "gadm": "node format/gadm.js",
     "area": "node format/area.js",
     "simplify": "node format/simplify.js",
+    "names": "node format/names.js",
     "watch": "npm-watch convert"
   },
   "keywords": [],
