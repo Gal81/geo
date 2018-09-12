@@ -30,33 +30,29 @@
   <script src="js/lib/highcharts/drilldown.js"></script>
   <script src="js/lib/highcharts/exporting.js"></script>
 
-  <!-- <script src="maps/dk/dk-admin2-all.js"></script> -->
-  <!-- <script src="maps/fi/fi-admin2-all.js"></script> -->
-  <!-- <script src="maps/gb/gb-admin2-all.js"></script> -->
-  <!-- <script src="maps/se/se-admin2-all.js"></script> -->
-  <!-- <script src="maps/ua/ua-admin2-all.js"></script> -->
+  <script src="maps/dk/dk-admin2-all.js"></script>
+  <script src="maps/fi/fi-admin2-all.js"></script>
+  <script src="maps/gb/gb-admin2-all.js"></script>
+  <script src="maps/se/se-admin2-all.js"></script>
+  <script src="maps/ua/ua-admin2-all.js"></script>
   <script src="maps/vn/vn-admin2-all.js"></script>
 
   <script>
-    // Prepare random data
-    var data = [
-      ['dk-nd-aa', 728],
-      ['dk-nd-bd', 710],
-      ['dk-nd-fr', 963],
-      ['dk-nd-hj', 541],
-      ['dk-nd-ja', 622],
-      ['dk-nd-la', 866],
-      ['dk-nd-mf', 398],
-    ];
+    // var mapData = Highcharts.maps["countries/dk/dk-3564-all"];
+    // var mapData = Highcharts.maps["countries/fi/fi-3285-all"];
+    // var mapData = Highcharts.maps["countries/gb/gb-eng-all"];
+    // var mapData = Highcharts.maps["countries/se/se-gv-all"];
+    var mapData = Highcharts.maps["countries/ua/ua-dp-all"];
+    // var mapData = Highcharts.maps["countries/vn/vn-cb-all"];
+
+    var data = [];
+    mapData.features.forEach(function(item) {
+      data.push([item.properties['hc-key'], Math.round(Math.random() * (100 - 1) + 1)]);
+    });
 
     Highcharts.mapChart('container', {
         chart: {
-            // map: Highcharts.maps["countries/dk/dk-3564-all"]
-            // map: Highcharts.maps["countries/fi/fi-3285-all"]
-            // map: Highcharts.maps["countries/gb/gb-wls-all"]
-            // map: Highcharts.maps["countries/se/se-gv-all"]
-            // map: Highcharts.maps["countries/ua/ua-dp-all"]
-            map: Highcharts.maps["countries/vn/vn-cb-all"]
+            map: mapData
         },
 
         title: {
