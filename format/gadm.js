@@ -3,7 +3,7 @@ const colors = require('colors');
 const simplify = require('simplify-js');
 
 const TOLERANCE = 5;
-const AREA_LIMIT = 0.001;
+const AREA_LIMIT = 1000;
 
 const getPolygonArea = polygon => {
   let i = 0;
@@ -21,7 +21,7 @@ const getPolygonArea = polygon => {
 }
 
 const getSimpleGeometry = (coordinates, type) => {
-  const cut = 1000;
+  const cut = 100;
   const getShortXY = pair => [
     // pair[0] * cut,
     // pair[1] * cut,
@@ -29,8 +29,8 @@ const getSimpleGeometry = (coordinates, type) => {
     Math.round(pair[1] * cut) / cut,
   ];
 
-  const getPointXY = point => ({ x: point[0] * cut, y: point[1] * cut });
-  const getPointArray = point => [point.x / cut, point.y / cut];
+  const getPointXY = point => ({ x: point[0] / cut, y: point[1] / cut });
+  const getPointArray = point => [point.x, point.y];
 
   if (type === 'Polygon') {
     const simple = simplify(coordinates[0].map(point => getPointXY(point)), TOLERANCE);
@@ -43,6 +43,7 @@ const getSimpleGeometry = (coordinates, type) => {
                             .map(point => getShortXY(point));
 
       if (getPolygonArea(polygon) > AREA_LIMIT) {
+        // console.log(getPolygonArea(polygon));
         return [...memo, polygon];
       }
 
