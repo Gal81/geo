@@ -205,7 +205,7 @@
               click: function () {
                 var key = this.key;
                 window.parentLevel = this.name;
-                console.log(key);
+                console.log(this.name, ':', key);
                 REGIONS.forEach(function(region) {
                   if ((region.value === 'countries/' + key.substr(0, 2) + '/' + key + '-all.js') ||
                       (region.value === 'countries/' + key.substr(0, 2) + '/custom/' + key.substr(0, 2) + '-countries.js')) {

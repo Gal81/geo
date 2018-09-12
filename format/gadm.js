@@ -33,12 +33,11 @@ const getSimpleGeometry = (coordinates, type) => {
   const getPointArray = point => [point.x, point.y];
 
   if (type === 'Polygon') {
-    const simple = simplify(coordinates[0].map(point => getPointXY(point)), TOLERANCE);
+    const simple = simplify(coordinates[0].map(point => getPointXY(point)), TOLERANCE, true);
     return [simple.map(point => getPointArray(point)).map(point => getShortXY(point))];
   } else if (type === 'MultiPolygon') {
-    // return [coordinates.map(item => item[0].map(pair => getShortXY(pair)))];
     return [coordinates.reduce((memo, item) => {
-      const simple = simplify(item[0].map(point => getPointXY(point)), TOLERANCE);
+      const simple = simplify(item[0].map(point => getPointXY(point)), TOLERANCE, true);
       const polygon = simple.map(point => getPointArray(point)).map(point => getShortXY(point));
 
       if (getPolygonArea(polygon) > TRIM_AREA) {
@@ -170,20 +169,19 @@ fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
   const { features } = JSON.parse(geoJson);
   features.forEach(feature => {
     const { properties, geometry: { type, coordinates } } = feature;
+    const regionName = properties['NAME_2'] || properties['NAME_1'];
     const hasc2 = properties['HASC_2'];
     const hasc3 = properties['HASC_3'];
     const gid2 = properties['GID_2'];
     const gid3 = properties['GID_3'];
     const featureID = hasc3 || hasc2 || gid3 || gid2;
 
-    // console.log(properties);
     if (!featureID) {
       const error = new TypeError(` Missed ‘featureID’ for ‘${properties['NAME_2']}’! `);
       console.error(` ${error.message} `.bgRed.white);
       return false;
     }
 
-    const regionName = properties['NAME_1'];
     const splitted = featureID.split('.');
 
     if (!regions[regionName]) {
@@ -207,7 +205,7 @@ fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
         type: 'Feature',
         properties: {
           name: properties['NAME_3'] ? properties['NAME_3'] : properties['NAME_2'],
-          type: properties['TYPE_2'] || properties['TYPE_3'],
+          type: properties['TYPE_2'] || properties['TYPE_3'] || properties['TYPE_4'],
           'hc-group': 'admin2',
           'hc-key': hcKey,
           'hc-a2': hcA2,
