@@ -1,4 +1,4 @@
-### SVG to geoJson
+## SVG to geoJson
 # 1. Data preparing
     https://www.highcharts.com/studies/map-from-svg.htm
 
@@ -28,6 +28,9 @@
     https://mapshaper.org/
     https://mygeodata.cloud/converter/
 
+# 2.1 Best way - QGIS app. With coordinates reference system ‘Europe_Albers_Equal_Area_Conic’ for Europe
+    https://qgis.org/en/site/
+
 # 3. Put <filename.json> to ./tmp
 
 # 4. Run geoJson formatter
@@ -35,4 +38,4 @@
 
 
 
-### Files will be stored into ./maps
+## Files will be stored into ./maps

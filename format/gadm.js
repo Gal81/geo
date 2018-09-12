@@ -12,6 +12,12 @@ const getShortCoordinates = (coordinates, type, precision = 4) => {
     return [coordinates[0].map(pair => getShortXY(pair))];
   } else if (type === 'MultiPolygon') {
     return [coordinates.map(item => item[0].map(pair => getShortXY(pair)))];
+    // return [coordinates.reduce((memo, item) => {
+    //   if (item[0].length > 200) {
+    //     memo.push(item[0].map(pair => getShortXY(pair)));
+    //   }
+    //   return memo;
+    // }, [])];
   } else {
     const error = new TypeError(` Unexpected geometry type ‘${type}’! `);
     console.error(` ${error.message} `.bgRed.white);
@@ -156,7 +162,7 @@ fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
     }
 
     const hcKey = splitted.join('-').toLowerCase();
-    const hcA2 = featureID.split('.')[splitted.lenght - 1];
+    const hcA2 = featureID.split('.')[splitted.length - 1];
     regions[regionName].push({
       id: featureID,
       type: 'Feature',
