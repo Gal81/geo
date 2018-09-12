@@ -138,7 +138,7 @@ const saveRegions = (regions, country, countryCode, minify = true) => {
         return console.error(` ${err} `.bgRed.white);
       }
 
-      console.log(` ${country} with ${number} regions saved! `.bgGreen.white);
+      console.log(` ${country} with ${number} regions saved! `.bgBlue.white);
     });
 
     fs.writeFile(`./maps/${countryCode}/__extras.json`, JSON.stringify(extras, null, 2), err => {
@@ -146,7 +146,7 @@ const saveRegions = (regions, country, countryCode, minify = true) => {
         return console.error(` ${err} `.bgRed.white);
       }
 
-      console.log(` ${country}’s extras saved to ‘./maps/${countryCode}/__extras.json’ `.bgBlue.white);
+      console.log(` ${country}’s extras saved to ‘./maps/${countryCode}/__extras.json’ `.bgMagenta.white);
     });
   }
 
