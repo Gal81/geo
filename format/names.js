@@ -1,9 +1,9 @@
 const fs = require('fs');
 const colors = require('colors');
 
-fs.readFile('./tmp/vn-all.geojson', 'utf8', (error, geoJson) => {
-  const data = JSON.parse(geoJson);
-  const { features } = data;
+fs.readFile('./tmp/vn-all.geo.json', 'utf8', (error, geoJson) => {
+  const origin = JSON.parse(geoJson);
+  const { features } = origin;
 
   const names = {};
   features.forEach(({ properties }) => {
@@ -16,7 +16,7 @@ fs.readFile('./tmp/vn-all.geojson', 'utf8', (error, geoJson) => {
   });
 
   // const edited = {
-  //   ...data,
+  //   ...origin,
   //   features,
   // }
 
@@ -28,6 +28,6 @@ fs.readFile('./tmp/vn-all.geojson', 'utf8', (error, geoJson) => {
       return console.error(` ${err} `.bgRed.white);
     }
 
-    console.log(` DONE `.bgMagenta.white);
+    console.log(` DONE `.bgBlue.white);
   });
 });

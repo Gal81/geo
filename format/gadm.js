@@ -146,7 +146,7 @@ const saveRegions = (regions, country, countryCode, minify = true) => {
         return console.error(` ${err} `.bgRed.white);
       }
 
-      console.log(` ${country}’s extras saved to ‘./maps/${countryCode}/__extras.json’ `.bgMagenta.white);
+      console.log(` ${country}’s extras saved to ‘./maps/${countryCode}/__extras.json’ `.bgBlue.white);
     });
   }
 
