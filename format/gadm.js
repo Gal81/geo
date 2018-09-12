@@ -3,7 +3,7 @@ const colors = require('colors');
 const simplify = require('simplify-js');
 
 const TOLERANCE = 5;
-const AREA_LIMIT = 1000;
+const TRIM_AREA = 1000;
 
 const getPolygonArea = polygon => {
   let i = 0;
@@ -39,10 +39,9 @@ const getSimpleGeometry = (coordinates, type) => {
     // return [coordinates.map(item => item[0].map(pair => getShortXY(pair)))];
     return [coordinates.reduce((memo, item) => {
       const simple = simplify(item[0].map(point => getPointXY(point)), TOLERANCE);
-      const polygon = simple.map(point => getPointArray(point))
-                            .map(point => getShortXY(point));
+      const polygon = simple.map(point => getPointArray(point)).map(point => getShortXY(point));
 
-      if (getPolygonArea(polygon) > AREA_LIMIT) {
+      if (getPolygonArea(polygon) > TRIM_AREA) {
         // console.log(getPolygonArea(polygon));
         return [...memo, polygon];
       }
@@ -85,6 +84,11 @@ const saveRegions = (regions, country, countryCode, minify = true) => {
 
   const doSave = () => {
     Object.keys(regions).forEach(key => {
+      if (regions.length === 0) {
+        console.error(` regions are empty! `.bgRed.white);
+        return false;
+      }
+
       const region = regions[key];
       const geoJson = {
         title: key,
