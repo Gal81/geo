@@ -5,18 +5,9 @@
   };
 
   var COLORS = [
-    '#17D6D8',
-    '#13ABAC',
-    '#0E7F81',
-    '#145D5D',
-    '#9EE010',
-    '#7EB30D',
-    '#5E860A',
-    '#3F5906',
-    '#FFAA00',
-    '#4f5a5a',
-    '#8a9c9c',
-    '#FEFEFE',
+    '#DAF8F8',
+    '#15D6D8',
+    '#012223',
   ];
 
   function getDataByCountry(countryCode) {
@@ -161,7 +152,7 @@
           // minRange: minRange,
           events: {
             afterSetExtremes: function (e) {
-              if (window.zoomMessageExist && !(e.min === e.dataMin && e.max === e.dataMax)) {
+              if (window.zoomMessageExist) {
                 $('#geoMessage').removeClass('fade-out-me');
               } else {
                 $('#geoMessage').addClass('fade-out-me');
@@ -173,11 +164,11 @@
           min: 0,
           max: getMaxValue(),
           stops: [
-            [0, COLORS[11]],
-            [0.01, COLORS[8]],
-            [0.5, COLORS[8]],
-            [0.7, COLORS[8]],
-            [1, Highcharts.Color(COLORS[8]).brighten(-0.5).get()]
+            [0, COLORS[0]],
+            [0.01, COLORS[1]],
+            [0.5, COLORS[1]],
+            [0.7, COLORS[1]],
+            [1, COLORS[2]]
           ]
         },
         legend: {
