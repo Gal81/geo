@@ -227,7 +227,7 @@
       mapReady();
     } else {
       var mapPathHC = 'https://code.highcharts.com/mapdata/';
-      var mapPathAR = 'maps/';
+      var mapPathAR = 'http://localhost:3000/'; // TODO: node server/server.js
       var scriptPath = '';
 
       const arSources = [
@@ -247,9 +247,11 @@
       var admin2 = mapLevel2 && mapLevel2[0].split('/')[2];
 
       if (admin1 && arSources.indexOf(admin1) > -1) {
-        scriptPath = mapPathAR + admin1.split('-')[0] + '/' + admin1 + '.js';
+        var code = admin1.split('-')[0];
+        scriptPath = mapPathAR + code + '/' + code + '-all.js';
       } else if (admin2 && arSources.indexOf(admin2.split('-')[0]) > -1) {
-        scriptPath = mapPathAR + admin2.split('-')[0] + '/' + admin2 + '.js';
+        var code = admin2.split('-')[0];
+        scriptPath = mapPathAR + code + '/' + code + '-admin2-all.js';
       } else {
         scriptPath = mapPathHC + mapKey + '.js';
       }
