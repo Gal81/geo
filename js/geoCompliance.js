@@ -34,10 +34,8 @@
   initLocation();
   function initLocation() {
     var selectedMap = $('#geoMapBox').attr('data-value');
-    var selectedDesc = $('#geoMapBox').attr('data-desc');
 
     var mapKey = selectedMap.slice(0, -3);
-    var mapDesc = selectedDesc;
 
     // Show loading
     // if (Highcharts.charts[0]) {
