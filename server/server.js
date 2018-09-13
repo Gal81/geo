@@ -1,12 +1,13 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 
-app.use(express.static('D:/workspace/geo/maps'));
+const mapsPath = `${__dirname.split('server')[0]}maps`
+app.use(express.static(mapsPath));
 
-app.get('/', function (req, res) {
+app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-app.listen(3000, function () {
+app.listen(3000, () => {
   console.log('Example app listening on port 3000!');
 });
