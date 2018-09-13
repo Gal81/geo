@@ -165,10 +165,10 @@ fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
 
   const getFeatureID = properties => {
     const keys = [
-      // 'HASC_2',
-      // 'HASC_3',
+      'HASC_2',
+      'HASC_3',
       'GID_2',
-      // 'GID_3',
+      'GID_3',
     ];
 
     for (var i = 0; i < keys.length; i++) {
