@@ -25,8 +25,6 @@
     return countries.find(function(item) { return item.countryCode === countryCode; });
   }
 
-  // Base path to maps
-  var baseMapPath = 'https://code.highcharts.com/mapdata/';
   var showDataLabels = true; // Switch for data labels enabled/disabled
 
   $.each(Highcharts.mapDataIndex, function(group, maps) {
@@ -44,12 +42,11 @@
 
   initLocation();
   function initLocation() {
-    var selectedValue = $('#geoMapBox').attr('data-value');
+    var selectedMap = $('#geoMapBox').attr('data-value');
     var selectedDesc = $('#geoMapBox').attr('data-desc');
 
-    var mapKey = selectedValue.slice(0, -3);
+    var mapKey = selectedMap.slice(0, -3);
     var mapDesc = selectedDesc;
-    var javascriptPath = baseMapPath + selectedValue;
 
     // Show loading
     // if (Highcharts.charts[0]) {
@@ -99,7 +96,7 @@
 
       var parent;
       var match = mapKey.match(/^(countries\/[a-z]{2}\/[a-z]{2})-[a-z0-9]+-all$/) ||
-              mapKey.match(/^(countries\/[a-z]{2}\/custom\/)[a-z]{2}-countries$/); // 'countries/gb/custom/gb-countries'
+                  mapKey.match(/^(countries\/[a-z]{2}\/custom\/)[a-z]{2}-countries$/); // 'countries/gb/custom/gb-countries'
       if (/^countries\/[a-z]{2}\/[a-z]{2}-all$/.test(mapKey) ||
           /^countries\/[a-z]{2}\/custom\/[a-z]{2}-countries$/.test(mapKey)) { // country
         parent = {
@@ -137,7 +134,7 @@
         chart: {
           events: {
             load: function () {
-              var target = 'VN'; // FIXME
+              var target = 'UA'; // FIXME
               var country = $('#geoMap').highcharts().get(target);
               if (country) {
                 country.zoomTo();
@@ -213,7 +210,7 @@
                       (region.value === 'countries/' + key.substr(0, 2) + '/custom/' + key.substr(0, 2) + '-countries.js')) {
                     $('#geoMapBox')
                       .attr('data-value', region.value)
-                      .attr('data-desc', name /* region.desc */);
+                      .attr('data-desc', name);
                     initLocation();
                     return true;
                   }
@@ -229,7 +226,35 @@
     if (Highcharts.maps[mapKey]) {
       mapReady();
     } else {
-      $.getScript(javascriptPath, mapReady);
+      var mapPathHC = 'https://code.highcharts.com/mapdata/';
+      var mapPathAR = 'maps/';
+      var scriptPath = '';
+
+      const arSources = [
+        'dk',
+        'fi',
+        'gb',
+        'se',
+        'ua',
+        'vn',
+        'vn-all',
+      ];
+
+      // console.log('MAP LOADING...', mapKey);
+      var mapLevel1 = mapKey.match(/^(countries\/[a-z]{2}\/[a-z]{2})-all$/);
+      var mapLevel2 = mapKey.match(/^(countries\/[a-z]{2}\/[a-z]{2})-[a-z0-9]+-all$/);
+      var admin1 = mapLevel1 && mapLevel1[0].split('/')[2];
+      var admin2 = mapLevel2 && mapLevel2[0].split('/')[2];
+
+      if (admin1 && arSources.indexOf(admin1) > -1) {
+        scriptPath = mapPathAR + admin1.split('-')[0] + '/' + admin1 + '.js';
+      } else if (admin2 && arSources.indexOf(admin2.split('-')[0]) > -1) {
+        scriptPath = mapPathAR + admin2.split('-')[0] + '/' + admin2 + '.js';
+      } else {
+        scriptPath = mapPathHC + mapKey + '.js';
+      }
+
+      $.getScript(scriptPath, mapReady);
     }
   }
 
