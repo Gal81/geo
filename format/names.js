@@ -39,3 +39,9 @@ fs.readFile('./tmp/vn-all.geo.json', 'utf8', (error, geoJson) => {
   // }
   // const file = JSON.stringify(names, null, 2);
 });
+
+
+// var lvl1 = mapKey.match(/^countries\/[a-z]{2}\/[a-z]{2}-all$/) ||
+//            mapKey.match(/^countries\/[a-z]{2}\/custom\/[a-z]{2}-countries$/);
+// var lvl2 = mapKey.match(/^(countries\/[a-z]{2}\/[a-z]{2})-[a-z0-9]+-all$/) ||
+//            mapKey.match(/^(countries\/[a-z]{2}\/custom\/)[a-z]{2}-countries$/); // 'countries/gb/custom/gb-countries'

@@ -1,14 +1,32 @@
 (function() {
-  var REGIONS = [];
-  var REPLACE = {
-    'countries/gb/gb': 'countries/gb/custom/gb-countries',
-  };
-
   var COLORS = [
     '#DAF8F8',
     '#15D6D8',
     '#012223',
   ];
+
+  var WORLD = 'custom/world-highres.js';
+  var REGIONS = [];
+  var LOCATION = {};
+  var drilldownMessageExist = true;
+
+  function loadLocation() {
+    var location = JSON.parse(localStorage.getItem('geoLocation'));
+    if (location && location.src) {
+      LOCATION = location;
+    } else {
+      LOCATION = {
+        country: '',
+        region: '',
+        src: WORLD,
+      };
+    }
+  }
+
+  function saveLocation() {
+    localStorage.setItem('geoLocation', JSON.stringify(LOCATION));
+    initLocation();
+  }
 
   function getDataByCountry(countryCode) {
     var countries = window.geoCompliance.data.countries; // FIXME
@@ -16,13 +34,11 @@
     return countries.find(function(item) { return item.countryCode === countryCode; });
   }
 
-  var showDataLabels = true; // Switch for data labels enabled/disabled
-
   $.each(Highcharts.mapDataIndex, function(group, maps) {
-    $.each(maps, function(desc, path) {
+    $.each(maps, function(name, src) {
       REGIONS.push({
-        value: path,
-        desc: desc
+        name: name,
+        src: src,
       });
     });
   });
@@ -33,14 +49,12 @@
 
   initLocation();
   function initLocation() {
-    var selectedMap = $('#geoMapBox').attr('data-value');
+    loadLocation();
+    var mapKey = LOCATION.src.slice(0, -3);
 
-    var mapKey = selectedMap.slice(0, -3);
-
-    // Show loading
-    // if (Highcharts.charts[0]) {
-    //   Highcharts.charts[0].showLoading('<i class="fa fa-spinner fa-spin fa-2x"></i>');
-    // }
+    if (Highcharts.charts[0]) {
+      Highcharts.charts[0].showLoading('<i>LOADING...</i>');
+    }
 
     // When the map is loaded or ready from cache...
     function mapReady() {
@@ -52,27 +66,29 @@
         if (key) {
           var value = 0;
 
-          if (feature.properties['hc-group'] === 'admin0') {
-            window.zoomMessageExist = true;
+          if (feature.properties['hc-group'] === 'admin0') { // World
+            drilldownMessageExist = true;
+
             var country = getDataByCountry(feature.id);
             value = country && country.events;
           }
 
-          if (feature.properties['hc-group'] === 'admin1') {
-            window.zoomMessageExist = true;
+          if (feature.properties['hc-group'] === 'admin1') { // Country
+            drilldownMessageExist = true;
+
             var country = getDataByCountry(feature.id.split('.')[0]);
             var region = country && country.regions.find(function(item) { return item.name === feature.properties['name']; });
             value = region && region.events;
           }
 
-          if (feature.properties['hc-group'] === 'admin2') {
+          if (feature.properties['hc-group'] === 'admin2') { // Region
             $('#geoMessage').addClass('fade-out-me');
-            window.zoomMessageExist = false;
+            drilldownMessageExist = false;
+
             var country = getDataByCountry(feature.id.split('.')[0]);
-            var region = country && country.regions.find(function(item) { return item.name === window.parentLevel; });
+            var region = country && country.regions.find(function(item) { return item.name === LOCATION.region; });
             var subRegion = region && region.subRegions.find(function(item) { return item.name ===  feature.properties['name']; });
             value = subRegion && subRegion.events;
-            // console.log(feature.properties);
           }
 
           data.push({
@@ -83,35 +99,21 @@
         }
       });
 
-      var parent;
-      var match = mapKey.match(/^(countries\/[a-z]{2}\/[a-z]{2})-[a-z0-9]+-all$/) ||
-                  mapKey.match(/^(countries\/[a-z]{2}\/custom\/)[a-z]{2}-countries$/); // 'countries/gb/custom/gb-countries'
-      if (/^countries\/[a-z]{2}\/[a-z]{2}-all$/.test(mapKey) ||
-          /^countries\/[a-z]{2}\/custom\/[a-z]{2}-countries$/.test(mapKey)) { // country
-        parent = {
-          desc: 'World',
-          key: 'custom/world-highres'
-        };
-      } else if (match) { // admin1
-        parent = {
-          desc: $('#geoMapBox').attr('data-desc'),
-          key: REPLACE[match[1]] ? REPLACE[match[1]] : match[1] + '-all'
-        };
-      }
-
       $('#geoUp').html('');
-      if (parent) {
-        var goUp = REGIONS.find(function(region) { return region.value === parent.key + '.js'; });
+      $('#geoTitle').html('');
+      if (LOCATION.country || LOCATION.region) {
         $('#geoUp').append(
-          $('<a><i></i> ' + goUp.desc + (parent.desc === 'World' ? '' : ' \\ ' + parent.desc) + '</a>')
-            .attr({ title: parent.key })
+          $('<a><< Back</a>')
+            // .attr({ title: heir.src })
             .click(function () {
-              $('#geoMapBox')
-                .attr('data-value', parent.key + '.js')
-                .attr('data-desc', parent.desc);
-              initLocation();
+              LOCATION.country = LOCATION.region ? LOCATION.country : '';
+              LOCATION.region = '';
+              LOCATION.src = LOCATION.country ? REGIONS.find(function(item) { return item.name === LOCATION.country; }).src : WORLD;
+              saveLocation();
             })
         );
+
+        $('#geoTitle').append(LOCATION.country + (LOCATION.region ? ' \\ ' + LOCATION.region : ''));
       }
 
       function getMaxValue() {
@@ -141,7 +143,7 @@
           }
         },
         title: {
-          text: null
+          text: null,
         },
         mapNavigation: {
           enabled: true,
@@ -150,7 +152,7 @@
           // minRange: minRange,
           events: {
             afterSetExtremes: function (e) {
-              if (window.zoomMessageExist) {
+              if (drilldownMessageExist) {
                 $('#geoMessage').removeClass('fade-out-me');
               } else {
                 $('#geoMessage').addClass('fade-out-me');
@@ -180,7 +182,7 @@
           joinBy: ['hc-key', 'key'],
           name: 'Impressions',
           dataLabels: {
-            enabled: showDataLabels,
+            enabled: true,
             formatter: function () {
               return mapKey === 'custom/world-highres' || mapKey === 'countries/us/us-all' ?
                 '' : this.point.name;
@@ -192,15 +194,17 @@
               click: function () {
                 var key = this.key;
                 var name = this.name;
-                window.parentLevel = name;
                 console.log(name, ':', key);
                 REGIONS.forEach(function(region) {
-                  if ((region.value === 'countries/' + key.substr(0, 2) + '/' + key + '-all.js') ||
-                      (region.value === 'countries/' + key.substr(0, 2) + '/custom/' + key.substr(0, 2) + '-countries.js')) {
-                    $('#geoMapBox')
-                      .attr('data-value', region.value)
-                      .attr('data-desc', name);
-                    initLocation();
+                  if ((region.src === 'countries/' + key.substr(0, 2) + '/' + key + '-all.js') ||
+                      (region.src === 'countries/' + key.substr(0, 2) + '/custom/' + key.substr(0, 2) + '-countries.js')) {
+                    if (key.length === 2) {
+                      LOCATION.country = name;
+                    } else {
+                      LOCATION.region = name;
+                    }
+                    LOCATION.src = region.src;
+                    saveLocation();
                     return true;
                   }
                 });
@@ -229,7 +233,6 @@
         'vn-all',
       ];
 
-      // console.log('MAP LOADING...', mapKey);
       var mapLevel1 = mapKey.match(/^(countries\/[a-z]{2}\/[a-z]{2})-all$/);
       var mapLevel2 = mapKey.match(/^(countries\/[a-z]{2}\/[a-z]{2})-[a-z0-9]+-all$/);
       var admin1 = mapLevel1 && mapLevel1[0].split('/')[2];
