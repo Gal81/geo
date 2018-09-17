@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp watch",
     "convert": "node format/SVGtoGeoJSON.js",
     "gadm": "node format/gadm.js",
     "area": "node format/area.js",
@@ -23,10 +24,27 @@
     "express": "^4.16.3",
     "jquery": "^3.3.1",
     "jsdom": "^12.0.0",
-    "lodash": "^4.17.10",
-    "npm-watch": "^0.3.0",
+    "lodash": "^4.17.11",
+    "npm-watch": "^0.4.0",
+    "run-sequence": "^2.2.1",
     "simplify-js": "^1.2.3",
     "svg-path-properties": "^0.4.4",
     "xmldom": "^0.1.27"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-plugin-iife-wrap": "^1.1.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-less": "^4.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8"
   }
 }
