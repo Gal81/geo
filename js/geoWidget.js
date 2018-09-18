@@ -29,7 +29,7 @@
   }
 
   const getDataByCountry = countryCode => {
-    var countries = window.geoCompliance.data.countries; // FIXME
+    const countries = window.geoCompliance.data.countries; // FIXME
 
     return countries.find(item => item.countryCode === countryCode);
   }
@@ -186,22 +186,23 @@
             events: {
               // On click, look for a detailed map
               click: function () {
-                var key = this.key;
-                var name = this.name;
-                console.log(name, ':', key);
-                REGIONS.forEach(function(region) {
-                  if ((region.src === `countries/${key.substr(0, 2)}/${key}-all.js`) ||
-                      (region.src === `countries/${key.substr(0, 2)}/custom/${key.substr(0, 2)}-countries.js`)) {
-                    if (key.length === 2) {
-                      location.country = name;
-                    } else {
-                      location.region = name;
+                const { key, name, value } = this;
+                if (value) {
+                  console.log(name, ':', key);
+                  REGIONS.forEach(region => {
+                    if ((region.src === `countries/${key.substr(0, 2)}/${key}-all.js`) ||
+                    (region.src === `countries/${key.substr(0, 2)}/custom/${key.substr(0, 2)}-countries.js`)) {
+                      if (key.length === 2) {
+                        location.country = name;
+                      } else {
+                        location.region = name;
+                      }
+                      location.src = region.src;
+                      saveLocation();
+                      return true;
                     }
-                    location.src = region.src;
-                    saveLocation();
-                    return true;
-                  }
-                });
+                  });
+                }
               }
             }
           }
