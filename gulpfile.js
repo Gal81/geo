@@ -30,7 +30,6 @@ const paths = {
 };
 
 const onError = error => {
-  // console.log('onError', error);
   gutil.log(gutil.colors.red('[Error]'), error.toString());
 }
 
