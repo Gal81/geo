@@ -411,19 +411,11 @@ Highcharts.mapDataIndex['Sweden Admin 2'] = {
 };
 
 Highcharts.mapDataIndex['Finland Admin 2'] = {
-<<<<<<< HEAD
-  "Eastern Finland, admin2": "countries/fi/fi-1-all.js",
-  "Lapland, admin2": "countries/fi/fi-3285-all.js",
-  "Oulu, admin2": "countries/fi/fi-ou-all.js",
-  "Etelä-Suomen, admin2": "countries/fi/fi-es-all.js",
-  "Western Finland, admin2": "countries/fi/fi-5-all.js"
-=======
 	"Eastern Finland, admin2": "countries/fi/fi-is-all.js",
 	"Lapland, admin2": "countries/fi/fi-lp-all.js",
 	"Norra Finlands, admin2": "countries/fi/fi-ou-all.js",
 	"Etelä-Suomen, admin2": "countries/fi/fi-es-all.js",
 	"Western Finland, admin2": "countries/fi/fi-ls-all.js"
->>>>>>> feature/admin2
 };
 
 Highcharts.mapDataIndex['United Kingdom Admin 2'] = {
