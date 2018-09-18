@@ -1,6 +1,5 @@
 {
   "admin2": {
-<<<<<<< HEAD
     "Lapland": "3285",
     "Kainuu": "3288",
     "Ostrobothnia": "3280",
@@ -19,11 +18,6 @@
     "Uusimaa": "3275",
     "Päijät-Häme": "3291",
     "Kymenlaakso": "3276",
-=======
-    "Lapland": "lp",
-    "Western Finland": "ls",
-    "Eastern Finland": "is",
->>>>>>> feature/admin2
     "Etelä-Suomen": "es",
     "Norra Finlands": "ou"
   }

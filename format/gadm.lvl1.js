@@ -4,12 +4,20 @@ const util = require('./util');
 
 let store = {
   countries: [],
+<<<<<<< HEAD
   locationNames: [],
+=======
+  locationNames: {},
+>>>>>>> feature/admin2
 };
 
 const getLocationName = name => {
   const { locationNames } = store;
+<<<<<<< HEAD
   return locationNames && locationNames[name] ? locationNames[name] : name;
+=======
+  return locationNames[name] || name;
+>>>>>>> feature/admin2
 }
 
 const getCountryCode = feature => store.countries.find(country => country.isoA3 === feature.properties['GID_0']).isoA2.toLowerCase();
@@ -38,7 +46,11 @@ const loadLocationsNames = countryCode => {
         const { admin1 } = JSON.parse(data);
         store = {
           ...store,
+<<<<<<< HEAD
           locationNames: admin1,
+=======
+          locationNames: admin1 || {},
+>>>>>>> feature/admin2
         };
       }
     });
@@ -116,7 +128,11 @@ const run = () => {
     const prepareRegions = () => {
       features.forEach(feature => {
         const { properties, geometry: { type, coordinates } } = feature;
+<<<<<<< HEAD
         const regionName = properties['NAME_1'];
+=======
+        const regionName = getLocationName(properties['NAME_1']);
+>>>>>>> feature/admin2
         const featureID = getFeatureID(properties);
 
         if (!featureID) {
@@ -135,7 +151,11 @@ const run = () => {
             id: featureID,
             type: 'Feature',
             properties: {
+<<<<<<< HEAD
               name: getLocationName(regionName),
+=======
+              name: regionName,
+>>>>>>> feature/admin2
               type: properties['TYPE_1'],
               'hc-group': 'admin1',
               'hc-key': hcKey,

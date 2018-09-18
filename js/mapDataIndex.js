@@ -378,7 +378,6 @@ Highcharts.mapDataIndex = {
 	}
 };
 
-
 Highcharts.mapDataIndex['Denmark Admin 2'] = {
   'Nordjylland, admin2': 'countries/dk/dk-3568-all.js',
   'Midtjylland, admin2': 'countries/dk/dk-6326-all.js',
@@ -411,34 +410,20 @@ Highcharts.mapDataIndex['Sweden Admin 2'] = {
   "Västra Götaland, admin2": "countries/se/se-vg-all.js"
 };
 
-// Highcharts.mapDataIndex['Finland Admin 2'] = {
-//   "North Karelia, admin2": "countries/fi/fi-3296-all.js",
-//   "North Savonia, admin2": "countries/fi/fi-3287-all.js",
-//   // "Päijänne Tavastia, admin2": "countries/fi/fi-es-all.js",
-//   "Southern Savonia, admin2": "countries/fi/fi-3295-all.js",
-//   "Lapland, admin2": "countries/fi/fi-3285-all.js",
-//   "Kainuu, admin2": "countries/fi/fi-3288-all.js",
-//   "Northern Ostrobothnia, admin2": "countries/fi/fi-3281-all.js",
-//   // "Eastern Uusimaa, admin2": "countries/fi/fi-es-all.js",
-//   "Kymenlaakso, admin2": "countries/fi/fi-3276-all.js",
-//   "South Karelia, admin2": "countries/fi/fi-3294-all.js",
-//   "Uusimaa, admin2": "countries/fi/fi-3275-all.js",
-//   "Central Finland, admin2": "countries/fi/fi-3286-all.js",
-//   "Central Ostrobothnia, admin2": "countries/fi/fi-3289-all.js",
-//   "Finland Proper, admin2": "countries/fi/fi-3272-all.js",
-//   "Ostrobothnia, admin2": "countries/fi/fi-3280-all.js",
-//   "Pirkanmaa, admin2": "countries/fi/fi-3293-all.js",
-//   "Satakunta, admin2": "countries/fi/fi-3279-all.js",
-//   "Southern Ostrobothnia, admin2": "countries/fi/fi-3290-all.js",
-//   "Tavastia Proper, admin2": "countries/fi/fi-3292-all.js"
-// };
-
 Highcharts.mapDataIndex['Finland Admin 2'] = {
+<<<<<<< HEAD
   "Eastern Finland, admin2": "countries/fi/fi-1-all.js",
   "Lapland, admin2": "countries/fi/fi-3285-all.js",
   "Oulu, admin2": "countries/fi/fi-ou-all.js",
   "Etelä-Suomen, admin2": "countries/fi/fi-es-all.js",
   "Western Finland, admin2": "countries/fi/fi-5-all.js"
+=======
+	"Eastern Finland, admin2": "countries/fi/fi-is-all.js",
+	"Lapland, admin2": "countries/fi/fi-lp-all.js",
+	"Norra Finlands, admin2": "countries/fi/fi-ou-all.js",
+	"Etelä-Suomen, admin2": "countries/fi/fi-es-all.js",
+	"Western Finland, admin2": "countries/fi/fi-ls-all.js"
+>>>>>>> feature/admin2
 };
 
 Highcharts.mapDataIndex['United Kingdom Admin 2'] = {
