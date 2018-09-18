@@ -1,51 +1,21 @@
 const fs = require('fs');
 const colors = require('colors');
 const util = require('./util');
+const store = require('./store');
 
-let store = {
-  countries: [],
-  locationNames: {},
+const getFeatureID = properties => {
+  const keys = [
+    'HASC_1', // admin 1
+    'GID_1',
+  ];
+
+  for (var i = 0; i < keys.length; i++) {
+    if (properties[keys[i]]) {
+      const id = properties[keys[i]].split('.');
+      return `${id[0].substr(0, 2)}.${id[1]}`;
+    }
+  }
 };
-
-const getLocationName = name => {
-  const { locationNames } = store;
-  return locationNames[name] || name;
-}
-
-const getCountryCode = feature => store.countries.find(country => country.isoA3 === feature.properties['GID_0']).isoA2.toLowerCase();
-const getCountryName = code => store.countries.find(country => country.isoA2 === code.toUpperCase()).name;
-
-const loadCountries = () => {
-  try {
-    fs.readFile('./maps/countries.json', 'utf8', (err, data) => {
-      if (data) {
-        const { countries } = JSON.parse(data);
-        store = {
-          ...store,
-          countries,
-        };
-      }
-    });
-  } catch(ex) {
-    console.error(` ${ex.message} `.bgRed.white);
-  }
-}
-
-const loadLocationsNames = countryCode => {
-  try {
-    fs.readFile(`./maps/${countryCode}/__names.json`, 'utf8', (err, data) => {
-      if (data) {
-        const { admin1 } = JSON.parse(data);
-        store = {
-          ...store,
-          locationNames: admin1 || {},
-        };
-      }
-    });
-  } catch(ex) {
-    console.error(` ${ex.message} `.bgRed.white);
-  }
-}
 
 const saveRegions = (regions, country, countryCode, minify = true) => {
   if (!countryCode) {
@@ -94,29 +64,15 @@ const run = () => {
       return console.error(` ${error} `.bgRed.white);
     }
 
-    const getFeatureID = properties => {
-      const keys = [
-        'HASC_1', // admin 1
-        'GID_1',
-      ];
-
-      for (var i = 0; i < keys.length; i++) {
-        if (properties[keys[i]]) {
-          const id = properties[keys[i]].split('.');
-          return `${id[0].substr(0, 2)}.${id[1]}`;
-        }
-      }
-    };
-
     const regions = [];
     const { features } = JSON.parse(geoJson);
-    const countryCode = getCountryCode(features[0]);
-    const country = getCountryName(countryCode);
+    const countryCode = store.getCountryCode(features[0]);
+    const country = store.getCountryName(countryCode);
 
     const prepareRegions = () => {
       features.forEach(feature => {
         const { properties, geometry: { type, coordinates } } = feature;
-        const regionName = getLocationName(properties['NAME_1']);
+        const regionName = store.getLocationName(properties['NAME_1']);
         const featureID = getFeatureID(properties);
 
         if (!featureID) {
@@ -150,7 +106,7 @@ const run = () => {
       });
     }
 
-    loadLocationsNames(countryCode);
+    store.loadLocationsNames(countryCode);
     setTimeout(() => {
       prepareRegions();
       saveRegions(regions, country, countryCode);
@@ -158,7 +114,7 @@ const run = () => {
   });
 }
 
-loadCountries();
+store.loadCountries();
 setTimeout(() => {
   run();
 }, 1000);
