@@ -436,7 +436,7 @@ Highcharts.mapDataIndex['Sweden Admin 2'] = {
 Highcharts.mapDataIndex['Finland Admin 2'] = {
   "Eastern Finland, admin2": "countries/fi/fi-1-all.js",
   "Lapland, admin2": "countries/fi/fi-3285-all.js",
-  "Oulu, admin2": "countries/fi/fi-3-all.js",
+  "Oulu, admin2": "countries/fi/fi-ou-all.js",
   "Etelä-Suomen, admin2": "countries/fi/fi-es-all.js",
   "Western Finland, admin2": "countries/fi/fi-5-all.js"
 };

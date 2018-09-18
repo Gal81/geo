@@ -1,3 +1,0 @@
-{
-  "Southern Finland": "Etelä-Suomen"
-}

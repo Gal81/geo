@@ -1,6 +1,8 @@
 {
-  "England": "eng",
-  "Northern Ireland": "nir",
-  "Scotland": "sct",
-  "Wales": "wls"
+  "admin2": {
+    "England": "eng",
+    "Northern Ireland": "nir",
+    "Scotland": "sct",
+    "Wales": "wls"
+  }
 }

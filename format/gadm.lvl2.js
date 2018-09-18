@@ -1,68 +1,15 @@
 const fs = require('fs');
 const colors = require('colors');
-const simplify = require('simplify-js');
-
-const TOLERANCE = 5;
-const TRIM_AREA = 1000;
-
-const getPolygonArea = polygon => {
-  let i = 0;
-  const multiply = polygon.reduce((memo, xy) => {
-    i += 1;
-    if (polygon[i]) {
-      return [...memo, [xy[0] * polygon[i][1], xy[1] * polygon[i][0]]];
-    }
-    return memo;
-  }, []);
-
-  const sum = multiply.reduce((memo, item) => [memo[0] + item[0], memo[1] + item[1]], [0, 0]);
-
-  return Math.abs((sum[0] - sum[1]) / 2);
-}
-
-const getSimpleGeometry = (coordinates, type) => {
-  const cut = 100;
-  const getShortXY = pair => [
-    // pair[0] * cut,
-    // pair[1] * cut,
-    Math.round(pair[0] * cut) / cut,
-    Math.round(pair[1] * cut) / cut,
-  ];
-
-  const getPointXY = point => ({ x: point[0] / cut, y: point[1] / cut });
-  const getPointArray = point => [point.x, point.y];
-
-  if (type === 'Polygon') {
-    const simple = simplify(coordinates[0].map(point => getPointXY(point)), TOLERANCE, true);
-    return [simple.map(point => getPointArray(point)).map(point => getShortXY(point))];
-  } else if (type === 'MultiPolygon') {
-    return [coordinates.reduce((memo, item) => {
-      const simple = simplify(item[0].map(point => getPointXY(point)), TOLERANCE, true);
-      const polygon = simple.map(point => getPointArray(point)).map(point => getShortXY(point));
-
-      if (getPolygonArea(polygon) > TRIM_AREA) {
-        // console.log(getPolygonArea(polygon));
-        return [...memo, polygon];
-      }
-
-      return memo;
-    }, [])];
-  } else {
-    const error = new TypeError(` Unexpected geometry type ‘${type}’! `);
-    console.error(` ${error.message} `.bgRed.white);
-  }
-}
-
-
+const util = require('./util');
 
 const saveRegions = (regions, country, countryCode, minify = true) => {
   if (!countryCode) {
-    const error = new Error(` Missing Country Code! `);
+    const error = new Error(` Missed Country Code! `);
     return console.error(` ${error.message} `.bgRed.white);
   }
 
   const regionsList = {};
-  const dir = `./maps/${countryCode}`;;
+  const dir = `./maps/${countryCode}`;
   let number = 0;
   let maps = '';
   let locationKeys = '';
@@ -77,8 +24,8 @@ const saveRegions = (regions, country, countryCode, minify = true) => {
     console.error(` ${ex.message} `.bgRed.white);
   }
 
-  const locationKey = (key, code) => {
-    return locationKeys && locationKeys[key] ? locationKeys[key] : code;
+  const getLocationKey = (key, code) => {
+    return locationKeys && locationKeys.admin2 && locationKeys.admin2[key] ? locationKeys.admin2[key] : code;
   }
 
   const doSave = () => {
@@ -96,7 +43,7 @@ const saveRegions = (regions, country, countryCode, minify = true) => {
       };
 
       const regionCode = region[0].id.split('.')[1].toLowerCase();
-      const featureKey = `${countryCode}-${locationKey(key, regionCode)}-all`;
+      const featureKey = `${countryCode}-${getLocationKey(key, regionCode)}-all`;
       const mapKey = `countries/${countryCode}/${featureKey}`;
       const map = `Highcharts.maps['${mapKey}'] = ${minify ? JSON.stringify(geoJson) : JSON.stringify(geoJson, null, 2)};\n`;
 
@@ -111,7 +58,7 @@ const saveRegions = (regions, country, countryCode, minify = true) => {
     const getIndex = list => {
       const index = {};
       for (key in list) {
-        index[`${key}, admin2`] = `countries/${countryCode}/${countryCode}-${locationKey(key, list[key])}-all.js`;
+        index[`${key}, admin2`] = `countries/${countryCode}/${countryCode}-${getLocationKey(key, list[key])}-all.js`;
       }
       return index;
     }
@@ -173,9 +120,8 @@ fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
 
     for (var i = 0; i < keys.length; i++) {
       if (properties[keys[i]]) {
-        const id = properties[keys[i]];
-        const part = id.split('.');
-        return `${part[0].substr(0, 2)}.${part[1]}.${part[2]}`;
+        const id = properties[keys[i]].split('.');
+        return `${id[0].substr(0, 2)}.${id[1]}.${id[2]}`;
       }
     }
   };
@@ -211,14 +157,14 @@ fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
     }
 
     const hcKey = splitted.join('-').toLowerCase();
-    const hcA2 = featureID.split('.')[splitted.lenght - 1];
-    const geometry = getSimpleGeometry(coordinates, type);
+    const hcA2 = featureID.split('.')[splitted.length - 1];
+    const geometry = util.getSimpleGeometry(coordinates, type);
     if (geometry.length !== 0 && geometry[0].length !== 0) {
       regions[regionName].push({
         id: featureID,
         type: 'Feature',
         properties: {
-          name: properties['NAME_3'] ? properties['NAME_3'] : properties['NAME_2'],
+          name: properties['NAME_3'] || properties['NAME_2'],
           type: properties['TYPE_2'] || properties['TYPE_3'] || properties['TYPE_4'],
           'hc-group': 'admin2',
           'hc-key': hcKey,

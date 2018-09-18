@@ -1,0 +1,29 @@
+{
+  "countries": [
+    {
+      "name": "Denmark",
+      "isoA2": "DK",
+      "isoA3": "DNK"
+    }, {
+      "name": "Finland",
+      "isoA2": "FI",
+      "isoA3": "FIN"
+    }, {
+      "name": "United Kingdom",
+      "isoA2": "GB",
+      "isoA3": "GBR"
+    }, {
+      "name": "Sweden",
+      "isoA2": "SE",
+      "isoA3": "SWE"
+    }, {
+      "name": "Ukraine",
+      "isoA2": "UA",
+      "isoA3": "UKR"
+    }, {
+      "name": "Vietnam",
+      "isoA2": "VN",
+      "isoA3": "VNM"
+    }
+  ]
+}
