@@ -13,7 +13,7 @@ fs.readFile('./tmp/vn-all.geo.json', 'utf8', (error, geoJson) => {
     const { features } = origin;
     features.forEach(({ properties }) => {
       if (properties['alt-name']) {
-        const name = names[properties['name']];
+        const name = names.admin2[properties['name']];
         properties['name'] = name;
       }
     });

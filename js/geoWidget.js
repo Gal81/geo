@@ -190,7 +190,7 @@
               // On click, look for a detailed map
               click: function () {
                 const { key, name, value } = this;
-                if (value) {
+                // if (value) {
                   console.log(name, ':', key);
                   REGIONS.forEach(region => {
                     if ((region.src === `countries/${key.substr(0, 2)}/${key}-all.js`) ||
@@ -205,7 +205,7 @@
                       return true;
                     }
                   });
-                }
+                // }
               }
             }
           }

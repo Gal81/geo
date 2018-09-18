@@ -9,8 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "gulp watch",
-    "gadm1": "node format/gadm.lvl1.js",
-    "gadm2": "node format/gadm.lvl2.js",
+    "admin1": "node format/gadm.lvl1.js",
+    "admin2": "node format/gadm.lvl2.js",
     "area": "node format/dump/area.js",
     "names": "node format/dump/names.js",
     "simplify": "node format/dump/simplify.js",
