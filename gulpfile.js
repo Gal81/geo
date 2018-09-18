@@ -30,7 +30,7 @@ const paths = {
 };
 
 const onError = error => {
-  gutil.log(gutil.colors.red('[Error]'), error.toString());
+  gutil.log(gutil.colors.red('[Error]'), gutil.colors.yellow(error.toString()));
 }
 
 gulp.task('clean', () => del([DIST]));

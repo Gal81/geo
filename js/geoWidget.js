@@ -82,7 +82,7 @@
 
             const country = getDataByCountry(feature.id.split('.')[0]);
             const region = country && country.regions.find(item => item.name === location.region);
-            const subRegion = region && region.subRegions.find(item => item.name ===  feature.properties['name']);
+            const subRegion = region && region.subRegions.find(item => item.name === feature.properties['name']);
             value = subRegion && subRegion.events;
           }
 
@@ -112,13 +112,13 @@
       }
 
       const getMaxValue = () => Math.max.apply(null, data.map(item => item.value)) || 1;
-      // const minRange = 500;
+      const minRange = 2000;
 
       $('#geoMap').highcharts('Map', {
         chart: {
           events: {
             load: function () {
-              const target = 'UA'; // FIXME
+              const target = 'NO'; // FIXME
               const country = $('#geoMap').highcharts().get(target);
               if (country) {
                 country.zoomTo();
@@ -143,7 +143,7 @@
           enabled: true,
         },
         xAxis: {
-          // minRange: minRange,
+          minRange,
           events: {
             afterSetExtremes: function (e) {
               if (drilldownMessageExist) {
@@ -153,6 +153,9 @@
               }
             }
           }
+        },
+        yAxis: {
+          minRange,
         },
         colorAxis: {
           min: 0,
@@ -221,6 +224,7 @@
       const arSources = [
         'dk',
         'fi',
+        'fi-all',
         'gb',
         'se',
         'ua',

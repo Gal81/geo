@@ -4,16 +4,17 @@
   "description": "",
   "main": "index.js",
   "watch": {
-    "convert": "format/tmp/dataSeries.js"
+    "convert": "format/series/tnpSeries.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "gulp watch",
-    "convert": "node format/SVGtoGeoJSON.js",
-    "gadm": "node format/gadm.js",
-    "area": "node format/area.js",
-    "simplify": "node format/simplify.js",
-    "names": "node format/names.js",
+    "gadm1": "node format/gadm.lvl1.js",
+    "gadm2": "node format/gadm.lvl2.js",
+    "area": "node format/dump/area.js",
+    "names": "node format/dump/names.js",
+    "simplify": "node format/dump/simplify.js",
+    "convert": "node format/dump/SVGtoGeoJSON.js",
     "watch": "npm-watch convert"
   },
   "keywords": [],

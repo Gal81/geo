@@ -57,71 +57,43 @@ const getSimpleGeometry = (coordinates, type) => {
 
 const saveRegions = (regions, country, countryCode, minify = true) => {
   if (!countryCode) {
-    const error = new Error(` Missing Country Code in! `);
+    const error = new Error(` Missing Country Code! `);
     return console.error(` ${error.message} `.bgRed.white);
   }
 
-  const regionsList = {};
+  // const regionsList = {};
   const dir = `./maps/${countryCode}`;;
-  let number = 0;
-  let maps = '';
-  let locationKeys = '';
+  // let locationKeys = '';
 
-  try {
-    fs.readFile(`${dir}/__keys.json`, 'utf8', (err, data) => {
-      if (data) {
-        locationKeys = JSON.parse(data);
-      }
-    });
-  } catch(ex) {
-    console.error(` ${ex.message} `.bgRed.white);
-  }
+  // try {
+  //   fs.readFile(`${dir}/__keys.json`, 'utf8', (err, data) => {
+  //     if (data) {
+  //       locationKeys = JSON.parse(data);
+  //     }
+  //   });
+  // } catch(ex) {
+  //   console.error(` ${ex.message} `.bgRed.white);
+  // }
 
-  const locationKey = (key, code) => {
-    return locationKeys && locationKeys[key] ? locationKeys[key] : code;
-  }
+  // const locationKey = (key, code) => {
+  //   return locationKeys && locationKeys[key] ? locationKeys[key] : code;
+  // }
 
   const doSave = () => {
-    Object.keys(regions).forEach(key => {
-      if (regions.length === 0) {
-        console.error(` regions are empty! `.bgRed.white);
-        return false;
-      }
-
-      const region = regions[key];
-      const geoJson = {
-        title: key,
-        type: 'FeatureCollection',
-        features: region,
-      };
-
-      const regionCode = region[0].id.split('.')[1].toLowerCase();
-      const featureKey = `${countryCode}-${locationKey(key, regionCode)}-all`;
-      const mapKey = `countries/${countryCode}/${featureKey}`;
-      const map = `Highcharts.maps['${mapKey}'] = ${minify ? JSON.stringify(geoJson) : JSON.stringify(geoJson, null, 2)};\n`;
-
-      maps = `${maps}${map}`;
-      regionsList[key] = regionCode;
-      number++;
-
-      console.log(` ${country} region ‘${key}’ added... `.bgGreen.white);
-    });
-
-
-    const getIndex = list => {
-      const index = {};
-      for (key in list) {
-        index[`${key}, admin2`] = `countries/${countryCode}/${countryCode}-${locationKey(key, list[key])}-all.js`;
-      }
-      return index;
+    if (regions.length === 0) {
+      console.error(` regions are empty! `.bgRed.white);
+      return false;
     }
 
-    const extras = {
-      country,
-      regions: regionsList,
-      index: getIndex(regionsList),
-      script: `<script src='maps/${countryCode}/${countryCode}-admin2-all.js'></script>`,
+    const geoJson = {
+      title: country,
+      type: 'FeatureCollection',
+      features: regions,
     };
+
+    const featureKey = `${countryCode}-all`;
+    const mapKey = `countries/${countryCode}/${featureKey}`;
+    const map = `Highcharts.maps['${mapKey}'] = ${minify ? JSON.stringify(geoJson) : JSON.stringify(geoJson, null, 2)};\n`;
 
 
 
@@ -133,20 +105,12 @@ const saveRegions = (regions, country, countryCode, minify = true) => {
       }
     }
 
-    fs.writeFile(`${dir}/${countryCode}-admin2-all.js`, maps, err => {
+    fs.writeFile(`${dir}/${countryCode}-all.js`, map, err => {
       if(err) {
         return console.error(` ${err} `.bgRed.white);
       }
 
-      console.log(` ${country} with ${number} regions saved! `.bgBlue.white);
-    });
-
-    fs.writeFile(`./maps/${countryCode}/__extras.json`, JSON.stringify(extras, null, 2), err => {
-      if(err) {
-        return console.error(` ${err} `.bgRed.white);
-      }
-
-      console.log(` ${country}’s extras saved to ‘./maps/${countryCode}/__extras.json’ `.bgMagenta.white);
+      console.log(` ${country} level ‘admin1’ saved! `.bgBlue.white);
     });
   }
 
@@ -165,26 +129,25 @@ fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
 
   const getFeatureID = properties => {
     const keys = [
-      'HASC_2',
-      'HASC_3',
-      'GID_2',
-      'GID_3',
+      'HASC_1', // admin 1
+      'GID_1',
     ];
 
     for (var i = 0; i < keys.length; i++) {
       if (properties[keys[i]]) {
-        return properties[keys[i]];
+        const id = properties[keys[i]];
+        const part = id.split('.');
+        return `${part[0].substr(0, 2)}.${part[1]}.${part[2]}`;
       }
     }
   };
 
   let country = '';
   let countryCode = '';
-  const regions = {};
+  const regions = [];
   const { features } = JSON.parse(geoJson);
   features.forEach(feature => {
     const { properties, geometry: { type, coordinates } } = feature;
-    // const regionName = properties['NAME_2'] || properties['NAME_1'];
     const regionName = properties['NAME_1'];
     const featureID = getFeatureID(properties);
 
@@ -195,10 +158,6 @@ fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
     }
 
     const splitted = featureID.split('.');
-
-    if (!regions[regionName]) {
-      regions[regionName] = [];
-    }
 
     if (!country) {
       country = properties['NAME_0'];
@@ -212,13 +171,13 @@ fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
     const hcA2 = featureID.split('.')[splitted.lenght - 1];
     const geometry = getSimpleGeometry(coordinates, type);
     if (geometry.length !== 0 && geometry[0].length !== 0) {
-      regions[regionName].push({
+      regions.push({
         id: featureID,
         type: 'Feature',
         properties: {
-          name: properties['NAME_3'] ? properties['NAME_3'] : properties['NAME_2'],
-          type: properties['TYPE_2'] || properties['TYPE_3'] || properties['TYPE_4'],
-          'hc-group': 'admin2',
+          name: properties['NAME_1'],
+          type: properties['TYPE_1'],
+          'hc-group': 'admin1',
           'hc-key': hcKey,
           'hc-a2': hcA2,
         },
