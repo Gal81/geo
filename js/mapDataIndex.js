@@ -205,7 +205,7 @@ Highcharts.mapDataIndex = {
 		"Uganda": "countries/ug/ug-all.js",
 		"Ukraine": "countries/ua/ua-all.js",
 		"United Arab Emirates": "countries/ae/ae-all.js",
-		"United Kingdom": "countries/gb/custom/gb-countries.js",
+		"United Kingdom": "countries/gb/gb-all.js",
 		"United Republic of Tanzania": "countries/tz/tz-all.js",
 		"United States Virgin Islands": "countries/vi/vi-all.js",
 		"United States of America with Territories": "countries/us/custom/us-all-territories.js",

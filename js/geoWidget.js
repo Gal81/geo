@@ -241,6 +241,7 @@
         'fi',
         'fi-all',
         'gb',
+        'gb-all',
         'se',
         'ua',
         'vn',
