@@ -8,7 +8,7 @@
   const WORLD = 'custom/world-highres.js';
   const REGIONS = [];
   let location = {};
-  let drilldownMessageExist = true;
+  let detailsMessageExist = true;
 
   const loadLocation = () => {
     const loc = JSON.parse(localStorage.getItem('geoLocation'));
@@ -65,7 +65,7 @@
           if (feature.properties['hc-group'] === 'admin0') { // World
             const country = getDataByCountry(feature.id);
             value = country && country.events;
-            drilldownMessageExist = true;
+            detailsMessageExist = true;
           }
 
           if (feature.properties['hc-group'] === 'admin1') { // Country
@@ -82,11 +82,11 @@
                   }
                 });
               }
-              drilldownMessageExist = false;
+              detailsMessageExist = false;
             } else {
               const region = country && country.regions.find(item => item.name === feature.properties['name']);
               value = region && region.events;
-              drilldownMessageExist = true;
+              detailsMessageExist = true;
             }
           }
 
@@ -98,7 +98,7 @@
             const region = country && country.regions.find(item => item.name === location.region);
             const subRegion = region && region.subRegions.find(item => item.name === feature.properties['name']);
             value = subRegion && subRegion.events;
-            drilldownMessageExist = false;
+            detailsMessageExist = false;
           }
 
           data.push({
@@ -161,7 +161,7 @@
           minRange,
           events: {
             afterSetExtremes: function (e) {
-              if (drilldownMessageExist) {
+              if (detailsMessageExist) {
                 $('#geoMessage').removeClass('fade-out-me');
               } else {
                 $('#geoMessage').addClass('fade-out-me');
