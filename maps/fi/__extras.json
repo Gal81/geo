@@ -1,18 +1,18 @@
 {
   "country": "Finland",
   "regions": {
-    "Eastern Finland": "1",
-    "Lapland": "2",
+    "Itä-Suomen": "1",
+    "Lapin": "2",
     "Norra Finlands": "3",
     "Etelä-Suomen": "4",
-    "Western Finland": "5"
+    "Lounais-Suomen": "5"
   },
   "index": {
-    "Eastern Finland, admin2": "countries/fi/fi-is-all.js",
-    "Lapland, admin2": "countries/fi/fi-lp-all.js",
+    "Itä-Suomen, admin2": "countries/fi/fi-is-all.js",
+    "Lapin, admin2": "countries/fi/fi-lp-all.js",
     "Norra Finlands, admin2": "countries/fi/fi-ou-all.js",
     "Etelä-Suomen, admin2": "countries/fi/fi-es-all.js",
-    "Western Finland, admin2": "countries/fi/fi-ls-all.js"
+    "Lounais-Suomen, admin2": "countries/fi/fi-ls-all.js"
   },
   "script": "<script src='maps/fi/fi-admin2-all.js'></script>"
 }

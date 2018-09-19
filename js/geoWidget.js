@@ -112,7 +112,7 @@
       }
 
       const getMaxValue = () => Math.max.apply(null, data.map(item => item.value)) || 1;
-      const minRange = 2000;
+      const minRange = 1000;
 
       $('#geoMap').highcharts('Map', {
         chart: {
@@ -194,7 +194,7 @@
                   console.log(name, ':', key);
                   REGIONS.forEach(region => {
                     if ((region.src === `countries/${key.substr(0, 2)}/${key}-all.js`) ||
-                    (region.src === `countries/${key.substr(0, 2)}/custom/${key.substr(0, 2)}-countries.js`)) {
+                        (region.src === `countries/${key.substr(0, 2)}/custom/${key.substr(0, 2)}-countries.js`)) {
                       if (key.length === 2) {
                         location.country = name;
                       } else {

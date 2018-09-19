@@ -1,6 +1,9 @@
 {
   "admin1": {
-    "Southern Finland": "Etelä-Suomen",
-    "Oulu": "Norra Finlands"
+    "Lapland": "Lapin",
+    "Oulu": "Norra Finlands",
+    "Western Finland": "Lounais-Suomen",
+    "Eastern Finland": "It\u00e4-Suomen",
+    "Southern Finland": "Etelä-Suomen"
   }
 }
