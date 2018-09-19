@@ -65,7 +65,9 @@ exports.loadLocationsKeys = countryCode => {
         const { admin2 } = JSON.parse(data);
         store = {
           ...store,
-          locationKeys: admin2,
+          locationKeys: {
+            admin2,
+          },
         };
       }
     });
