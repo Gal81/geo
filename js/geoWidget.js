@@ -53,37 +53,52 @@
 
     // When the map is loaded or ready from cache...
     function mapReady() {
+      const jumpToAdmin2 = ['VN'];
       const mapGeoJSON = Highcharts.maps[mapKey];
       const data = [];
 
-      $.each(mapGeoJSON.features, function (index, feature) {
+      $.each(mapGeoJSON.features, (index, feature) => {
         const key = feature.properties['hc-key'];
         if (key) {
           let value = 0;
 
           if (feature.properties['hc-group'] === 'admin0') { // World
-            drilldownMessageExist = true;
-
             const country = getDataByCountry(feature.id);
             value = country && country.events;
+            drilldownMessageExist = true;
           }
 
           if (feature.properties['hc-group'] === 'admin1') { // Country
-            drilldownMessageExist = true;
+            const countryCode = feature.id.substr(0, 2);
+            const country = getDataByCountry(countryCode);
 
-            const country = getDataByCountry(feature.id.split('.')[0]);
-            const region = country && country.regions.find(item => item.name === feature.properties['name']);
-            value = region && region.events;
+            if (jumpToAdmin2.includes(countryCode)) {
+              if (country) {
+                country.regions.forEach(item => {
+                  const subRegion = item.subRegions.find(it => it.name === feature.properties['name']);
+                  if (!value && subRegion) {
+                    value = subRegion.events;
+                    return true;
+                  }
+                });
+              }
+              drilldownMessageExist = false;
+            } else {
+              const region = country && country.regions.find(item => item.name === feature.properties['name']);
+              value = region && region.events;
+              drilldownMessageExist = true;
+            }
           }
 
           if (feature.properties['hc-group'] === 'admin2') { // Region
             $('#geoMessage').addClass('fade-out-me');
-            drilldownMessageExist = false;
 
-            const country = getDataByCountry(feature.id.split('.')[0]);
+            const countryCode = feature.id.substr(0, 2);
+            const country = getDataByCountry(countryCode);
             const region = country && country.regions.find(item => item.name === location.region);
             const subRegion = region && region.subRegions.find(item => item.name === feature.properties['name']);
             value = subRegion && subRegion.events;
+            drilldownMessageExist = false;
           }
 
           data.push({

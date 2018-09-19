@@ -1,8 +1,15 @@
 {
   "admin1": {
-    "test": "test",
+    "Nam Trung Bộ": "Nam Trung B\u1ed9",
+    "Đông Nam Bộ": "\u0110\u00f4ng Nam B\u1ed9"
   },
   "admin2": {
+    "Khánh Hòa": "Kh\u00e1nh Ho\u00e0",
+    "Đà Nẵng": "\u0110\u00e0 N\u1eb5ng",
+    "Bà Rịa - Vũng Tàu": "B\u00e0 R\u1ecba - V\u0169ng T\u00e0u",
+    "Hồ Chí Minh": "H\u1ed3 Ch\u00ed Minh"
+  },
+  "admin1Fix": {
     "Yên Bái": "Yên Bái",
     "Phú Th?": "Phú Thọ",
     "Qu?ng Ninh": "Quảng Ninh",

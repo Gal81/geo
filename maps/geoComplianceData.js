@@ -6468,14 +6468,14 @@ window.geoCompliance = {
               }
             ]
           }, {
-            name: "Kiev",
+            name: "Kiev City",
             events: 36,
             subRegions: [
               {
-                name: "Pechersk",
+                name: "Pechers'kyi",
                 events: 8
               }, {
-                name: "Shevchenko",
+                name: "Shevchenkivs'kyi",
                 events: 28
               }
             ]
