@@ -5,5 +5,13 @@
     "Western Finland": "Lounais-Suomen",
     "Eastern Finland": "It\u00e4-Suomen",
     "Southern Finland": "Etelä-Suomen"
+  },
+  "admin2": {
+    "Lapland": "Lappi",
+    "Northern Ostrobothnia": "Norra \u00d6sterbotten",
+    "North Karelia": "Pohjois-Karjala",
+    "North Savonia": "Pohjois-Savo",
+    "Central Finland": "Keski-Suomi",
+    "Finland Proper": "Varsinais-Suomi"
   }
 }

@@ -134,7 +134,7 @@ const run = () => {
             id: featureID,
             type: 'Feature',
             properties: {
-              name: properties['NAME_3'] || properties['NAME_2'],
+              name: store.getLocationName(properties['NAME_3'] || properties['NAME_2']),
               type: properties['TYPE_2'] || properties['TYPE_3'] || properties['TYPE_4'],
               'hc-group': 'admin2',
               'hc-key': hcKey,
