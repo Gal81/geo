@@ -14,7 +14,7 @@ const getFeatureID = properties => {
   for (var i = 0; i < keys.length; i++) {
     if (properties[keys[i]]) {
       const time = `${new Date().getTime()}`;
-      const hash = time.substr(time.length - 2) + Math.round(Math.random(100) * 10);
+      const hash = time.substr(time.length - 2) + Math.floor(Math.random() * 100);
       const id = properties[keys[i]].split('.');
       return `${id[0].substr(0, 2)}.${id[1]}.${id[2] || hash}`;
     }

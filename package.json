@@ -45,7 +45,6 @@
     "gulp-less": "^4.0.1",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-strip-comments": "^2.5.2",
     "gulp-uglify": "^3.0.1",
     "gulp-util": "^3.0.8",
     "run-sequence": "^2.2.1"
