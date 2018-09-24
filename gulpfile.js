@@ -42,6 +42,7 @@ gulp.task('build:app', () =>
     .pipe(babel())
     .on('error', err => onError(err))
     .pipe(concat(paths.app.output.filename))
+    .pipe(strip())
     .pipe(uglify())
     .on('error', err => onError(err))
     .pipe(sourcemaps.write(MAPS))
