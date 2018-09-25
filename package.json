@@ -15,6 +15,7 @@
     "names": "node format/dump/names.js",
     "simplify": "node format/dump/simplify.js",
     "convert": "node format/dump/SVGtoGeoJSON.js",
+    "countries": "node format/dump/countries.js",
     "watch": "npm-watch convert"
   },
   "keywords": [],
