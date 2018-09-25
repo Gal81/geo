@@ -208,8 +208,7 @@
                 // if (value) {
                   console.log(name, ':', key);
                   REGIONS.forEach(region => {
-                    if ((region.src === `countries/${key.substr(0, 2)}/${key}-all.js`) ||
-                        (region.src === `countries/${key.substr(0, 2)}/custom/${key.substr(0, 2)}-countries.js`)) {
+                    if ((region.src === `countries/${key.substr(0, 2)}/${key}-all.js`)) {
                       if (key.length === 2) {
                         location.country = name;
                       } else {
