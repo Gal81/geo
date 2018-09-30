@@ -21,7 +21,7 @@ const getFeatureID = properties => {
   }
 };
 
-const saveRegions = (regions, country, countryCode, minify = true) => {
+const save = (regions, country, countryCode, minify = true) => {
   if (!countryCode) {
     const error = new Error(` Missed Country Code! `);
     return console.error(` ${error.message} `.bgRed.white);
@@ -109,7 +109,7 @@ const run = () => {
     const countryCode = store.getCountryCode(features[0]);
     const country = store.getCountryName(countryCode);
 
-    const prepareRegions = () => {
+    const proceed = () => {
       features.forEach(feature => {
         const { properties, geometry: { type, coordinates } } = feature;
         // const regionName = properties['NAME_2'] || properties['NAME_1'];
@@ -149,19 +149,36 @@ const run = () => {
           });
         }
       });
+
+      save(regions, country, countryCode);
     }
 
-    store.loadLocationsNames(countryCode);
-    store.loadLocationsKeys(countryCode);
-    setTimeout(() => {
-      prepareRegions();
-      saveRegions(regions, country, countryCode);
-    }, 1000);
+    let readQueue = [];
+    const keysExists = store.loadLocationsKeys(countryCode);
+    const namesExists = store.loadLocationsNames(countryCode);
+
+    if (keysExists) {
+      readQueue.push('keys');
+      keysExists.then(() => {
+        readQueue = readQueue.filter(item => item !== 'keys');
+      });
+    }
+
+    if (namesExists) {
+      readQueue.push('names');
+      namesExists.then(() => {
+        readQueue = readQueue.filter(item => item !== 'names');
+      });
+    }
+
+    const interval = setInterval(() => {
+      if (readQueue.length === 0) {
+        clearInterval(interval);
+        proceed();
+      }
+    }, 100);
+
   });
 }
 
-store.loadCountries();
-store.loadLocationsKeys();
-setTimeout(() => {
-  run();
-}, 1000);
+store.loadCountries().then(() => run());

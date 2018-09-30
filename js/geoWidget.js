@@ -114,7 +114,6 @@
       if (location.country || location.region) {
         $('#geoUp').append(
           $('<a><< Back</a>')
-            // .attr({ title: heir.src })
             .click(() => {
               location.country = location.region ? location.country : '';
               location.region = '';
@@ -232,7 +231,7 @@
       mapReady();
     } else {
       const mapPathHC = 'https://code.highcharts.com/mapdata/';
-      const mapPathAR = 'http://localhost:3000/'; // TODO: node server/server.js
+      const mapPathAR = 'http://localhost:3000/'; // TODO: npm run server
       let scriptPath = '';
 
       const arSources = [
