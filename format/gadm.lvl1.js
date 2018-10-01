@@ -53,7 +53,7 @@ const save = (regions, country, countryCode, minify = true) => {
       return console.error(` ${err} `.bgRed.white);
     }
 
-    console.log(` ${country} level ‘admin1’ saved! `.bgBlue.white);
+    console.log(` ${country} level “admin1” saved! `.bgBlue.white);
   });
 }
 
@@ -76,7 +76,7 @@ const run = () => {
         const featureID = getFeatureID(properties);
 
         if (!featureID) {
-          const error = new TypeError(` Missed ‘featureID’ for ‘${regionName}’! `);
+          const error = new TypeError(` Missed “featureID” for ‘${regionName}’! `);
           console.error(` ${error.message} `.bgRed.white);
           return false;
         }

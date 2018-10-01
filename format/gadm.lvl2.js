@@ -117,7 +117,7 @@ const run = () => {
         const featureID = getFeatureID(properties);
 
         if (!featureID) {
-          const error = new TypeError(` Missed ‘featureID’ for ‘${properties['NAME_2']}’! `);
+          const error = new TypeError(` Missed “featureID” for ‘${properties['NAME_2']}’! `);
           console.error(` ${error.message} `.bgRed.white);
           return false;
         }
