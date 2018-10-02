@@ -236,6 +236,7 @@
 
       const arSources = [
         'dk',
+        'dk-all',
         'fi',
         'fi-all',
         'gb',
