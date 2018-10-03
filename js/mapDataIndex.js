@@ -379,11 +379,11 @@ Highcharts.mapDataIndex = {
 };
 
 Highcharts.mapDataIndex['Denmark Admin 2'] = {
-  'Nordjylland, admin2': 'countries/dk/dk-3568-all.js',
-  'Midtjylland, admin2': 'countries/dk/dk-6326-all.js',
-  'Syddanmark, admin2': 'countries/dk/dk-3564-all.js',
-  'Sjælland, admin2': 'countries/dk/dk-3563-all.js',
-  'Hovedstaden, admin2': 'countries/dk/dk-6325-all.js'
+  "Hovedstaden, admin2": "countries/dk/dk-hs-all.js",
+  "Midtjylland, admin2": "countries/dk/dk-mj-all.js",
+  "Nordjylland, admin2": "countries/dk/dk-nd-all.js",
+  "Sjælland, admin2": "countries/dk/dk-sl-all.js",
+  "Syddanmark, admin2": "countries/dk/dk-sd-all.js"
 };
 
 Highcharts.mapDataIndex['Sweden Admin 2'] = {

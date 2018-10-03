@@ -7311,7 +7311,7 @@ window.geoCompliance = {
         events: 28709,
         regions: [
           {
-            name: "Sja\u00e6lland",
+            name: "Sj\u00e6lland",
             events: 3928,
             subRegions: [
               {
