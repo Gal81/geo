@@ -33,11 +33,6 @@ fs.readFile('./tmp/vn-all.geo.json', 'utf8', (error, geoJson) => {
     });
   });
 
-  // const names = {};
-  // if (properties['name']) {
-  //   names[properties['name']] = properties['alt-name'];
-  // }
-  // const file = JSON.stringify(names, null, 2);
 });
 
 

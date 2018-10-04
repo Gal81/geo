@@ -4,7 +4,7 @@ const colors = require('colors');
 // input: './maps/tmp.json'
 // output: './maps/output.json'
 fs.readFile('./maps/tmp.json', 'utf8', (error, tmp) => {
-  if(error) {
+  if (error) {
     return console.error(` ${error} `.bgRed.white);
   }
 
@@ -21,7 +21,7 @@ fs.readFile('./maps/tmp.json', 'utf8', (error, tmp) => {
     };
 
   fs.writeFile('./maps/output.json', JSON.stringify(file, null, 2), errr => {
-    if(errr) {
+    if (errr) {
       return console.error(` ${errr} `.bgRed.white);
     }
 
