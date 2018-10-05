@@ -14,8 +14,8 @@ const del = require('del');
 
 // const src = JSON.parse(fs.readFileSync('./src.js.json'));
 
-const ASSETS = path.resolve('./js');
-const DIST = path.resolve('./dist');
+const ASSETS = path.resolve('./ui/js');
+const DIST = path.resolve('./ui/dist');
 const MAPS = `./${DIST}/maps`;
 
 const paths = {

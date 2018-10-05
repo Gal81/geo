@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "watch": {
-    "convert": "format/series/tnpSeries.js"
+    "convert": "echo \"Error: no command specified\" && exit 1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,11 +12,10 @@
     "server": "node server/server.js",
     "admin1": "node format/gadm.lvl1.js",
     "admin2": "node format/gadm.lvl2.js",
-    "area": "node format/dump/area.js",
-    "names": "node format/dump/names.js",
-    "simplify": "node format/dump/simplify.js",
-    "convert": "node format/dump/SVGtoGeoJSON.js",
-    "countries": "node format/dump/countries.js",
+    "area": "node format/sandbox/area.js",
+    "names": "node format/sandbox/names.js",
+    "simplify": "node format/sandbox/simplify.js",
+    "countries": "node format/sandbox/countries.js",
     "watch": "npm-watch convert"
   },
   "keywords": [],
