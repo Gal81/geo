@@ -11,6 +11,6 @@
 # 3. Put <filename.json> to ./tmp
 
 # 4. Run geoJson formatter
-    npm run admin1 || admin2 <filename[without extension!]>
+    npm run admin1 || admin2 <filename[without ‘gadm36_’ prefix & extension]>
 
 ## Files will be stored into ./maps

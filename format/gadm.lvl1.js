@@ -59,7 +59,7 @@ const save = (regions, country, countryCode, minify = true) => {
 
 const run = () => {
   const fileName = process.argv.slice(2)[0];
-  fs.readFile(`./tmp/${fileName}.geojson`, 'utf8', (error, geoJson) => {
+  fs.readFile(`./tmp/gadm36_${fileName}.geojson`, 'utf8', (error, geoJson) => {
     if(error) {
       return console.error(` ${error} `.bgRed.white);
     }
