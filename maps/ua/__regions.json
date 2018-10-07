@@ -1,0 +1,3339 @@
+{
+  "country": "Ukraine",
+  "regions": [
+    {
+      "id": "UKR.1_1",
+      "name": "Cherkasy",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.1.1_1",
+          "name": "Cherkas'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.1.2_1",
+          "name": "Cherkas'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.3_1",
+          "name": "Chornobaivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.4_1",
+          "name": "Chyhyryns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.5_1",
+          "name": "Drabivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.6_1",
+          "name": "Horodyshchens'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.7_1",
+          "name": "Kamians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.8_1",
+          "name": "Kanivs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.1.9_1",
+          "name": "Kanivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.10_1",
+          "name": "Katerynopil's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.11_1",
+          "name": "Khrystynivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.12_1",
+          "name": "Korsun'-Shevchenkivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.13_1",
+          "name": "Lysians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.14_1",
+          "name": "Man'kivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.15_1",
+          "name": "Monastyryshchens'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.16_1",
+          "name": "Shpolians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.17_1",
+          "name": "Smilians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.18_1",
+          "name": "Tal'nivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.19_1",
+          "name": "Umans'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.1.20_1",
+          "name": "Umans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.21_1",
+          "name": "Zhashkivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.22_1",
+          "name": "Zolotonis'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.1.23_1",
+          "name": "Zvenyhorods'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.2_1",
+      "name": "Chernihiv",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.2.1_1",
+          "name": "Bakhmats'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.2_1",
+          "name": "Bobrovyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.3_1",
+          "name": "Borznians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.4_1",
+          "name": "Chernihivs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.2.5_1",
+          "name": "Chernihivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.6_1",
+          "name": "Horodnians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.7_1",
+          "name": "Ichnians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.8_1",
+          "name": "Koriukivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.9_1",
+          "name": "Korops'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.10_1",
+          "name": "Kozelets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.11_1",
+          "name": "Kulykivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.12_1",
+          "name": "Mens'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.13_1",
+          "name": "Nizhyns'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.2.14_1",
+          "name": "Nizhyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.15_1",
+          "name": "Nosivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.16_1",
+          "name": "Novhorod-Sivers'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.17_1",
+          "name": "Pryluts'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.2.18_1",
+          "name": "Pryluts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.19_1",
+          "name": "Ripkyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.20_1",
+          "name": "Semenivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.21_1",
+          "name": "Shchors'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.22_1",
+          "name": "Sosnyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.23_1",
+          "name": "Sribnians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.24_1",
+          "name": "Talala‹vs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.2.25_1",
+          "name": "Varvyns'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.3_1",
+      "name": "Chernivtsi",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.3.1_1",
+          "name": "Chernivets'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.3.2_1",
+          "name": "Hlybots'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.3.3_1",
+          "name": "Kel'menets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.3.4_1",
+          "name": "Khotyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.3.5_1",
+          "name": "Kitsmans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.3.6_1",
+          "name": "Novoselits'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.3.7_1",
+          "name": "Putyl's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.3.8_1",
+          "name": "Sokyrians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.3.9_1",
+          "name": "Storozhynets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.3.10_1",
+          "name": "Vyzhnyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.3.11_1",
+          "name": "Zastavnets'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.4_1",
+      "name": "Crimea",
+      "type": "Autonomous Republic",
+      "subRegions": [
+        {
+          "id": "UKR.4.1_1",
+          "name": "Alushtyns'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.4.2_1",
+          "name": "Bakhchysarais'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.4.3_1",
+          "name": "Bilohirs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.4.4_1",
+          "name": "Chornomors'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.4.5_1",
+          "name": "Dzhankois'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.4.6_1",
+          "name": "Dzhankois'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.4.7_1",
+          "name": "Feodosiis'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.4.8_1",
+          "name": "Ialtyns'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.4.9_1",
+          "name": "Ievpatoriis'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.4.10_1",
+          "name": "Kerchens'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.4.11_1",
+          "name": "Kirovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.4.12_1",
+          "name": "Krasnohvardiis'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.4.13_1",
+          "name": "Krasnoperekops'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.4.14_1",
+          "name": "Lenins'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.4.15_1",
+          "name": "Nyzhn'ohirs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.4.16_1",
+          "name": "Pervomais'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.4.17_1",
+          "name": "Rozdol'nens'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.4.18_1",
+          "name": "Saks'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.4.19_1",
+          "name": "Saks'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.4.20_1",
+          "name": "Simferopol's'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.4.21_1",
+          "name": "Simferopol's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.4.22_1",
+          "name": "Soviets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.4.23_1",
+          "name": "Sudats'ka",
+          "type": "Misto"
+        }
+      ]
+    },
+    {
+      "id": "UKR.5_1",
+      "name": "Dnipropetrovs'k",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.5.1_1",
+          "name": "Apostolivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.2_1",
+          "name": "Dniprodzerzhyns'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.5.3_1",
+          "name": "Dnipropetrovs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.5.4_1",
+          "name": "Dnipropetrovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.5_1",
+          "name": "Iurïvs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.6_1",
+          "name": "Krynychans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.7_1",
+          "name": "Kryvoriz'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.8_1",
+          "name": "KryvyiRig",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.5.9_1",
+          "name": "Mahdalynivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.10_1",
+          "name": "Marhanets'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.5.11_1",
+          "name": "Mezhivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.12_1",
+          "name": "Nikopol's'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.5.13_1",
+          "name": "Nikopol's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.14_1",
+          "name": "Novomoskovs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.5.15_1",
+          "name": "Novomoskovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.16_1",
+          "name": "Ordzhonikidzevs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.5.17_1",
+          "name": "Pavlograd",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.5.18_1",
+          "name": "Pavlohrads'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.19_1",
+          "name": "Petropavlivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.20_1",
+          "name": "Petrykivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.21_1",
+          "name": "Piatykhats'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.22_1",
+          "name": "Pokrovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.23_1",
+          "name": "Shyrokivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.24_1",
+          "name": "Sofi‹vs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.25_1",
+          "name": "Solonians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.26_1",
+          "name": "Synel'nykivs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.5.27_1",
+          "name": "Synel'nykivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.28_1",
+          "name": "Tomakivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.29_1",
+          "name": "Tsarychans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.30_1",
+          "name": "Vasyl'kivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.31_1",
+          "name": "Verkhn'odniprovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.5.32_1",
+          "name": "Zhovtovods'ka",
+          "type": "Mis'ka Rada"
+        }
+      ]
+    },
+    {
+      "id": "UKR.6_1",
+      "name": "Donets'k",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.6.1_1",
+          "name": "Amvrosi‹vs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.2_1",
+          "name": "Artemivs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.6.3_1",
+          "name": "Artemivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.4_1",
+          "name": "Dobropil's'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.6.5_1",
+          "name": "Dobropil's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.6_1",
+          "name": "Donets'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.6.7_1",
+          "name": "Dzerzhyns'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.6.8_1",
+          "name": "Horlivs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.6.9_1",
+          "name": "Iasynuvats'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.6.10_1",
+          "name": "Iasynuvats'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.11_1",
+          "name": "Ienakiievs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.6.12_1",
+          "name": "Khartsyz'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.6.13_1",
+          "name": "Kirovs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.6.14_1",
+          "name": "Kostiantynivs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.6.15_1",
+          "name": "Kostiantynivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.16_1",
+          "name": "Kramators'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.6.17_1",
+          "name": "Krasnoarmiis'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.6.18_1",
+          "name": "Krasnoarmiis'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.19_1",
+          "name": "Krasnolymans'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.6.20_1",
+          "name": "Krasnolymans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.21_1",
+          "name": "Maki‹vs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.6.22_1",
+          "name": "Mar‹ns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.23_1",
+          "name": "Mariupol's'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.6.24_1",
+          "name": "n.a. ( 181)",
+          "type": null
+        },
+        {
+          "id": "UKR.6.25_1",
+          "name": "n.a. ( 319)",
+          "type": null
+        },
+        {
+          "id": "UKR.6.26_1",
+          "name": "n.a. ( 384)",
+          "type": null
+        },
+        {
+          "id": "UKR.6.27_1",
+          "name": "n.a. ( 394)",
+          "type": null
+        },
+        {
+          "id": "UKR.6.28_1",
+          "name": "n.a. ( 488)",
+          "type": null
+        },
+        {
+          "id": "UKR.6.29_1",
+          "name": "n.a. ( 493)",
+          "type": null
+        },
+        {
+          "id": "UKR.6.30_1",
+          "name": "n.a. ( 511)",
+          "type": null
+        },
+        {
+          "id": "UKR.6.31_1",
+          "name": "Novoazovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.32_1",
+          "name": "Novohrodivs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.6.33_1",
+          "name": "Oleksandrivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.34_1",
+          "name": "Pershotravnevyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.35_1",
+          "name": "Selydovs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.6.36_1",
+          "name": "Shakhtars'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.6.37_1",
+          "name": "Shakhtars'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.38_1",
+          "name": "Slovians'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.6.39_1",
+          "name": "Slovians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.40_1",
+          "name": "Snizhnens'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.6.41_1",
+          "name": "Starobeshivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.42_1",
+          "name": "Tel'manivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.43_1",
+          "name": "Torez'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.6.44_1",
+          "name": "Velykonovosilkivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.45_1",
+          "name": "Volnovas'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.46_1",
+          "name": "Volodars'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.6.47_1",
+          "name": "Vuhledars'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.6.48_1",
+          "name": "Zhdanivs'ka",
+          "type": "Mis'ka Rada"
+        }
+      ]
+    },
+    {
+      "id": "UKR.7_1",
+      "name": "Ivano-Frankivs'k",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.7.1_1",
+          "name": "Bohorodchans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.7.2_1",
+          "name": "Dolyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.7.3_1",
+          "name": "Halyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.7.4_1",
+          "name": "Horodenkivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.7.5_1",
+          "name": "Iaremchans'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.7.6_1",
+          "name": "Ivano-Frankivs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.7.7_1",
+          "name": "Kalus'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.7.8_1",
+          "name": "Kolomyis'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.7.9_1",
+          "name": "Kosivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.7.10_1",
+          "name": "Nadvirnians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.7.11_1",
+          "name": "Rohatyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.7.12_1",
+          "name": "Rozhniativs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.7.13_1",
+          "name": "Sniatyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.7.14_1",
+          "name": "Tlumats'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.7.15_1",
+          "name": "Tysmenyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.7.16_1",
+          "name": "Verkhovyns'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.8_1",
+      "name": "Kharkiv",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.8.1_1",
+          "name": "Balakliis'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.2_1",
+          "name": "Barvinkivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.3_1",
+          "name": "Blyzniukivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.4_1",
+          "name": "Bohodukhivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.5_1",
+          "name": "Borivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.6_1",
+          "name": "Chuhu‹vs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.8.7_1",
+          "name": "Chuhu‹vs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.8_1",
+          "name": "Derhachivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.9_1",
+          "name": "Dvorichans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.10_1",
+          "name": "Iziums'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.8.11_1",
+          "name": "Iziums'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.12_1",
+          "name": "Kehychivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.13_1",
+          "name": "Kharkivs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.8.14_1",
+          "name": "Kharkivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.15_1",
+          "name": "Krasnohrads'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.16_1",
+          "name": "Krasnokuts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.17_1",
+          "name": "Kupians'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.8.18_1",
+          "name": "Kupians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.19_1",
+          "name": "Lozivs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.8.20_1",
+          "name": "Lozivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.21_1",
+          "name": "n.a. ( 180)",
+          "type": null
+        },
+        {
+          "id": "UKR.8.22_1",
+          "name": "Novovodolaz'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.23_1",
+          "name": "Pecheniz'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.24_1",
+          "name": "Pervomais'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.25_1",
+          "name": "Sakhnovshchyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.26_1",
+          "name": "Shevchenkivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.27_1",
+          "name": "Valkivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.28_1",
+          "name": "Velykoburluts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.29_1",
+          "name": "Vovchans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.30_1",
+          "name": "Zachepylivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.31_1",
+          "name": "Zmiïvs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.8.32_1",
+          "name": "Zolochivs'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.9_1",
+      "name": "Kherson",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.9.1_1",
+          "name": "Beryslavs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.9.2_1",
+          "name": "Bilozers'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.9.3_1",
+          "name": "Chaplyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.9.4_1",
+          "name": "Heniches'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.9.5_1",
+          "name": "Holoprystans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.9.6_1",
+          "name": "Hornosta‹vs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.9.7_1",
+          "name": "Ivanivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.9.8_1",
+          "name": "Kakhovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.9.9_1",
+          "name": "Kalanchats'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.9.10_1",
+          "name": "Khersons'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.9.11_1",
+          "name": "Novokahovs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.9.12_1",
+          "name": "Novotro‹ts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.9.13_1",
+          "name": "Novovorontsovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.9.14_1",
+          "name": "Nyzhn'osirohoz'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.9.15_1",
+          "name": "Skadovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.9.16_1",
+          "name": "Tsiurupyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.9.17_1",
+          "name": "Velykolepetys'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.9.18_1",
+          "name": "Velykooleksandrivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.9.19_1",
+          "name": "Verkhn'orohachyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.9.20_1",
+          "name": "Vysokopil's'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.10_1",
+      "name": "Khmel'nyts'kyy",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.10.1_1",
+          "name": "Bilohirs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.2_1",
+          "name": "Chemerovets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.3_1",
+          "name": "Derazhnians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.4_1",
+          "name": "Dunaievets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.5_1",
+          "name": "Horodots'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.6_1",
+          "name": "Iarmolynets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.7_1",
+          "name": "Iziaslavs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.8_1",
+          "name": "Kamianets'-Podil's'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.10.9_1",
+          "name": "Kamianets'-Podil's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.10_1",
+          "name": "Khmel'nyts'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.10.11_1",
+          "name": "Khmel'nyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.12_1",
+          "name": "Krasylivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.13_1",
+          "name": "Letychivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.14_1",
+          "name": "Novoushyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.15_1",
+          "name": "Polons'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.16_1",
+          "name": "Shepetivs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.10.17_1",
+          "name": "Shepetivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.18_1",
+          "name": "Slavuts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.19_1",
+          "name": "Starokostiantynivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.20_1",
+          "name": "Starosyniavs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.21_1",
+          "name": "Teofipol's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.22_1",
+          "name": "Vin'kovets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.10.23_1",
+          "name": "Volochys'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.12_1",
+      "name": "Kiev",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.12.1_1",
+          "name": "Baryshivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.2_1",
+          "name": "Bilotserkivs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.12.3_1",
+          "name": "Bilotserkivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.4_1",
+          "name": "Bohuslavs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.5_1",
+          "name": "Borodians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.6_1",
+          "name": "Boryspil's'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.12.7_1",
+          "name": "Brovars'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.12.8_1",
+          "name": "Brovars'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.9_1",
+          "name": "Fastivs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.12.10_1",
+          "name": "Fastivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.11_1",
+          "name": "Iahotyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.12_1",
+          "name": "Irpins'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.12.13_1",
+          "name": "Ivankivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.14_1",
+          "name": "Kaharlyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.15_1",
+          "name": "Kyievo-Sviatoshyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.16_1",
+          "name": "Makarivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.17_1",
+          "name": "Myronivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.18_1",
+          "name": "Obukhivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.19_1",
+          "name": "Pereiaslav-Khmel'nyts'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.12.20_1",
+          "name": "Pereiaslav-Khmel'nyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.21_1",
+          "name": "Polis'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.22_1",
+          "name": "Rokytnians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.23_1",
+          "name": "Skvyrs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.24_1",
+          "name": "Stavyshchens'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.25_1",
+          "name": "Tarashchans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.26_1",
+          "name": "Tetiïvs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.27_1",
+          "name": "Vasyl'kivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.28_1",
+          "name": "Volodars'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.29_1",
+          "name": "Vyshhorods'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.12.30_1",
+          "name": "Zgurivs'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.11_1",
+      "name": "Kiev City",
+      "type": "Independent City",
+      "subRegions": [
+        {
+          "id": "UKR.11.1_1",
+          "name": "Darnyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.11.2_1",
+          "name": "Desnians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.11.3_1",
+          "name": "Dniprovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.11.4_1",
+          "name": "Holosiïvs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.11.5_1",
+          "name": "Obolons'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.11.6_1",
+          "name": "Pechers'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.11.7_1",
+          "name": "Podil's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.11.8_1",
+          "name": "Shevchenkivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.11.9_1",
+          "name": "Solomians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.11.10_1",
+          "name": "Sviatoshyns'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.13_1",
+      "name": "Kirovohrad",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.13.1_1",
+          "name": "Bobrynets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.2_1",
+          "name": "Dobrovelychkivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.3_1",
+          "name": "Dolyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.4_1",
+          "name": "Haivorons'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.5_1",
+          "name": "Holovanivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.6_1",
+          "name": "Kirovohrads'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.7_1",
+          "name": "Kompani‹vs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.8_1",
+          "name": "Malovyskivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.9_1",
+          "name": "Novhorodkivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.10_1",
+          "name": "Novoarkhanhel's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.11_1",
+          "name": "Novomyrhorods'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.12_1",
+          "name": "Novoukra‹ns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.13_1",
+          "name": "Oleksandriis'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.14_1",
+          "name": "Oleksandrivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.15_1",
+          "name": "Onufri‹vs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.16_1",
+          "name": "Petrivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.17_1",
+          "name": "Svitlovods'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.18_1",
+          "name": "Ul'ianovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.19_1",
+          "name": "Ustynivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.20_1",
+          "name": "Vil'shans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.13.21_1",
+          "name": "Znamians'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.14_1",
+      "name": "L'viv",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.14.1_1",
+          "name": "Brodivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.2_1",
+          "name": "Bus'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.3_1",
+          "name": "Chervonohrads'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.14.4_1",
+          "name": "Drohobyts'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.14.5_1",
+          "name": "Drohobyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.6_1",
+          "name": "Horodots'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.7_1",
+          "name": "Iavorivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.8_1",
+          "name": "Kamianka-Buz'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.9_1",
+          "name": "L'vivs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.14.10_1",
+          "name": "Mostys'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.11_1",
+          "name": "Mykola‹vs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.12_1",
+          "name": "Peremyshlians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.13_1",
+          "name": "Pustomytivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.14_1",
+          "name": "Radekhivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.15_1",
+          "name": "Sambirs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.14.16_1",
+          "name": "Sambirs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.17_1",
+          "name": "Skolivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.18_1",
+          "name": "Sokal's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.19_1",
+          "name": "Starosambirs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.20_1",
+          "name": "Stryis'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.14.21_1",
+          "name": "Stryis'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.22_1",
+          "name": "Turkivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.23_1",
+          "name": "Zhovkivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.24_1",
+          "name": "Zhydachivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.14.25_1",
+          "name": "Zolochivs'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.15_1",
+      "name": "Luhans'k",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.15.1_1",
+          "name": "Alchevs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.15.2_1",
+          "name": "Antratsitivs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.15.3_1",
+          "name": "Antratsytivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.15.4_1",
+          "name": "Bilokurakyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.15.5_1",
+          "name": "Bilovods'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.15.6_1",
+          "name": "Briankivs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.15.7_1",
+          "name": "Kirovs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.15.8_1",
+          "name": "Krasnodons'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.15.9_1",
+          "name": "Krasnodons'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.15.10_1",
+          "name": "Krasnoluts'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.15.11_1",
+          "name": "Kremins'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.15.12_1",
+          "name": "Luhans'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.15.13_1",
+          "name": "Lutuhyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.15.14_1",
+          "name": "Lysychans'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.15.15_1",
+          "name": "Markivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.15.16_1",
+          "name": "Milovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.15.17_1",
+          "name": "n.a. ( 182)",
+          "type": null
+        },
+        {
+          "id": "UKR.15.18_1",
+          "name": "Novoaidars'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.15.19_1",
+          "name": "Novopskovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.15.20_1",
+          "name": "Pereval's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.15.21_1",
+          "name": "Popasnians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.15.22_1",
+          "name": "Roven'kivs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.15.23_1",
+          "name": "Rubezhans'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.15.24_1",
+          "name": "Sieverodonets'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.15.25_1",
+          "name": "Slovianoserbs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.15.26_1",
+          "name": "Stakhanivs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.15.27_1",
+          "name": "Stanychno-Luhans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.15.28_1",
+          "name": "Starobil's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.15.29_1",
+          "name": "Svativs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.15.30_1",
+          "name": "Sverdlovs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.15.31_1",
+          "name": "Sverdlovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.15.32_1",
+          "name": "Tro‹ts'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.16_1",
+      "name": "Mykolayiv",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.16.1_1",
+          "name": "Arbuzyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.2_1",
+          "name": "Bashtans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.3_1",
+          "name": "Berezans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.4_1",
+          "name": "Bereznehuvats'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.5_1",
+          "name": "Brats'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.6_1",
+          "name": "Domanivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.7_1",
+          "name": "Ielanets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.8_1",
+          "name": "Kazanetskyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.9_1",
+          "name": "Kryvoozers'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.10_1",
+          "name": "Mykola‹vs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.16.11_1",
+          "name": "Mykola‹vs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.12_1",
+          "name": "Novobuz'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.13_1",
+          "name": "Novoodes'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.14_1",
+          "name": "Ochakivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.15_1",
+          "name": "Pervomais'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.16.16_1",
+          "name": "Pervomais'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.17_1",
+          "name": "Snihurivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.18_1",
+          "name": "Veselynivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.19_1",
+          "name": "Voznesens'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.16.20_1",
+          "name": "Voznesens'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.21_1",
+          "name": "Vradi‹vs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.16.22_1",
+          "name": "Zhovtnevyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.17_1",
+      "name": "Odessa",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.17.1_1",
+          "name": "Anan'‹vs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.2_1",
+          "name": "Artsyz'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.3_1",
+          "name": "Balts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.4_1",
+          "name": "Berezivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.5_1",
+          "name": "Bilhorod-Dnistrovs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.17.6_1",
+          "name": "Bilhorod-Dnistrovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.7_1",
+          "name": "Bilia‹vs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.8_1",
+          "name": "Bolhrads'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.9_1",
+          "name": "Frunzivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.10_1",
+          "name": "Ivanivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.11_1",
+          "name": "Izma‹l's'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.17.12_1",
+          "name": "Kiliis'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.13_1",
+          "name": "Kodyms'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.14_1",
+          "name": "Kominternivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.15_1",
+          "name": "Kotovs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.17.16_1",
+          "name": "Kotovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.17_1",
+          "name": "Krasnooknians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.18_1",
+          "name": "Liubashivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.19_1",
+          "name": "Mykola‹vs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.20_1",
+          "name": "Odes'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.17.21_1",
+          "name": "Ovidiopol's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.22_1",
+          "name": "Reniis'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.23_1",
+          "name": "Rozdil'nias'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.24_1",
+          "name": "Sarats'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.25_1",
+          "name": "Savrans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.26_1",
+          "name": "Shyria‹vs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.27_1",
+          "name": "Tarutyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.28_1",
+          "name": "Tatarbunars'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.17.29_1",
+          "name": "Velykomykhailivs'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.18_1",
+      "name": "Poltava",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.18.1_1",
+          "name": "Chornukhyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.2_1",
+          "name": "Chutivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.3_1",
+          "name": "Dykans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.4_1",
+          "name": "Hadiats'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.5_1",
+          "name": "Hlobyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.6_1",
+          "name": "Hrebinkivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.7_1",
+          "name": "Karlivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.8_1",
+          "name": "Khorol's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.9_1",
+          "name": "Kobeliats'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.10_1",
+          "name": "Komsomol's'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.18.11_1",
+          "name": "Kotelevs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.12_1",
+          "name": "Kozel'shchyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.13_1",
+          "name": "Kremenchuts'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.18.14_1",
+          "name": "Kremenchuts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.15_1",
+          "name": "Lokhvyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.16_1",
+          "name": "Lubens'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.18.17_1",
+          "name": "Lubens'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.18_1",
+          "name": "Mashivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.19_1",
+          "name": "Myrhorods'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.20_1",
+          "name": "Novosanzhars'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.21_1",
+          "name": "Orzhyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.22_1",
+          "name": "Poltavs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.18.23_1",
+          "name": "Poltavs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.24_1",
+          "name": "Pyriatyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.25_1",
+          "name": "Reshetylivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.26_1",
+          "name": "Semenivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.27_1",
+          "name": "Shyshats'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.28_1",
+          "name": "Velykobahachans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.18.29_1",
+          "name": "Zin'kivs'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.19_1",
+      "name": "Rivne",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.19.1_1",
+          "name": "Bereznivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.19.2_1",
+          "name": "Demydiv's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.19.3_1",
+          "name": "Dubens'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.19.4_1",
+          "name": "Dubnivs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.19.5_1",
+          "name": "Dubrovyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.19.6_1",
+          "name": "Hoshchans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.19.7_1",
+          "name": "Korets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.19.8_1",
+          "name": "Kostopil's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.19.9_1",
+          "name": "Mlynivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.19.10_1",
+          "name": "Ostroz'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.19.11_1",
+          "name": "Radyvylivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.19.12_1",
+          "name": "Rivnens'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.19.13_1",
+          "name": "Rivnens'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.19.14_1",
+          "name": "Rokytnivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.19.15_1",
+          "name": "Sarnens'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.19.16_1",
+          "name": "Volodymyrets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.19.17_1",
+          "name": "Zarichnens'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.19.18_1",
+          "name": "Zdolbunivs'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.20_1",
+      "name": "Sevastopol'",
+      "type": "Autonomous Republic",
+      "subRegions": [
+        {
+          "id": "UKR.20.1_1",
+          "name": "Balaklavs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.20.2_1",
+          "name": "Haharins'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.20.3_1",
+          "name": "Lenins'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.20.4_1",
+          "name": "Nakhimovs'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.21_1",
+      "name": "Sumy",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.21.1_1",
+          "name": "Bilopils'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.21.2_1",
+          "name": "Buryns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.21.3_1",
+          "name": "Hlukhivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.21.4_1",
+          "name": "Iampil's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.21.5_1",
+          "name": "Konotops'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.21.6_1",
+          "name": "Konotops'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.21.7_1",
+          "name": "Krasnopil's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.21.8_1",
+          "name": "Krolevets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.21.9_1",
+          "name": "Lebedyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.21.10_1",
+          "name": "Lypovodolyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.21.11_1",
+          "name": "Nedryhailivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.21.12_1",
+          "name": "Okhtyrs'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.21.13_1",
+          "name": "Okhtyrs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.21.14_1",
+          "name": "Putyvl's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.21.15_1",
+          "name": "Romens'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.21.16_1",
+          "name": "Romens'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.21.17_1",
+          "name": "Seredyno-Buds'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.21.18_1",
+          "name": "Shostkins'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.21.19_1",
+          "name": "Shostkins'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.21.20_1",
+          "name": "Sums'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.21.21_1",
+          "name": "Sums'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.21.22_1",
+          "name": "Trostianets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.21.23_1",
+          "name": "Velykopysarivs'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.22_1",
+      "name": "Ternopil'",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.22.1_1",
+          "name": "Berezhans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.22.2_1",
+          "name": "Borshchivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.22.3_1",
+          "name": "Buchats'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.22.4_1",
+          "name": "Chortkivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.22.5_1",
+          "name": "Husiatyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.22.6_1",
+          "name": "Kozivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.22.7_1",
+          "name": "Kremenets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.22.8_1",
+          "name": "Lanovets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.22.9_1",
+          "name": "Monastyrys'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.22.10_1",
+          "name": "Pidhaiets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.22.11_1",
+          "name": "Pidvolochys'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.22.12_1",
+          "name": "Shums'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.22.13_1",
+          "name": "Terebovlians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.22.14_1",
+          "name": "Ternopil's'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.22.15_1",
+          "name": "Ternopil's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.22.16_1",
+          "name": "Zalishchyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.22.17_1",
+          "name": "Zbaraz'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.22.18_1",
+          "name": "Zborivs'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.23_1",
+      "name": "Transcarpathia",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.23.1_1",
+          "name": "Berehivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.23.2_1",
+          "name": "Irshavs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.23.3_1",
+          "name": "Khusts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.23.4_1",
+          "name": "Mizhhirs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.23.5_1",
+          "name": "Mukachivs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.23.6_1",
+          "name": "Mukachivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.23.7_1",
+          "name": "Perechyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.23.8_1",
+          "name": "Rakhivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.23.9_1",
+          "name": "Svaliavs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.23.10_1",
+          "name": "Tiachivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.23.11_1",
+          "name": "Uzhhorods'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.23.12_1",
+          "name": "Uzhhorods'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.23.13_1",
+          "name": "Velykobereznians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.23.14_1",
+          "name": "Volovets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.23.15_1",
+          "name": "Vynohradivs'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.24_1",
+      "name": "Vinnytsya",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.24.1_1",
+          "name": "Bars'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.2_1",
+          "name": "Bershads'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.3_1",
+          "name": "Chechel'nyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.4_1",
+          "name": "Iampil's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.5_1",
+          "name": "Illinets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.6_1",
+          "name": "Kalynivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.7_1",
+          "name": "Khmil'nyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.8_1",
+          "name": "Koziatyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.9_1",
+          "name": "Kryzhopil's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.10_1",
+          "name": "Ladyzhyns'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.24.11_1",
+          "name": "Lityns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.12_1",
+          "name": "Lypovets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.13_1",
+          "name": "Mohyliv-Podil's'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.24.14_1",
+          "name": "Mohyliv-Podil's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.15_1",
+          "name": "Murovano-Kurylovets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.16_1",
+          "name": "Nemyrivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.17_1",
+          "name": "Orativs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.18_1",
+          "name": "Pishchans'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.19_1",
+          "name": "Pohrebyshchens'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.20_1",
+          "name": "Sharhorods'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.21_1",
+          "name": "Teplyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.22_1",
+          "name": "Tomashpil's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.23_1",
+          "name": "Trostianets'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.24_1",
+          "name": "Tul'chyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.25_1",
+          "name": "Tyvrivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.26_1",
+          "name": "Vinnyts'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.24.27_1",
+          "name": "Vinnyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.24.28_1",
+          "name": "Zhmeryns'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.24.29_1",
+          "name": "Zhmeryns'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.25_1",
+      "name": "Volyn",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.25.1_1",
+          "name": "Horokhivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.25.2_1",
+          "name": "Ivanychivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.25.3_1",
+          "name": "Kamin'-Kashyrs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.25.4_1",
+          "name": "Kivertsivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.25.5_1",
+          "name": "Kovel's'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.25.6_1",
+          "name": "Kovel's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.25.7_1",
+          "name": "Liubeshivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.25.8_1",
+          "name": "Liuboml's'ky",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.25.9_1",
+          "name": "Lokachyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.25.10_1",
+          "name": "Luts'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.25.11_1",
+          "name": "Luts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.25.12_1",
+          "name": "Manevyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.25.13_1",
+          "name": "Novovolyns'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.25.14_1",
+          "name": "Ratnivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.25.15_1",
+          "name": "Rozhyshchens'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.25.16_1",
+          "name": "Shats'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.25.17_1",
+          "name": "Starovyzhivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.25.18_1",
+          "name": "Turiis'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.25.19_1",
+          "name": "Volodymyr-Volyns'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.26_1",
+      "name": "Zaporizhzhya",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.26.1_1",
+          "name": "Berdians'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.26.2_1",
+          "name": "Berdians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.3_1",
+          "name": "Chernihivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.4_1",
+          "name": "Enerhodars'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.26.5_1",
+          "name": "Huliaipil's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.6_1",
+          "name": "Iakymivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.7_1",
+          "name": "Kamians'ko-Dniprovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.8_1",
+          "name": "Kuibyshevs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.9_1",
+          "name": "Melitopol's'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.26.10_1",
+          "name": "Melitopol's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.11_1",
+          "name": "Mykhailivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.12_1",
+          "name": "Novomykola‹vs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.13_1",
+          "name": "Orikhivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.14_1",
+          "name": "Polohivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.15_1",
+          "name": "Pryazovs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.16_1",
+          "name": "Prymors'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.17_1",
+          "name": "Rozivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.18_1",
+          "name": "Tokmats'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.26.19_1",
+          "name": "Tokmats'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.20_1",
+          "name": "Vasylivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.21_1",
+          "name": "Velykobilozers'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.22_1",
+          "name": "Veselivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.23_1",
+          "name": "Vil'nians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.26.24_1",
+          "name": "Zaporiz'ka",
+          "type": "Mis'ka Rada"
+        },
+        {
+          "id": "UKR.26.25_1",
+          "name": "Zaporiz'kyi",
+          "type": "Raion"
+        }
+      ]
+    },
+    {
+      "id": "UKR.27_1",
+      "name": "Zhytomyr",
+      "type": "Oblast'",
+      "subRegions": [
+        {
+          "id": "UKR.27.1_1",
+          "name": "Andrushivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.2_1",
+          "name": "Baranivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.3_1",
+          "name": "Berdychivs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.27.4_1",
+          "name": "Berdychivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.5_1",
+          "name": "Brusylivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.6_1",
+          "name": "Cherniakhivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.7_1",
+          "name": "Chervonoarmiis'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.8_1",
+          "name": "Chudnivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.9_1",
+          "name": "Iemil'chyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.10_1",
+          "name": "Korostens'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.27.11_1",
+          "name": "Korostens'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.12_1",
+          "name": "Korostyshivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.13_1",
+          "name": "Liubars'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.14_1",
+          "name": "Luhyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.15_1",
+          "name": "Malyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.16_1",
+          "name": "Narodyts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.17_1",
+          "name": "Novohrad-Volyns'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.27.18_1",
+          "name": "Novohrad-Volyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.19_1",
+          "name": "Olevs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.20_1",
+          "name": "Ovruts'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.21_1",
+          "name": "Popil'nians'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.22_1",
+          "name": "Radomyshl's'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.23_1",
+          "name": "Romanivs'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.24_1",
+          "name": "Ruzhyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.25_1",
+          "name": "Volodars'ko-Volyns'kyi",
+          "type": "Raion"
+        },
+        {
+          "id": "UKR.27.26_1",
+          "name": "Zhytomyrs'ka",
+          "type": "Misto"
+        },
+        {
+          "id": "UKR.27.27_1",
+          "name": "Zhytomyrs'kyi",
+          "type": "Raion"
+        }
+      ]
+    }
+  ]
+}

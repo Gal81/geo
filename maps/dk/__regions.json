@@ -1,0 +1,535 @@
+{
+  "country": "Denmark",
+  "regions": [
+    {
+      "id": "DNK.1_1",
+      "name": "Hovedstaden",
+      "type": "Region",
+      "subRegions": [
+        {
+          "id": "DNK.1.1_1",
+          "name": "Albertslund",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.2_1",
+          "name": "Allerød",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.3_1",
+          "name": "Ballerup",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.4_1",
+          "name": "Bornholm",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.5_1",
+          "name": "Brøndby",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.6_1",
+          "name": "Christiansø",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.7_1",
+          "name": "Dragør",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.8_1",
+          "name": "Egedal",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.9_1",
+          "name": "Fredensborg",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.10_1",
+          "name": "Frederiksberg",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.11_1",
+          "name": "Frederikssund",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.12_1",
+          "name": "Furesø",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.13_1",
+          "name": "Gentofte",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.14_1",
+          "name": "Gladsaxe",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.15_1",
+          "name": "Glostrup",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.16_1",
+          "name": "Gribskov",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.17_1",
+          "name": "Halsnæs",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.18_1",
+          "name": "Helsingør",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.19_1",
+          "name": "Herlev",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.20_1",
+          "name": "Hillerød",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.21_1",
+          "name": "Høje Taastrup",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.22_1",
+          "name": "Hørsholm",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.23_1",
+          "name": "Hvidovre",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.24_1",
+          "name": "Ishøj",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.25_1",
+          "name": "København",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.26_1",
+          "name": "Lyngby-Taarbæk",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.27_1",
+          "name": "Rødovre",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.28_1",
+          "name": "Rudersdal",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.29_1",
+          "name": "Tårnby",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.1.30_1",
+          "name": "Vallensbæk",
+          "type": "Kommune"
+        }
+      ]
+    },
+    {
+      "id": "DNK.2_1",
+      "name": "Midtjylland",
+      "type": "Region",
+      "subRegions": [
+        {
+          "id": "DNK.2.1_1",
+          "name": "Århus",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.2_1",
+          "name": "Favrskov",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.3_1",
+          "name": "Hedensted",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.4_1",
+          "name": "Herning",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.5_1",
+          "name": "Holstebro",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.6_1",
+          "name": "Horsens",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.7_1",
+          "name": "Ikast-Brande",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.8_1",
+          "name": "Lemvig",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.9_1",
+          "name": "Norddjurs",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.10_1",
+          "name": "Odder",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.11_1",
+          "name": "Randers",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.12_1",
+          "name": "Ringkøbing-Skjern",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.13_1",
+          "name": "Samsø",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.14_1",
+          "name": "Silkeborg",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.15_1",
+          "name": "Skanderborg",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.16_1",
+          "name": "Skive",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.17_1",
+          "name": "Struer",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.18_1",
+          "name": "Syddjurs",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.2.19_1",
+          "name": "Viborg",
+          "type": "Kommune"
+        }
+      ]
+    },
+    {
+      "id": "DNK.3_1",
+      "name": "Nordjylland",
+      "type": "Region",
+      "subRegions": [
+        {
+          "id": "DNK.3.1_1",
+          "name": "Aalborg",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.3.2_1",
+          "name": "Brønderslev",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.3.3_1",
+          "name": "Frederikshavn",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.3.4_1",
+          "name": "Hjørring",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.3.5_1",
+          "name": "Jammerbugt",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.3.6_1",
+          "name": "Læsø",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.3.7_1",
+          "name": "Mariagerfjord",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.3.8_1",
+          "name": "Morsø",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.3.9_1",
+          "name": "Rebild",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.3.10_1",
+          "name": "Thisted",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.3.11_1",
+          "name": "Vesthimmerland",
+          "type": "Kommune"
+        }
+      ]
+    },
+    {
+      "id": "DNK.4_1",
+      "name": "Sjælland",
+      "type": "Region",
+      "subRegions": [
+        {
+          "id": "DNK.4.1_1",
+          "name": "Faxe",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.4.2_1",
+          "name": "Greve",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.4.3_1",
+          "name": "Guldborgsund",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.4.4_1",
+          "name": "Holbæk",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.4.5_1",
+          "name": "Kalundborg",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.4.6_1",
+          "name": "Køge",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.4.7_1",
+          "name": "Lejre",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.4.8_1",
+          "name": "Lolland",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.4.9_1",
+          "name": "Næstved",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.4.10_1",
+          "name": "Odsherred",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.4.11_1",
+          "name": "Ringsted",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.4.12_1",
+          "name": "Roskilde",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.4.13_1",
+          "name": "Slagelse",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.4.14_1",
+          "name": "Solrød",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.4.15_1",
+          "name": "Sorø",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.4.16_1",
+          "name": "Stevns",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.4.17_1",
+          "name": "Vordingborg",
+          "type": "Kommune"
+        }
+      ]
+    },
+    {
+      "id": "DNK.5_1",
+      "name": "Syddanmark",
+      "type": "Region",
+      "subRegions": [
+        {
+          "id": "DNK.5.1_1",
+          "name": "Aabenraa",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.2_1",
+          "name": "Ærø",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.3_1",
+          "name": "Assens",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.4_1",
+          "name": "Billund",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.5_1",
+          "name": "Esbjerg",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.6_1",
+          "name": "Faaborg-Midtfyn",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.7_1",
+          "name": "Fanø",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.8_1",
+          "name": "Fredericia",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.9_1",
+          "name": "Haderslev",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.10_1",
+          "name": "Kerteminde",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.11_1",
+          "name": "Kolding",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.12_1",
+          "name": "Langeland",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.13_1",
+          "name": "Middelfart",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.14_1",
+          "name": "Nordfyns",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.15_1",
+          "name": "Nyborg",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.16_1",
+          "name": "Odense",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.17_1",
+          "name": "Sønderborg",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.18_1",
+          "name": "Svendborg",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.19_1",
+          "name": "Tønder",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.20_1",
+          "name": "Varde",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.21_1",
+          "name": "Vejen",
+          "type": "Kommune"
+        },
+        {
+          "id": "DNK.5.22_1",
+          "name": "Vejle",
+          "type": "Kommune"
+        }
+      ]
+    }
+  ]
+}

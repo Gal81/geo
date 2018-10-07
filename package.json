@@ -12,6 +12,7 @@
     "server": "node server/server.js",
     "admin1": "node format/gadm.lvl1.js",
     "admin2": "node format/gadm.lvl2.js",
+    "regions": "node format/regions.js",
     "area": "node format/sandbox/area.js",
     "names": "node format/sandbox/names.js",
     "simplify": "node format/sandbox/simplify.js",

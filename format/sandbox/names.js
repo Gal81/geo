@@ -5,7 +5,7 @@ fs.readFile('./tmp/vn-all.geo.json', 'utf8', (error, geoJson) => {
   const origin = JSON.parse(geoJson);
 
   fs.readFile('./maps/vn/__names.json', 'utf8', (err, json) => {
-    if(err) {
+    if (err) {
       return console.error(` ${err} `.bgRed.white);
     }
 
@@ -25,7 +25,7 @@ fs.readFile('./tmp/vn-all.geo.json', 'utf8', (error, geoJson) => {
     const file = `Highcharts.maps['countries/vn/vn-all'] = ${JSON.stringify(edited)}`
 
     fs.writeFile('./maps/vn/vn-all.js', file, errr => {
-      if(errr) {
+      if (errr) {
         return console.error(` ${errr} `.bgRed.white);
       }
 

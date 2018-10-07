@@ -1,0 +1,145 @@
+{
+  "country": "Finland",
+  "regions": [
+    {
+      "id": "FIN.1_1",
+      "name": "Eastern Finland",
+      "type": "Lääni",
+      "subRegions": [
+        {
+          "id": "FIN.1.1_1",
+          "name": "North Karelia",
+          "type": "Maakunta|landskap"
+        },
+        {
+          "id": "FIN.1.2_1",
+          "name": "North Savonia",
+          "type": "Maakunta|landskap"
+        },
+        {
+          "id": "FIN.1.3_1",
+          "name": "Päijänne Tavastia",
+          "type": "Maakunta|landskap"
+        },
+        {
+          "id": "FIN.1.4_1",
+          "name": "Southern Savonia",
+          "type": "Maakunta|landskap"
+        }
+      ]
+    },
+    {
+      "id": "FIN.2_1",
+      "name": "Lapland",
+      "type": "Lääni",
+      "subRegions": [
+        {
+          "id": "FIN.2.1_1",
+          "name": "Lapland",
+          "type": "Maakunta|landskap"
+        }
+      ]
+    },
+    {
+      "id": "FIN.3_1",
+      "name": "Oulu",
+      "type": "Lääni",
+      "subRegions": [
+        {
+          "id": "FIN.3.1_1",
+          "name": "Kainuu",
+          "type": "Maakunta|landskap"
+        },
+        {
+          "id": "FIN.3.2_1",
+          "name": "Northern Ostrobothnia",
+          "type": "Maakunta|landskap"
+        }
+      ]
+    },
+    {
+      "id": "FIN.4_1",
+      "name": "Southern Finland",
+      "type": "Lääni",
+      "subRegions": [
+        {
+          "id": "FIN.4.1_1",
+          "name": "Eastern Uusimaa",
+          "type": "Maakunta|landskap"
+        },
+        {
+          "id": "FIN.4.2_1",
+          "name": "Kymenlaakso",
+          "type": "Maakunta|landskap"
+        },
+        {
+          "id": "FIN.4.3_1",
+          "name": "Päijänne Tavastia",
+          "type": "Maakunta|landskap"
+        },
+        {
+          "id": "FIN.4.4_1",
+          "name": "South Karelia",
+          "type": "Maakunta|landskap"
+        },
+        {
+          "id": "FIN.4.5_1",
+          "name": "Uusimaa",
+          "type": "Maakunta|landskap"
+        }
+      ]
+    },
+    {
+      "id": "FIN.5_1",
+      "name": "Western Finland",
+      "type": "Lääni",
+      "subRegions": [
+        {
+          "id": "FIN.5.1_1",
+          "name": "Central Finland",
+          "type": "Maakunta|landskap"
+        },
+        {
+          "id": "FIN.5.2_1",
+          "name": "Central Ostrobothnia",
+          "type": "Maakunta|landskap"
+        },
+        {
+          "id": "FIN.5.3_1",
+          "name": "Finland Proper",
+          "type": "Maakunta|landskap"
+        },
+        {
+          "id": "FIN.5.4_1",
+          "name": "Ostrobothnia",
+          "type": "Maakunta|landskap"
+        },
+        {
+          "id": "FIN.5.5_1",
+          "name": "Päijänne Tavastia",
+          "type": "Maakunta|landskap"
+        },
+        {
+          "id": "FIN.5.6_1",
+          "name": "Pirkanmaa",
+          "type": "Maakunta|landskap"
+        },
+        {
+          "id": "FIN.5.7_1",
+          "name": "Satakunta",
+          "type": "Maakunta|landskap"
+        },
+        {
+          "id": "FIN.5.8_1",
+          "name": "Southern Ostrobothnia",
+          "type": "Maakunta|landskap"
+        },
+        {
+          "id": "FIN.5.9_1",
+          "name": "Tavastia Proper",
+          "type": "Maakunta|landskap"
+        }
+      ]
+    }
+  ]
+}

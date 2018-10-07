@@ -1,0 +1,3996 @@
+{
+  "country": "Vietnam",
+  "regions": [
+    {
+      "id": "VNM.1_1",
+      "name": "An Giang",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.1.1_1",
+          "name": "An Phú",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.1.2_1",
+          "name": "Chợ Mới",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.1.3_1",
+          "name": "Châu Đốc",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.1.4_1",
+          "name": "Châu Phú",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.1.5_1",
+          "name": "Châu Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.1.6_1",
+          "name": "Long Xuyên",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.1.7_1",
+          "name": "Phú Tân",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.1.8_1",
+          "name": "Tịnh Biên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.1.9_1",
+          "name": "Tân Châu",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.1.10_1",
+          "name": "Thoại Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.1.11_1",
+          "name": "Tri Tôn",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.2_1",
+      "name": "Bạc Liêu",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.2.1_1",
+          "name": "Bạc Liêu",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.2.2_1",
+          "name": "Đông Hải",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.2.3_1",
+          "name": "Giá Rai",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.2.4_1",
+          "name": "Hồng Dân",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.2.5_1",
+          "name": "Hoà Bình",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.2.6_1",
+          "name": "Phước Long",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.2.7_1",
+          "name": "Vĩnh Lợi",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.3_1",
+      "name": "Bắc Giang",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.3.1_1",
+          "name": "Bắc Giang",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.3.2_1",
+          "name": "Hiệp Hòa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.3.3_1",
+          "name": "Lạng Giang",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.3.4_1",
+          "name": "Lục Nam",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.3.5_1",
+          "name": "Lục Ngạn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.3.6_1",
+          "name": "Sơn Động",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.3.7_1",
+          "name": "Tân Yên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.3.8_1",
+          "name": "Việt Yên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.3.9_1",
+          "name": "Yên Dũng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.3.10_1",
+          "name": "Yên Thế",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.4_1",
+      "name": "Bắc Kạn",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.4.1_1",
+          "name": "Bạch Thông",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.4.2_1",
+          "name": "Ba Bể",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.4.3_1",
+          "name": "Chợ Đồn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.4.4_1",
+          "name": "Chợ Mới",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.4.5_1",
+          "name": "Na Rì",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.4.6_1",
+          "name": "Ngân Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.4.7_1",
+          "name": "Pác Nặm",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.4.8_1",
+          "name": "Thành Phố Bắc Kạn",
+          "type": "Thành phố"
+        }
+      ]
+    },
+    {
+      "id": "VNM.5_1",
+      "name": "Bắc Ninh",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.5.1_1",
+          "name": "Bắc Ninh",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.5.2_1",
+          "name": "Gia Bình",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.5.3_1",
+          "name": "Lương Tài",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.5.4_1",
+          "name": "Quế Võ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.5.5_1",
+          "name": "Từ Sơn",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.5.6_1",
+          "name": "Thuận Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.5.7_1",
+          "name": "Tiên Du",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.5.8_1",
+          "name": "Yên Phong",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.6_1",
+      "name": "Bến Tre",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.6.1_1",
+          "name": "Bến Tre",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.6.2_1",
+          "name": "Ba Tri",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.6.3_1",
+          "name": "Bình Đại",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.6.4_1",
+          "name": "Chợ Lách",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.6.5_1",
+          "name": "Châu Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.6.6_1",
+          "name": "Giồng Trôm",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.6.7_1",
+          "name": "Mỏ Cày Bắc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.6.8_1",
+          "name": "Mỏ Cày Nam",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.6.9_1",
+          "name": "Thạnh Phú",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.7_1",
+      "name": "Bà Rịa - Vũng Tàu",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.7.1_1",
+          "name": "Bà Rịa",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.7.2_1",
+          "name": "Châu Đức",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.7.3_1",
+          "name": "Đất Đỏ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.7.4_1",
+          "name": "Long Điền",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.7.5_1",
+          "name": "Tân Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.7.6_1",
+          "name": "Vũng Tàu",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.7.7_1",
+          "name": "Xuyên Mộc",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.8_1",
+      "name": "Bình Định",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.8.1_1",
+          "name": "An Lão",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.8.2_1",
+          "name": "An Nhơn",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.8.3_1",
+          "name": "Hoài Ân",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.8.4_1",
+          "name": "Hoài Nhơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.8.5_1",
+          "name": "Phù Cát",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.8.6_1",
+          "name": "Phù Mỹ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.8.7_1",
+          "name": "Qui Nhơn",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.8.8_1",
+          "name": "Tây Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.8.9_1",
+          "name": "Tuy Phước",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.8.10_1",
+          "name": "Vân Canh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.8.11_1",
+          "name": "Vĩnh Thạnh",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.9_1",
+      "name": "Bình Dương",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.9.1_1",
+          "name": "Bắc Tân Uyên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.9.2_1",
+          "name": "Bến Cát",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.9.3_1",
+          "name": "Bàu Bàng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.9.4_1",
+          "name": "Dầu Tiếng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.9.5_1",
+          "name": "Dĩ An",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.9.6_1",
+          "name": "Phú Giáo",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.9.7_1",
+          "name": "Tân Uyên",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.9.8_1",
+          "name": "Thủ Dầu Một",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.9.9_1",
+          "name": "Thuận An",
+          "type": "Thị xã"
+        }
+      ]
+    },
+    {
+      "id": "VNM.10_1",
+      "name": "Bình Phước",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.10.1_1",
+          "name": "Bình Long",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.10.2_1",
+          "name": "Bù Đốp",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.10.3_1",
+          "name": "Bù Đăng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.10.4_1",
+          "name": "Bù Gia Mập",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.10.5_1",
+          "name": "Chơn Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.10.6_1",
+          "name": "Đồng Phú",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.10.7_1",
+          "name": "Đồng Xoài",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.10.8_1",
+          "name": "Hớn Quản",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.10.9_1",
+          "name": "Lộc Ninh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.10.10_1",
+          "name": "Phú Riềng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.10.11_1",
+          "name": "Phước Long",
+          "type": "Thị xã"
+        }
+      ]
+    },
+    {
+      "id": "VNM.11_1",
+      "name": "Bình Thuận",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.11.1_1",
+          "name": "Bắc Bình",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.11.2_1",
+          "name": "Đức Linh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.11.3_1",
+          "name": "Hàm Tân",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.11.4_1",
+          "name": "Hàm Thuận Bắc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.11.5_1",
+          "name": "Hàm Thuận Nam",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.11.6_1",
+          "name": "La Gi",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.11.7_1",
+          "name": "Phan Thiết",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.11.8_1",
+          "name": "Phú Quí",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.11.9_1",
+          "name": "Tánh Linh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.11.10_1",
+          "name": "Tuy Phong",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.12_1",
+      "name": "Cần Thơ",
+      "type": "Thành phố",
+      "subRegions": [
+        {
+          "id": "VNM.12.1_1",
+          "name": "Bình Thuỷ",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.12.2_1",
+          "name": "Cờ Đỏ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.12.3_1",
+          "name": "Cái Răng",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.12.4_1",
+          "name": "Ninh Kiều",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.12.5_1",
+          "name": "Ô Môn",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.12.6_1",
+          "name": "Phong Điền",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.12.7_1",
+          "name": "Thốt Nốt",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.12.8_1",
+          "name": "Thới Lai",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.12.9_1",
+          "name": "Vĩnh Thạnh",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.13_1",
+      "name": "Cà Mau",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.13.1_1",
+          "name": "Cà Mau",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.13.2_1",
+          "name": "Cái Nước",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.13.3_1",
+          "name": "Đầm Dơi",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.13.4_1",
+          "name": "Năm Căn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.13.5_1",
+          "name": "Ngọc Hiển",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.13.6_1",
+          "name": "Phú Tân",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.13.7_1",
+          "name": "Thới Bình",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.13.8_1",
+          "name": "Trần Văn Thời",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.13.9_1",
+          "name": "U Minh",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.14_1",
+      "name": "Cao Bằng",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.14.1_1",
+          "name": "Bảo Lạc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.14.2_1",
+          "name": "Bảo Lâm",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.14.3_1",
+          "name": "Cao Bằng",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.14.4_1",
+          "name": "Hạ Lang",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.14.5_1",
+          "name": "Hà Quảng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.14.6_1",
+          "name": "Hoà An",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.14.7_1",
+          "name": "Nguyên Bình",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.14.8_1",
+          "name": "Phục Hoà",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.14.9_1",
+          "name": "Quảng Uyên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.14.10_1",
+          "name": "Thạch An",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.14.11_1",
+          "name": "Thông Nông",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.14.12_1",
+          "name": "Trà Lĩnh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.14.13_1",
+          "name": "Trùng Khánh",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.15_1",
+      "name": "Đắk Lắk",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.15.1_1",
+          "name": "Buôn Đôn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.15.2_1",
+          "name": "Buôn Ma Thuột",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.15.3_1",
+          "name": "Cư Kuin",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.15.4_1",
+          "name": "Cư M'gar",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.15.5_1",
+          "name": "Ea H'leo",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.15.6_1",
+          "name": "Ea Kar",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.15.7_1",
+          "name": "Ea Súp",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.15.8_1",
+          "name": "Krông A Na",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.15.9_1",
+          "name": "Krông Bông",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.15.10_1",
+          "name": "Krông Búk",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.15.11_1",
+          "name": "Krông Năng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.15.12_1",
+          "name": "Krông Pắc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.15.13_1",
+          "name": "Lắk",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.15.14_1",
+          "name": "M'Đrắk",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.15.15_1",
+          "name": "Thị Xã Buôn Hồ",
+          "type": "Thị xã"
+        }
+      ]
+    },
+    {
+      "id": "VNM.16_1",
+      "name": "Đắk Nông",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.16.1_1",
+          "name": "Cư Jút",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.16.2_1",
+          "name": "Đắk Mil",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.16.3_1",
+          "name": "Đắk R'Lấp",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.16.4_1",
+          "name": "Đắk Song",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.16.5_1",
+          "name": "Đăk Glong",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.16.6_1",
+          "name": "Gia Nghĩa",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.16.7_1",
+          "name": "Krông Nô",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.16.8_1",
+          "name": "Tuy Đức",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.17_1",
+      "name": "Đồng Nai",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.17.1_1",
+          "name": "Biên Hòa",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.17.2_1",
+          "name": "Cẩm Mỹ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.17.3_1",
+          "name": "Định Quán",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.17.4_1",
+          "name": "Long Khánh",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.17.5_1",
+          "name": "Long Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.17.6_1",
+          "name": "Nhơn Trạch",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.17.7_1",
+          "name": "Tân Phú",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.17.8_1",
+          "name": "Thống Nhất",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.17.9_1",
+          "name": "Trảng Bom",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.17.10_1",
+          "name": "Vĩnh Cửu",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.17.11_1",
+          "name": "Xuân Lộc",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.18_1",
+      "name": "Đồng Tháp",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.18.2_1",
+          "name": "Cao Lãnh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.18.1_1",
+          "name": "Cao Lãnh (Thành phố)",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.18.3_1",
+          "name": "Châu Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.18.5_1",
+          "name": "Hồng Ngự",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.18.4_1",
+          "name": "Hồng Ngự (Thị xã)",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.18.6_1",
+          "name": "Lấp Vò",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.18.7_1",
+          "name": "Lai Vung",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.18.8_1",
+          "name": "Sa Đéc",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.18.9_1",
+          "name": "Tam Nông",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.18.10_1",
+          "name": "Tân Hồng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.18.11_1",
+          "name": "Thanh Bình",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.18.12_1",
+          "name": "Tháp Mười",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.19_1",
+      "name": "Đà Nẵng",
+      "type": "Thành phố",
+      "subRegions": [
+        {
+          "id": "VNM.19.1_1",
+          "name": "Cẩm Lệ",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.19.2_1",
+          "name": "Hải Châu",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.19.3_1",
+          "name": "Hòa Vang",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.19.4_1",
+          "name": "Liên Chiểu",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.19.5_1",
+          "name": "Ngũ Hành Sơn",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.19.6_1",
+          "name": "Sơn Trà",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.19.7_1",
+          "name": "Thanh Khê",
+          "type": "Quận"
+        }
+      ]
+    },
+    {
+      "id": "VNM.20_1",
+      "name": "Điện Biên",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.20.3_1",
+          "name": "Điện Biên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.20.1_1",
+          "name": "Điện Biên Đông",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.20.2_1",
+          "name": "Điện Biên Phủ",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.20.4_1",
+          "name": "Mường Ảng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.20.5_1",
+          "name": "Mường Chà",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.20.6_1",
+          "name": "Mường Nhé",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.20.7_1",
+          "name": "Nậm Pồ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.20.8_1",
+          "name": "Tủa Chùa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.20.9_1",
+          "name": "Thị Xã Mường Lay",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.20.10_1",
+          "name": "Tuần Giáo",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.21_1",
+      "name": "Gia Lai",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.21.1_1",
+          "name": "An Khê",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.21.2_1",
+          "name": "Ayun Pa",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.21.3_1",
+          "name": "Chư Păh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.21.4_1",
+          "name": "Chư Prông",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.21.5_1",
+          "name": "Chư Pưh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.21.6_1",
+          "name": "Chư Sê",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.21.7_1",
+          "name": "Đức Cơ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.21.8_1",
+          "name": "Đăk Đoa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.21.9_1",
+          "name": "Đăk Pơ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.21.10_1",
+          "name": "Ia Grai",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.21.11_1",
+          "name": "Ia Pa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.21.12_1",
+          "name": "KBang",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.21.13_1",
+          "name": "Kông Chro",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.21.14_1",
+          "name": "Krông Pa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.21.15_1",
+          "name": "Mang Yang",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.21.16_1",
+          "name": "Phú Thiện",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.21.17_1",
+          "name": "Pleiku",
+          "type": "Thành phố"
+        }
+      ]
+    },
+    {
+      "id": "VNM.22_1",
+      "name": "Hải Dương",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.22.1_1",
+          "name": "Bình Giang",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.22.2_1",
+          "name": "Cẩm Giàng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.22.3_1",
+          "name": "Chí Linh",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.22.4_1",
+          "name": "Gia Lộc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.22.5_1",
+          "name": "Hải Dương",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.22.6_1",
+          "name": "Kim Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.22.7_1",
+          "name": "Kinh Môn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.22.8_1",
+          "name": "Nam Sách",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.22.9_1",
+          "name": "Ninh Giang",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.22.10_1",
+          "name": "Tứ Kỳ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.22.11_1",
+          "name": "Thanh Hà",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.22.12_1",
+          "name": "Thanh Miện",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.23_1",
+      "name": "Hải Phòng",
+      "type": "Thành phố",
+      "subRegions": [
+        {
+          "id": "VNM.23.1_1",
+          "name": "An Dương",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.23.2_1",
+          "name": "An Lão",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.23.3_1",
+          "name": "Bạch Long Vĩ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.23.4_1",
+          "name": "Cát Hải",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.23.5_1",
+          "name": "Đồ Sơn",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.23.6_1",
+          "name": "Dương Kinh",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.23.7_1",
+          "name": "Hải An",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.23.8_1",
+          "name": "Hồng Bàng",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.23.9_1",
+          "name": "Kiến An",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.23.10_1",
+          "name": "Kiến Thuỵ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.23.11_1",
+          "name": "Lê Chân",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.23.12_1",
+          "name": "Ngô Quyền",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.23.13_1",
+          "name": "Thuỷ Nguyên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.23.14_1",
+          "name": "Tiên Lãng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.23.15_1",
+          "name": "Vĩnh Bảo",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.24_1",
+      "name": "Hậu Giang",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.24.2_1",
+          "name": "Châu Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.24.1_1",
+          "name": "Châu Thành A",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.24.4_1",
+          "name": "Long Mỹ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.24.3_1",
+          "name": "Long Mỹ (Thị xã)",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.24.5_1",
+          "name": "Ngã Bảy",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.24.6_1",
+          "name": "Phụng Hiệp",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.24.7_1",
+          "name": "Vị Thanh",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.24.8_1",
+          "name": "Vị Thuỷ",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.25_1",
+      "name": "Hồ Chí Minh",
+      "type": "Thành phố",
+      "subRegions": [
+        {
+          "id": "VNM.25.1_1",
+          "name": "Bình Chánh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.25.2_1",
+          "name": "Bình Tân",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.3_1",
+          "name": "Bình Thạnh",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.4_1",
+          "name": "Cần Giờ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.25.5_1",
+          "name": "Củ Chi",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.25.6_1",
+          "name": "Gò Vấp",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.7_1",
+          "name": "Hóc Môn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.25.8_1",
+          "name": "Nhà Bè",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.25.9_1",
+          "name": "Phú Nhuận",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.13_1",
+          "name": "Quận 1",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.10_1",
+          "name": "Quận 10",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.11_1",
+          "name": "Quận 11",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.12_1",
+          "name": "Quận 12",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.14_1",
+          "name": "Quận 2",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.15_1",
+          "name": "Quận 3",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.16_1",
+          "name": "Quận 4",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.17_1",
+          "name": "Quận 5",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.18_1",
+          "name": "Quận 6",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.19_1",
+          "name": "Quận 7",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.20_1",
+          "name": "Quận 8",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.21_1",
+          "name": "Quận 9",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.22_1",
+          "name": "Tân Bình",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.23_1",
+          "name": "Tân Phú",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.25.24_1",
+          "name": "Thủ Đức",
+          "type": "Quận"
+        }
+      ]
+    },
+    {
+      "id": "VNM.26_1",
+      "name": "Hà Giang",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.26.1_1",
+          "name": "Bắc Mê",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.26.2_1",
+          "name": "Bắc Quang",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.26.3_1",
+          "name": "Đồng Văn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.26.4_1",
+          "name": "Hà Giang",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.26.5_1",
+          "name": "Hoàng Su Phì",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.26.6_1",
+          "name": "Mèo Vạc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.26.7_1",
+          "name": "Quản Bạ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.26.8_1",
+          "name": "Quang Bình",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.26.9_1",
+          "name": "Vị Xuyên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.26.10_1",
+          "name": "Xín Mần",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.26.11_1",
+          "name": "Yên Minh",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.27_1",
+      "name": "Hà Nội",
+      "type": "Thành phố",
+      "subRegions": [
+        {
+          "id": "VNM.27.1_1",
+          "name": "Ứng Hòa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.27.2_1",
+          "name": "Bắc Từ Liêm",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.27.3_1",
+          "name": "Ba Đình",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.27.4_1",
+          "name": "Ba Vì",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.27.5_1",
+          "name": "Cầu Giấy",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.27.6_1",
+          "name": "Chương Mỹ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.27.7_1",
+          "name": "Đống Đa",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.27.8_1",
+          "name": "Đan Phượng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.27.9_1",
+          "name": "Đông Anh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.27.10_1",
+          "name": "Gia Lâm",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.27.11_1",
+          "name": "Hà Đông",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.27.12_1",
+          "name": "Hai Bà Trưng",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.27.13_1",
+          "name": "Hoài Đức",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.27.14_1",
+          "name": "Hoàn Kiếm",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.27.15_1",
+          "name": "Hoàng Mai",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.27.16_1",
+          "name": "Long Biên",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.27.17_1",
+          "name": "Mỹ Đức",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.27.18_1",
+          "name": "Mê Linh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.27.19_1",
+          "name": "Nam Từ Liêm",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.27.20_1",
+          "name": "Phú Xuyên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.27.21_1",
+          "name": "Phúc Thọ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.27.22_1",
+          "name": "Quốc Oai",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.27.23_1",
+          "name": "Sóc Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.27.24_1",
+          "name": "Sơn Tây",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.27.25_1",
+          "name": "Tây Hồ",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.27.26_1",
+          "name": "Thạch Thất",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.27.27_1",
+          "name": "Thanh Oai",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.27.28_1",
+          "name": "Thanh Trì",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.27.29_1",
+          "name": "Thanh Xuân",
+          "type": "Quận"
+        },
+        {
+          "id": "VNM.27.30_1",
+          "name": "Thường Tín",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.28_1",
+      "name": "Hà Nam",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.28.1_1",
+          "name": "Bình Lục",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.28.2_1",
+          "name": "Duy Tiên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.28.3_1",
+          "name": "Kim Bảng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.28.4_1",
+          "name": "Lý Nhân",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.28.5_1",
+          "name": "Phủ Lý",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.28.6_1",
+          "name": "Thanh Liêm",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.29_1",
+      "name": "Hà Tĩnh",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.29.1_1",
+          "name": "Cẩm Xuyên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.29.2_1",
+          "name": "Can Lộc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.29.3_1",
+          "name": "Đức Thọ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.29.4_1",
+          "name": "Hồng Lĩnh",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.29.5_1",
+          "name": "Hà Tĩnh",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.29.6_1",
+          "name": "Hương Khê",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.29.7_1",
+          "name": "Hương Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.29.9_1",
+          "name": "Kỳ Anh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.29.8_1",
+          "name": "Kỳ Anh (Thị xã)",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.29.10_1",
+          "name": "Lộc Hà",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.29.11_1",
+          "name": "Nghi Xuân",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.29.12_1",
+          "name": "Thạch Hà",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.29.13_1",
+          "name": "Vũ Quang",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.30_1",
+      "name": "Hoà Bình",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.30.1_1",
+          "name": "Cao Phong",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.30.2_1",
+          "name": "Đà Bắc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.30.3_1",
+          "name": "Hòa Bình",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.30.4_1",
+          "name": "Kỳ Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.30.5_1",
+          "name": "Kim Bôi",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.30.6_1",
+          "name": "Lạc Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.30.7_1",
+          "name": "Lạc Thủy",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.30.8_1",
+          "name": "Lương Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.30.9_1",
+          "name": "Mai Châu",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.30.10_1",
+          "name": "Tân Lạc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.30.11_1",
+          "name": "Yên Thủy",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.31_1",
+      "name": "Hưng Yên",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.31.1_1",
+          "name": "Ân Thi",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.31.2_1",
+          "name": "Hưng Yên",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.31.3_1",
+          "name": "Khoái Châu",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.31.4_1",
+          "name": "Kim Động",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.31.5_1",
+          "name": "Mỹ Hào",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.31.6_1",
+          "name": "Phù Cừ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.31.7_1",
+          "name": "Tiên Lữ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.31.8_1",
+          "name": "Văn Giang",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.31.9_1",
+          "name": "Văn Lâm",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.31.10_1",
+          "name": "Yên Mỹ",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.32_1",
+      "name": "Khánh Hòa",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.32.1_1",
+          "name": "Cam Lâm",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.32.2_1",
+          "name": "Cam Ranh",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.32.3_1",
+          "name": "Diên Khánh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.32.4_1",
+          "name": "Khánh Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.32.5_1",
+          "name": "Khánh Vĩnh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.32.6_1",
+          "name": "Nha Trang",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.32.7_1",
+          "name": "Ninh Hòa",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.32.8_1",
+          "name": "Vạn Ninh",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.33_1",
+      "name": "Kiên Giang",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.33.1_1",
+          "name": "An Biên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.33.2_1",
+          "name": "An Minh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.33.3_1",
+          "name": "Châu Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.33.4_1",
+          "name": "Giồng Riềng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.33.5_1",
+          "name": "Giang Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.33.6_1",
+          "name": "Gò Quao",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.33.7_1",
+          "name": "Hà Tiên",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.33.8_1",
+          "name": "Hòn Đất",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.33.9_1",
+          "name": "Kiên Hải",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.33.10_1",
+          "name": "Kiên Lương",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.33.11_1",
+          "name": "Phú Quốc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.33.12_1",
+          "name": "Rạch Giá",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.33.13_1",
+          "name": "Tân Hiệp",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.33.14_1",
+          "name": "U Minh Thượng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.33.15_1",
+          "name": "Vĩnh Thuận",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.34_1",
+      "name": "Kon Tum",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.34.1_1",
+          "name": "Đắk Glei",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.34.2_1",
+          "name": "Đắk Hà",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.34.3_1",
+          "name": "Đắk Tô",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.34.4_1",
+          "name": "Ia H' Drai",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.34.5_1",
+          "name": "Kon Plông",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.34.6_1",
+          "name": "Kon Rẫy",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.34.7_1",
+          "name": "Kon Tum",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.34.8_1",
+          "name": "Ngọc Hồi",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.34.9_1",
+          "name": "Sa Thầy",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.34.10_1",
+          "name": "Tu Mơ Rông",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.35_1",
+      "name": "Lạng Sơn",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.35.1_1",
+          "name": "Bắc Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.35.2_1",
+          "name": "Bình Gia",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.35.3_1",
+          "name": "Cao Lộc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.35.4_1",
+          "name": "Chi Lăng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.35.5_1",
+          "name": "Đình Lập",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.35.6_1",
+          "name": "Hữu Lũng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.35.7_1",
+          "name": "Lạng Sơn",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.35.8_1",
+          "name": "Lộc Bình",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.35.9_1",
+          "name": "Tràng Định",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.35.10_1",
+          "name": "Văn Lãng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.35.11_1",
+          "name": "Văn Quan",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.36_1",
+      "name": "Lai Châu",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.36.1_1",
+          "name": "Lai Châu",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.36.2_1",
+          "name": "Mường Tè",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.36.3_1",
+          "name": "Nậm Nhùn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.36.4_1",
+          "name": "Phong Thổ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.36.5_1",
+          "name": "Sìn Hồ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.36.6_1",
+          "name": "Tam Đường",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.36.7_1",
+          "name": "Tân Uyên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.36.8_1",
+          "name": "Than Uyên",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.37_1",
+      "name": "Lâm Đồng",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.37.1_1",
+          "name": "Bảo Lộc",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.37.2_1",
+          "name": "Bảo Lâm",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.37.3_1",
+          "name": "Cát Tiên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.37.4_1",
+          "name": "Đạ Huoai",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.37.5_1",
+          "name": "Đạ Tẻh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.37.6_1",
+          "name": "Đức Trọng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.37.7_1",
+          "name": "Đà Lạt",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.37.8_1",
+          "name": "Đam Rông",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.37.9_1",
+          "name": "Di Linh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.37.10_1",
+          "name": "Đơn Dương",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.37.11_1",
+          "name": "Lạc Dương",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.37.12_1",
+          "name": "Lâm Hà",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.38_1",
+      "name": "Lào Cai",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.38.1_1",
+          "name": "Bảo Thắng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.38.2_1",
+          "name": "Bảo Yên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.38.3_1",
+          "name": "Bắc Hà",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.38.4_1",
+          "name": "Bát Xát",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.38.5_1",
+          "name": "Lào Cai",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.38.6_1",
+          "name": "Mường Khương",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.38.7_1",
+          "name": "Sa Pa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.38.8_1",
+          "name": "Si Ma Cai",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.38.9_1",
+          "name": "Văn Bàn",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.39_1",
+      "name": "Long An",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.39.1_1",
+          "name": "Bến Lức",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.39.2_1",
+          "name": "Cần Đước",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.39.3_1",
+          "name": "Cần Giuộc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.39.4_1",
+          "name": "Châu Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.39.5_1",
+          "name": "Đức Hòa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.39.6_1",
+          "name": "Đức Huệ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.39.7_1",
+          "name": "Kiến Tường",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.39.8_1",
+          "name": "Mộc Hóa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.39.9_1",
+          "name": "Tân An",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.39.10_1",
+          "name": "Tân Hưng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.39.11_1",
+          "name": "Tân Thạnh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.39.12_1",
+          "name": "Tân Trụ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.39.13_1",
+          "name": "Thạnh Hóa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.39.14_1",
+          "name": "Thủ Thừa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.39.15_1",
+          "name": "Vĩnh Hưng",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.40_1",
+      "name": "Nam Định",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.40.1_1",
+          "name": "Giao Thủy",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.40.2_1",
+          "name": "Hải Hậu",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.40.3_1",
+          "name": "Mỹ Lộc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.40.4_1",
+          "name": "Nam Định",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.40.5_1",
+          "name": "Nam Trực",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.40.6_1",
+          "name": "Nghĩa Hưng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.40.7_1",
+          "name": "Trực Ninh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.40.8_1",
+          "name": "Vụ Bản",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.40.9_1",
+          "name": "Xuân Trường",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.40.10_1",
+          "name": "Ý Yên",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.41_1",
+      "name": "Nghệ An",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.41.1_1",
+          "name": "Anh Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.41.2_1",
+          "name": "Cửa Lò",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.41.3_1",
+          "name": "Con Cuông",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.41.4_1",
+          "name": "Diễn Châu",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.41.5_1",
+          "name": "Đô Lương",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.41.6_1",
+          "name": "Hoàng Mai",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.41.7_1",
+          "name": "Hưng Nguyên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.41.8_1",
+          "name": "Kỳ Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.41.9_1",
+          "name": "Nam Đàn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.41.10_1",
+          "name": "Nghi Lộc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.41.11_1",
+          "name": "Nghĩa Đàn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.41.12_1",
+          "name": "Quế Phong",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.41.13_1",
+          "name": "Quỳ Châu",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.41.14_1",
+          "name": "Quỳ Hợp",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.41.15_1",
+          "name": "Quỳnh Lưu",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.41.16_1",
+          "name": "Tân Kỳ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.41.17_1",
+          "name": "Thái Hoà",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.41.18_1",
+          "name": "Thanh Chương",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.41.19_1",
+          "name": "Tương Dương",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.41.20_1",
+          "name": "Vinh",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.41.21_1",
+          "name": "Yên Thành",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.42_1",
+      "name": "Ninh Bình",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.42.1_1",
+          "name": "Gia Viễn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.42.2_1",
+          "name": "Hoa Lư",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.42.3_1",
+          "name": "Kim Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.42.4_1",
+          "name": "Nho Quan",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.42.5_1",
+          "name": "Ninh Bình",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.42.6_1",
+          "name": "Tam Điệp",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.42.7_1",
+          "name": "Yên Khánh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.42.8_1",
+          "name": "Yên Mô",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.43_1",
+      "name": "Ninh Thuận",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.43.1_1",
+          "name": "Bác Ái",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.43.2_1",
+          "name": "Ninh Hải",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.43.3_1",
+          "name": "Ninh Phước",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.43.4_1",
+          "name": "Ninh Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.43.5_1",
+          "name": "Phan Rang-Tháp Chàm",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.43.6_1",
+          "name": "Thuận Bắc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.43.7_1",
+          "name": "Thuận Nam",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.44_1",
+      "name": "Phú Thọ",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.44.1_1",
+          "name": "Cẩm Khê",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.44.2_1",
+          "name": "Đoan Hùng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.44.3_1",
+          "name": "Hạ Hoà",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.44.4_1",
+          "name": "Lâm Thao",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.44.5_1",
+          "name": "Phù Ninh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.44.6_1",
+          "name": "Phú Thọ",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.44.7_1",
+          "name": "Tam Nông",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.44.8_1",
+          "name": "Tân Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.44.9_1",
+          "name": "Thanh Ba",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.44.10_1",
+          "name": "Thanh Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.44.11_1",
+          "name": "Thanh Thuỷ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.44.12_1",
+          "name": "Việt Trì",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.44.13_1",
+          "name": "Yên Lập",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.45_1",
+      "name": "Phú Yên",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.45.1_1",
+          "name": "Đồng Xuân",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.45.2_1",
+          "name": "Đông Hòa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.45.3_1",
+          "name": "Phú Hoà",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.45.4_1",
+          "name": "Sơn Hòa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.45.5_1",
+          "name": "Sông Cầu",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.45.6_1",
+          "name": "Sông Hinh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.45.7_1",
+          "name": "Tây Hoà",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.45.8_1",
+          "name": "Tuy An",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.45.9_1",
+          "name": "Tuy Hoà",
+          "type": "Thành phố"
+        }
+      ]
+    },
+    {
+      "id": "VNM.46_1",
+      "name": "Quảng Bình",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.46.1_1",
+          "name": "Bố Trạch",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.46.2_1",
+          "name": "Ba Đồn",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.46.3_1",
+          "name": "Lệ Thủy",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.46.4_1",
+          "name": "Minh Hóa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.46.5_1",
+          "name": "Quảng Ninh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.46.6_1",
+          "name": "Quảng Trạch",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.46.7_1",
+          "name": "Thành Phố Đồng Hới",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.46.8_1",
+          "name": "Tuyên Hóa",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.47_1",
+      "name": "Quảng Nam",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.47.1_1",
+          "name": "Bắc Trà My",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.47.2_1",
+          "name": "Đại Lộc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.47.3_1",
+          "name": "Điện Bàn",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.47.4_1",
+          "name": "Đông Giang",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.47.5_1",
+          "name": "Duy Xuyên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.47.6_1",
+          "name": "Hội An",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.47.7_1",
+          "name": "Hiệp Đức",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.47.8_1",
+          "name": "Nam Giang",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.47.9_1",
+          "name": "Nam Trà My",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.47.10_1",
+          "name": "Nông Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.47.11_1",
+          "name": "Núi Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.47.12_1",
+          "name": "Phú Ninh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.47.13_1",
+          "name": "Phước Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.47.14_1",
+          "name": "Quế Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.47.15_1",
+          "name": "Tam Kỳ",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.47.16_1",
+          "name": "Tây Giang",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.47.17_1",
+          "name": "Thăng Bình",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.47.18_1",
+          "name": "Tiên Phước",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.48_1",
+      "name": "Quảng Ngãi",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.48.1_1",
+          "name": "Ba Tơ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.48.2_1",
+          "name": "Bình Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.48.3_1",
+          "name": "Đức Phổ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.48.4_1",
+          "name": "Lý Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.48.5_1",
+          "name": "Mộ Đức",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.48.6_1",
+          "name": "Minh Long",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.48.7_1",
+          "name": "Nghĩa Hành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.48.8_1",
+          "name": "Quảng Ngãi",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.48.9_1",
+          "name": "Sơn Hà",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.48.10_1",
+          "name": "Sơn Tịnh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.48.11_1",
+          "name": "Sơn Tây",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.48.12_1",
+          "name": "Tây Trà",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.48.13_1",
+          "name": "Trà Bồng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.48.14_1",
+          "name": "Tư Nghĩa",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.49_1",
+      "name": "Quảng Ninh",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.49.1_1",
+          "name": "Ba Chẽ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.49.2_1",
+          "name": "Bình Liêu",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.49.3_1",
+          "name": "Cẩm Phả",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.49.4_1",
+          "name": "Cô Tô",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.49.5_1",
+          "name": "Đầm Hà",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.49.6_1",
+          "name": "Đông Triều",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.49.7_1",
+          "name": "Hạ Long",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.49.8_1",
+          "name": "Hải Hà",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.49.9_1",
+          "name": "Hoành Bồ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.49.10_1",
+          "name": "Móng Cái",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.49.11_1",
+          "name": "Quảng Yên",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.49.12_1",
+          "name": "Tiên Yên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.49.13_1",
+          "name": "Uông Bí",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.49.14_1",
+          "name": "Vân Đồn",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.50_1",
+      "name": "Quảng Trị",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.50.1_1",
+          "name": "Cồn Cỏ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.50.2_1",
+          "name": "Cam Lộ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.50.3_1",
+          "name": "Đa Krông",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.50.4_1",
+          "name": "Đông Hà",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.50.5_1",
+          "name": "Gio Linh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.50.6_1",
+          "name": "Hải Lăng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.50.7_1",
+          "name": "Hướng Hóa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.50.8_1",
+          "name": "Quảng Trị",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.50.9_1",
+          "name": "Triệu Phong",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.50.10_1",
+          "name": "Vĩnh Linh",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.51_1",
+      "name": "Sóc Trăng",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.51.1_1",
+          "name": "Châu Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.51.2_1",
+          "name": "Cù Lao Dung",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.51.3_1",
+          "name": "Kế Sách",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.51.4_1",
+          "name": "Long Phú",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.51.5_1",
+          "name": "Mỹ Tú",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.51.6_1",
+          "name": "Mỹ Xuyên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.51.7_1",
+          "name": "Ngã Năm",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.51.8_1",
+          "name": "Sóc Trăng",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.51.9_1",
+          "name": "Thạnh Trị",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.51.10_1",
+          "name": "Trần Đề",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.51.11_1",
+          "name": "Vĩnh Châu",
+          "type": "Thị xã"
+        }
+      ]
+    },
+    {
+      "id": "VNM.52_1",
+      "name": "Sơn La",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.52.1_1",
+          "name": "Bắc Yên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.52.2_1",
+          "name": "Mộc Châu",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.52.3_1",
+          "name": "Mai Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.52.4_1",
+          "name": "Mường La",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.52.5_1",
+          "name": "Phù Yên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.52.6_1",
+          "name": "Quỳnh Nhai",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.52.7_1",
+          "name": "Sốp Cộp",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.52.8_1",
+          "name": "Sơn La",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.52.9_1",
+          "name": "Sông Mã",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.52.10_1",
+          "name": "Thuận Châu",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.52.11_1",
+          "name": "Vân Hồ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.52.12_1",
+          "name": "Yên Châu",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.53_1",
+      "name": "Tây Ninh",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.53.1_1",
+          "name": "Bến Cầu",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.53.2_1",
+          "name": "Châu Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.53.3_1",
+          "name": "Dương Minh Châu",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.53.4_1",
+          "name": "Gò Dầu",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.53.5_1",
+          "name": "Hòa Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.53.6_1",
+          "name": "Tân Biên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.53.7_1",
+          "name": "Tân Châu",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.53.8_1",
+          "name": "Tây Ninh",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.53.9_1",
+          "name": "Trảng Bàng",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.54_1",
+      "name": "Thừa Thiên Huế",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.54.1_1",
+          "name": "A Lưới",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.54.2_1",
+          "name": "Huế",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.54.3_1",
+          "name": "Hương Thủy",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.54.4_1",
+          "name": "Hương Trà",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.54.5_1",
+          "name": "Nam Đông",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.54.6_1",
+          "name": "Phong Điền",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.54.7_1",
+          "name": "Phú Lộc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.54.8_1",
+          "name": "Phú Vang",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.54.9_1",
+          "name": "Quảng Điền",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.55_1",
+      "name": "Thái Bình",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.55.1_1",
+          "name": "Đông Hưng",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.55.2_1",
+          "name": "Hưng Hà",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.55.3_1",
+          "name": "Kiến Xương",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.55.4_1",
+          "name": "Quỳnh Phụ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.55.5_1",
+          "name": "Thái Bình",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.55.6_1",
+          "name": "Thái Thụy",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.55.7_1",
+          "name": "Tiền Hải",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.55.8_1",
+          "name": "Vũ Thư",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.56_1",
+      "name": "Thái Nguyên",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.56.1_1",
+          "name": "Đại Từ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.56.2_1",
+          "name": "Định Hóa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.56.3_1",
+          "name": "Đồng Hỷ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.56.4_1",
+          "name": "Phổ Yên",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.56.5_1",
+          "name": "Phú Bình",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.56.6_1",
+          "name": "Phú Lương",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.56.7_1",
+          "name": "Sông Công",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.56.8_1",
+          "name": "Thái Nguyên",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.56.9_1",
+          "name": "Võ Nhai",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.57_1",
+      "name": "Thanh Hóa",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.57.1_1",
+          "name": "Bỉm Sơn",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.57.2_1",
+          "name": "Bá Thước",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.3_1",
+          "name": "Cẩm Thủy",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.4_1",
+          "name": "Đông Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.5_1",
+          "name": "Hậu Lộc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.6_1",
+          "name": "Hà Trung",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.7_1",
+          "name": "Hoằng Hóa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.8_1",
+          "name": "Lang Chánh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.9_1",
+          "name": "Mường Lát",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.10_1",
+          "name": "Ngọc Lặc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.11_1",
+          "name": "Nga Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.12_1",
+          "name": "Như Thanh",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.13_1",
+          "name": "Như Xuân",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.14_1",
+          "name": "Nông Cống",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.15_1",
+          "name": "Quảng Xương",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.16_1",
+          "name": "Quan Hóa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.17_1",
+          "name": "Quan Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.18_1",
+          "name": "Sầm Sơn",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.57.19_1",
+          "name": "Thạch Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.20_1",
+          "name": "Thọ Xuân",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.21_1",
+          "name": "Thanh Hóa",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.57.22_1",
+          "name": "Thiệu Hóa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.23_1",
+          "name": "Thường Xuân",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.24_1",
+          "name": "Tĩnh Gia",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.25_1",
+          "name": "Triệu Sơn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.26_1",
+          "name": "Vĩnh Lộc",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.57.27_1",
+          "name": "Yên Định",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.58_1",
+      "name": "Tiền Giang",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.58.1_1",
+          "name": "Cái Bè",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.58.3_1",
+          "name": "Cai Lậy",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.58.2_1",
+          "name": "Cai Lậy (Thị xã)",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.58.4_1",
+          "name": "Chợ Gạo",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.58.5_1",
+          "name": "Châu Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.58.8_1",
+          "name": "Gò Công",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.58.6_1",
+          "name": "Gò Công Đông",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.58.7_1",
+          "name": "Gò Công Tây",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.58.9_1",
+          "name": "Mỹ Tho",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.58.10_1",
+          "name": "Tân Phú Đông",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.58.11_1",
+          "name": "Tân Phước",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.59_1",
+      "name": "Trà Vinh",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.59.1_1",
+          "name": "Cầu Kè",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.59.2_1",
+          "name": "Cầu Ngang",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.59.3_1",
+          "name": "Càng Long",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.59.4_1",
+          "name": "Châu Thành",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.59.6_1",
+          "name": "Duyên Hải",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.59.5_1",
+          "name": "Duyên Hải (Thị xã)",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.59.7_1",
+          "name": "Tiểu Cần",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.59.8_1",
+          "name": "Trà Cú",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.59.9_1",
+          "name": "Trà Vinh",
+          "type": "Thành phố"
+        }
+      ]
+    },
+    {
+      "id": "VNM.60_1",
+      "name": "Tuyên Quang",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.60.1_1",
+          "name": "Chiêm Hóa",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.60.2_1",
+          "name": "Hàm Yên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.60.3_1",
+          "name": "Lâm Bình",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.60.4_1",
+          "name": "Nà Hang",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.60.5_1",
+          "name": "Sơn Dương",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.60.6_1",
+          "name": "Tuyên Quang",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.60.7_1",
+          "name": "Yên Sơn",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.61_1",
+      "name": "Vĩnh Long",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.61.1_1",
+          "name": "Bình Minh",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.61.2_1",
+          "name": "Bình Tân",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.61.3_1",
+          "name": "Long Hồ",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.61.4_1",
+          "name": "Mang Thít",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.61.5_1",
+          "name": "Tam Bình",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.61.6_1",
+          "name": "Trà Ôn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.61.7_1",
+          "name": "Vĩnh Long",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.61.8_1",
+          "name": "Vũng Liêm",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.62_1",
+      "name": "Vĩnh Phúc",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.62.1_1",
+          "name": "Bình Xuyên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.62.2_1",
+          "name": "Lập Thạch",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.62.3_1",
+          "name": "Phúc Yên",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.62.4_1",
+          "name": "Sông Lô",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.62.5_1",
+          "name": "Tam Đảo",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.62.6_1",
+          "name": "Tam Dương",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.62.7_1",
+          "name": "Vĩnh Tường",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.62.8_1",
+          "name": "Vĩnh Yên",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.62.9_1",
+          "name": "Yên Lạc",
+          "type": "Huyện"
+        }
+      ]
+    },
+    {
+      "id": "VNM.63_1",
+      "name": "Yên Bái",
+      "type": "Tỉnh",
+      "subRegions": [
+        {
+          "id": "VNM.63.1_1",
+          "name": "Lục Yên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.63.2_1",
+          "name": "Mù Căng Chải",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.63.3_1",
+          "name": "Nghĩa Lộ",
+          "type": "Thị xã"
+        },
+        {
+          "id": "VNM.63.4_1",
+          "name": "Trạm Tấu",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.63.5_1",
+          "name": "Trấn Yên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.63.6_1",
+          "name": "Văn Chấn",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.63.7_1",
+          "name": "Văn Yên",
+          "type": "Huyện"
+        },
+        {
+          "id": "VNM.63.8_1",
+          "name": "Yên Bái",
+          "type": "Thành phố"
+        },
+        {
+          "id": "VNM.63.9_1",
+          "name": "Yên Bình",
+          "type": "Huyện"
+        }
+      ]
+    }
+  ]
+}

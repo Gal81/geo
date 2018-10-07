@@ -20,6 +20,8 @@ const getData = (file, encode) => {
   );
 }
 
+exports.getData = getData;
+
 exports.getLocationName = name => {
   const { locationNames: { admin1, admin2 } } = store;
   return (admin1 && admin1[name]) || (admin2 && admin2[name]) || name;
@@ -33,8 +35,11 @@ exports.getLocationKey = (key, code) => {
 exports.getCountryCode = feature => store.countries.find(country =>
   country.isoA3 === feature.properties['GID_0']).isoA2.toLowerCase();
 
+exports.getCountryCodeByName = name => store.countries.find(country =>
+  country.name === name).isoA2.toLowerCase();
+
 exports.getCountryName = code => store.countries.find(country =>
-  country.isoA2 === code.toUpperCase()).name;
+  country.isoA2 === code.toUpperCase() || country.isoA3 === code.toUpperCase()).name;
 
 exports.loadCountries = () => {
   console.log(' Read countries… '.bgBlue.white);
@@ -43,7 +48,7 @@ exports.loadCountries = () => {
   return promise &&
     promise.then(data => {
       const { countries } = JSON.parse(data);
-      store = {
+      return store = {
         ...store,
         countries,
       };
@@ -57,7 +62,7 @@ exports.loadLocationsNames = countryCode => {
   return promise &&
     promise.then(data => {
       const { admin1, admin2 } = JSON.parse(data);
-      store = {
+      return store = {
         ...store,
         locationNames: {
           admin1,
@@ -74,7 +79,7 @@ exports.loadLocationsKeys = countryCode => {
   return promise &&
     promise.then(data => {
       const { admin2 } = JSON.parse(data);
-      store = {
+      return store = {
         ...store,
         locationKeys: {
           admin2,

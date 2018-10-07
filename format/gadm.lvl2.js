@@ -81,7 +81,7 @@ const save = (regions, country, countryCode, minify = true) => {
   }
 
   fs.writeFile(`${dir}/${countryCode}-admin2-all.js`, maps, err => {
-    if(err) {
+    if (err) {
       return console.error(` ${err} `.bgRed.white);
     }
 
@@ -89,7 +89,7 @@ const save = (regions, country, countryCode, minify = true) => {
   });
 
   fs.writeFile(`./maps/${countryCode}/__extras.json`, JSON.stringify(extras, null, 2), err => {
-    if(err) {
+    if (err) {
       return console.error(` ${err} `.bgRed.white);
     }
 
@@ -100,7 +100,7 @@ const save = (regions, country, countryCode, minify = true) => {
 const run = () => {
   const fileName = process.argv.slice(2)[0];
   fs.readFile(`./tmp/gadm36_${fileName}.geojson`, 'utf8', (error, geoJson) => {
-    if(error) {
+    if (error) {
       return console.error(` ${error} `.bgRed.white);
     }
 
