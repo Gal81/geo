@@ -1,0 +1,948 @@
+{
+  "country": "United Kingdom",
+  "regions": [
+    {
+      "id": "GBR.1_1",
+      "name": "England",
+      "type": "Home Nation|Constituent Country",
+      "subRegions": [
+        {
+          "id": "GBR.1.1_1",
+          "name": "Barnsley",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.2_1",
+          "name": "Bath and North East Somerset",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.3_1",
+          "name": "Bedfordshire",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.4_1",
+          "name": "Birmingham",
+          "type": "Metropolitan Borough (City)"
+        },
+        {
+          "id": "GBR.1.5_1",
+          "name": "Blackburn with Darwen",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.6_1",
+          "name": "Blackpool",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.7_1",
+          "name": "Bolton",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.8_1",
+          "name": "Bournemouth",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.9_1",
+          "name": "Bracknell Forest",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.10_1",
+          "name": "Bradford",
+          "type": "Metropolitan Borough (City)"
+        },
+        {
+          "id": "GBR.1.11_1",
+          "name": "Brighton and Hove",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.12_1",
+          "name": "Bristol",
+          "type": "Unitary Authority (City)"
+        },
+        {
+          "id": "GBR.1.13_1",
+          "name": "Buckinghamshire",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.14_1",
+          "name": "Bury",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.15_1",
+          "name": "Calderdale",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.16_1",
+          "name": "Cambridgeshire",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.17_1",
+          "name": "Central Bedfordshire",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.18_1",
+          "name": "Cheshire East",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.19_1",
+          "name": "Cheshire West and Chester",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.20_1",
+          "name": "Cornwall",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.21_1",
+          "name": "Coventry",
+          "type": "Metropolitan Borough (City)"
+        },
+        {
+          "id": "GBR.1.22_1",
+          "name": "Cumbria",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.23_1",
+          "name": "Darlington",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.24_1",
+          "name": "Derby",
+          "type": "Unitary Authority (City)"
+        },
+        {
+          "id": "GBR.1.25_1",
+          "name": "Derbyshire",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.26_1",
+          "name": "Devon",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.27_1",
+          "name": "Doncaster",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.28_1",
+          "name": "Dorset",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.29_1",
+          "name": "Dudley",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.30_1",
+          "name": "Durham",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.31_1",
+          "name": "East Riding of Yorkshire",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.32_1",
+          "name": "East Sussex",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.33_1",
+          "name": "Essex",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.34_1",
+          "name": "Gateshead",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.35_1",
+          "name": "Gloucestershire",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.36_1",
+          "name": "Greater London",
+          "type": "Region"
+        },
+        {
+          "id": "GBR.1.37_1",
+          "name": "Halton",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.38_1",
+          "name": "Hampshire",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.39_1",
+          "name": "Hartlepool",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.40_1",
+          "name": "Herefordshire",
+          "type": "Unitary Authority (County)"
+        },
+        {
+          "id": "GBR.1.41_1",
+          "name": "Hertfordshire",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.42_1",
+          "name": "Isle of Wight",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.43_1",
+          "name": "Isles of Scilly",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.44_1",
+          "name": "Kent",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.45_1",
+          "name": "Kingston upon Hull",
+          "type": "Unitary Authority (City)"
+        },
+        {
+          "id": "GBR.1.46_1",
+          "name": "Kirklees",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.47_1",
+          "name": "Knowsley",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.48_1",
+          "name": "Lancashire",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.49_1",
+          "name": "Leeds",
+          "type": "Metropolitan Borough (City)"
+        },
+        {
+          "id": "GBR.1.50_1",
+          "name": "Leicester",
+          "type": "Unitary Authority (City)"
+        },
+        {
+          "id": "GBR.1.51_1",
+          "name": "Leicestershire",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.52_1",
+          "name": "Lincolnshire",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.53_1",
+          "name": "Luton",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.54_1",
+          "name": "Manchester",
+          "type": "Metropolitan Borough (City)"
+        },
+        {
+          "id": "GBR.1.55_1",
+          "name": "Medway",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.56_1",
+          "name": "Middlesbrough",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.57_1",
+          "name": "Milton Keynes",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.58_1",
+          "name": "Newcastle upon Tyne",
+          "type": "Metropolitan Borough (City)"
+        },
+        {
+          "id": "GBR.1.59_1",
+          "name": "Norfolk",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.60_1",
+          "name": "North Lincolnshire",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.61_1",
+          "name": "North Somerset",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.62_1",
+          "name": "North Tyneside",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.63_1",
+          "name": "North Yorkshire",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.64_1",
+          "name": "Northamptonshire",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.65_1",
+          "name": "Northumberland",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.66_1",
+          "name": "Nottingham",
+          "type": "Unitary Authority (City)"
+        },
+        {
+          "id": "GBR.1.67_1",
+          "name": "Nottinghamshire",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.68_1",
+          "name": "Oldham",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.69_1",
+          "name": "Oxfordshire",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.70_1",
+          "name": "Peterborough",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.71_1",
+          "name": "Plymouth",
+          "type": "Unitary Authority (City)"
+        },
+        {
+          "id": "GBR.1.72_1",
+          "name": "Poole",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.73_1",
+          "name": "Portsmouth",
+          "type": "Unitary Authority (City)"
+        },
+        {
+          "id": "GBR.1.74_1",
+          "name": "Reading",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.75_1",
+          "name": "Redcar and Cleveland",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.76_1",
+          "name": "Rochdale",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.77_1",
+          "name": "Rotherham",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.78_1",
+          "name": "Rutland",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.79_1",
+          "name": "Saint Helens",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.80_1",
+          "name": "Salford",
+          "type": "Metropolitan Borough (City)"
+        },
+        {
+          "id": "GBR.1.81_1",
+          "name": "Sandwell",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.82_1",
+          "name": "Sefton",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.83_1",
+          "name": "Sheffield",
+          "type": "Metropolitan Borough (City)"
+        },
+        {
+          "id": "GBR.1.84_1",
+          "name": "Shropshire",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.85_1",
+          "name": "Slough",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.86_1",
+          "name": "Solihull",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.87_1",
+          "name": "Somerset",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.88_1",
+          "name": "South Gloucestershire",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.89_1",
+          "name": "South Tyneside",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.90_1",
+          "name": "Southampton",
+          "type": "Unitary Authority (City)"
+        },
+        {
+          "id": "GBR.1.91_1",
+          "name": "Southend-on-Sea",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.92_1",
+          "name": "Staffordshire",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.93_1",
+          "name": "Stockport",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.94_1",
+          "name": "Stockton-on-Tees",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.95_1",
+          "name": "Stoke-on-Trent",
+          "type": "Unitary Authority (City)"
+        },
+        {
+          "id": "GBR.1.96_1",
+          "name": "Suffolk",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.97_1",
+          "name": "Sunderland",
+          "type": "Metropolitan Borough (City)"
+        },
+        {
+          "id": "GBR.1.98_1",
+          "name": "Surrey",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.99_1",
+          "name": "Swindon",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.100_1",
+          "name": "Tameside",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.101_1",
+          "name": "Telford and Wrekin",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.102_1",
+          "name": "Thurrock",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.103_1",
+          "name": "Torbay",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.104_1",
+          "name": "Trafford",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.105_1",
+          "name": "Wakefield",
+          "type": "Metropolitan Borough (City)"
+        },
+        {
+          "id": "GBR.1.106_1",
+          "name": "Walsall",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.107_1",
+          "name": "Warrington",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.108_1",
+          "name": "Warwickshire",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.109_1",
+          "name": "West Berkshire",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.110_1",
+          "name": "West Sussex",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.111_1",
+          "name": "Wigan",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.112_1",
+          "name": "Wiltshire",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.113_1",
+          "name": "Windsor and Maidenhead",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.114_1",
+          "name": "Wirral",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.115_1",
+          "name": "Wokingham",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.1.116_1",
+          "name": "Wolverhampton",
+          "type": "Metropolitan Borough"
+        },
+        {
+          "id": "GBR.1.117_1",
+          "name": "Worcestershire",
+          "type": "Administrative County"
+        },
+        {
+          "id": "GBR.1.118_1",
+          "name": "York",
+          "type": "Unitary Authority (City)"
+        }
+      ]
+    },
+    {
+      "id": "GBR.2_1",
+      "name": "Northern Ireland",
+      "type": "Home Nation|Constituent Country",
+      "subRegions": [
+        {
+          "id": "GBR.2.1_1",
+          "name": "Antrim and Newtownabbey",
+          "type": "District"
+        },
+        {
+          "id": "GBR.2.2_1",
+          "name": "Armagh, Banbridge and Craigavon",
+          "type": "District"
+        },
+        {
+          "id": "GBR.2.3_1",
+          "name": "Belfast",
+          "type": "District"
+        },
+        {
+          "id": "GBR.2.4_1",
+          "name": "Causeway Coast and Glens",
+          "type": "District"
+        },
+        {
+          "id": "GBR.2.5_1",
+          "name": "Derry and Strabane",
+          "type": "District"
+        },
+        {
+          "id": "GBR.2.6_1",
+          "name": "Fermanagh and Omagh",
+          "type": "District"
+        },
+        {
+          "id": "GBR.2.7_1",
+          "name": "Lisburn and Castlereagh",
+          "type": "District"
+        },
+        {
+          "id": "GBR.2.8_1",
+          "name": "Mid and East Antrim",
+          "type": "District"
+        },
+        {
+          "id": "GBR.2.9_1",
+          "name": "Mid Ulster",
+          "type": "District"
+        },
+        {
+          "id": "GBR.2.10_1",
+          "name": "Newry, Mourne and Down",
+          "type": "District"
+        },
+        {
+          "id": "GBR.2.11_1",
+          "name": "North Down and Ards",
+          "type": "District"
+        }
+      ]
+    },
+    {
+      "id": "GBR.3_1",
+      "name": "Scotland",
+      "type": "Home Nation|Constituent Country",
+      "subRegions": [
+        {
+          "id": "GBR.3.1_1",
+          "name": "Aberdeen",
+          "type": "Unitary District (City)"
+        },
+        {
+          "id": "GBR.3.2_1",
+          "name": "Aberdeenshire",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.3_1",
+          "name": "Angus",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.4_1",
+          "name": "Argyll and Bute",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.5_1",
+          "name": "Clackmannanshire",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.6_1",
+          "name": "Dumfries and Galloway",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.7_1",
+          "name": "Dundee",
+          "type": "Unitary District (City)"
+        },
+        {
+          "id": "GBR.3.8_1",
+          "name": "East Ayrshire",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.9_1",
+          "name": "East Dunbartonshire",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.10_1",
+          "name": "East Lothian",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.11_1",
+          "name": "East Renfrewshire",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.12_1",
+          "name": "Edinburgh",
+          "type": "Unitary District (City)"
+        },
+        {
+          "id": "GBR.3.13_1",
+          "name": "Eilean Siar",
+          "type": "Island area"
+        },
+        {
+          "id": "GBR.3.14_1",
+          "name": "Falkirk",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.15_1",
+          "name": "Fife",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.16_1",
+          "name": "Glasgow",
+          "type": "Unitary District (City)"
+        },
+        {
+          "id": "GBR.3.17_1",
+          "name": "Highland",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.18_1",
+          "name": "Inverclyde",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.19_1",
+          "name": "Midlothian",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.20_1",
+          "name": "Moray",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.21_1",
+          "name": "North Ayrshire",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.22_1",
+          "name": "North Lanarkshire",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.23_1",
+          "name": "Orkney Islands",
+          "type": "Island area"
+        },
+        {
+          "id": "GBR.3.24_1",
+          "name": "Perthshire and Kinross",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.25_1",
+          "name": "Renfrewshire",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.26_1",
+          "name": "Scottish Borders",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.27_1",
+          "name": "Shetland Islands",
+          "type": "Island area"
+        },
+        {
+          "id": "GBR.3.28_1",
+          "name": "South Ayrshire",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.29_1",
+          "name": "South Lanarkshire",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.30_1",
+          "name": "Stirling",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.31_1",
+          "name": "West Dunbartonshire",
+          "type": "Unitary District"
+        },
+        {
+          "id": "GBR.3.32_1",
+          "name": "West Lothian",
+          "type": "Unitary District"
+        }
+      ]
+    },
+    {
+      "id": "GBR.4_1",
+      "name": "Wales",
+      "type": "Home Nation|Constituent Country",
+      "subRegions": [
+        {
+          "id": "GBR.4.1_1",
+          "name": "Anglesey",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.2_1",
+          "name": "Blaenau Gwent",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.3_1",
+          "name": "Bridgend",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.4_1",
+          "name": "Caerphilly",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.5_1",
+          "name": "Cardiff",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.6_1",
+          "name": "Carmarthenshire",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.7_1",
+          "name": "Ceredigion",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.8_1",
+          "name": "Conwy",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.9_1",
+          "name": "Denbighshire",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.10_1",
+          "name": "Flintshire",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.11_1",
+          "name": "Gwynedd",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.12_1",
+          "name": "Merthyr Tydfil",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.13_1",
+          "name": "Monmouthshire",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.14_1",
+          "name": "Neath Port Talbot",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.15_1",
+          "name": "Newport",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.16_1",
+          "name": "Pembrokeshire",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.17_1",
+          "name": "Powys",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.18_1",
+          "name": "Rhondda, Cynon, Taff",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.19_1",
+          "name": "Swansea",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.20_1",
+          "name": "Torfaen",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.21_1",
+          "name": "Vale of Glamorgan",
+          "type": "Unitary Authority"
+        },
+        {
+          "id": "GBR.4.22_1",
+          "name": "Wrexham",
+          "type": "Unitary Authority"
+        }
+      ]
+    }
+  ]
+}
