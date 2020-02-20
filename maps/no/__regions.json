@@ -1,0 +1,2328 @@
+{
+  "country": "Norway",
+  "regions": [
+    {
+      "id": "NOR.1_1",
+      "name": "Akershus",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.1.1_1",
+          "name": "Ås",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.2_1",
+          "name": "Asker",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.3_1",
+          "name": "Aurskog-Høland",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.4_1",
+          "name": "Bærum",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.5_1",
+          "name": "Eidsvoll",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.6_1",
+          "name": "Enebakk",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.7_1",
+          "name": "Fet",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.8_1",
+          "name": "Frogn",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.9_1",
+          "name": "Gjerdrum",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.10_1",
+          "name": "Hurdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.11_1",
+          "name": "Lørenskog",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.12_1",
+          "name": "Nannestad",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.13_1",
+          "name": "Nesodden",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.14_1",
+          "name": "Nittedal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.15_1",
+          "name": "Oppegård",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.16_1",
+          "name": "Rælingen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.17_1",
+          "name": "Skedsmo",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.18_1",
+          "name": "Ski",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.19_1",
+          "name": "Sørum",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.20_1",
+          "name": "Ullensaker",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.1.21_1",
+          "name": "Vestby",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.2_1",
+      "name": "Ãstfold",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.2.1_1",
+          "name": "Aremark",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.2_1",
+          "name": "Askim",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.3_1",
+          "name": "Borge",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.4_1",
+          "name": "Eidsberg",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.5_1",
+          "name": "Fredrikstad",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.6_1",
+          "name": "Halden",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.7_1",
+          "name": "Hobøl",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.8_1",
+          "name": "Hvaler",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.9_1",
+          "name": "Kraakeroey",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.10_1",
+          "name": "Marker",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.11_1",
+          "name": "Moss",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.12_1",
+          "name": "Onsoey",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.13_1",
+          "name": "Råde",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.14_1",
+          "name": "Rakkestad",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.15_1",
+          "name": "Rolvsoey",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.16_1",
+          "name": "Rømskog",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.17_1",
+          "name": "Rygge",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.18_1",
+          "name": "Sarpsborg",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.19_1",
+          "name": "Skiptvet",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.20_1",
+          "name": "Spydeberg",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.21_1",
+          "name": "Trøgstad",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.2.22_1",
+          "name": "Våler",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.3_1",
+      "name": "Aust-Agder",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.3.1_1",
+          "name": "Åmli",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.3.2_1",
+          "name": "Arendal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.3.3_1",
+          "name": "Birkenes",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.3.4_1",
+          "name": "Bygland",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.3.5_1",
+          "name": "Bykle",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.3.6_1",
+          "name": "Evje og Hornnes",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.3.7_1",
+          "name": "Froland",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.3.8_1",
+          "name": "Gjerstad",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.3.9_1",
+          "name": "Grimstad",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.3.10_1",
+          "name": "Iveland",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.3.11_1",
+          "name": "Lillesand",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.3.12_1",
+          "name": "Risør",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.3.13_1",
+          "name": "Tvedestrand",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.3.14_1",
+          "name": "Valle",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.3.15_1",
+          "name": "Vegårshei",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.4_1",
+      "name": "Buskerud",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.4.1_1",
+          "name": "Ål",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.2_1",
+          "name": "Drammen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.3_1",
+          "name": "Flå",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.4_1",
+          "name": "Flesberg",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.5_1",
+          "name": "Gol",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.6_1",
+          "name": "Hemsedal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.7_1",
+          "name": "Hol",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.8_1",
+          "name": "Hole",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.9_1",
+          "name": "Hurum",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.10_1",
+          "name": "Kongsberg",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.11_1",
+          "name": "Krødsherad",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.12_1",
+          "name": "Lier",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.13_1",
+          "name": "Modum",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.14_1",
+          "name": "Nedre Eiker",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.15_1",
+          "name": "Nes",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.16_1",
+          "name": "Nore og Uvdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.17_1",
+          "name": "Øvre Eiker",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.18_1",
+          "name": "Ringerike",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.19_1",
+          "name": "Rollag",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.20_1",
+          "name": "Røyken",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.4.21_1",
+          "name": "Sigdal",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.5_1",
+      "name": "Finnmark",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.5.1_1",
+          "name": "Alta",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.2_1",
+          "name": "Båtsfjord",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.3_1",
+          "name": "Berlevåg",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.4_1",
+          "name": "Gamvik",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.5_1",
+          "name": "Hammerfest",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.6_1",
+          "name": "Hasvik",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.7_1",
+          "name": "Karasjok",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.8_1",
+          "name": "Kautokeino",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.9_1",
+          "name": "Kvalsund",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.10_1",
+          "name": "Lebesby",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.11_1",
+          "name": "Loppa",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.12_1",
+          "name": "Måsøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.13_1",
+          "name": "Nesseby",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.14_1",
+          "name": "Nordkapp",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.15_1",
+          "name": "Porsanger",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.16_1",
+          "name": "Sør-Varanger",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.17_1",
+          "name": "Tana",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.18_1",
+          "name": "Vadsø",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.5.19_1",
+          "name": "Vardø",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.6_1",
+      "name": "Hedmark",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.6.1_1",
+          "name": "Alvdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.2_1",
+          "name": "Åmot",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.3_1",
+          "name": "Åsnes",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.4_1",
+          "name": "Eidskog",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.5_1",
+          "name": "Elverum",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.6_1",
+          "name": "Engerdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.7_1",
+          "name": "Folldal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.8_1",
+          "name": "Grue",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.9_1",
+          "name": "Hamar",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.10_1",
+          "name": "Kongsvinger",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.11_1",
+          "name": "Løten",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.12_1",
+          "name": "Nord-Odal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.13_1",
+          "name": "Os",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.14_1",
+          "name": "Rendalen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.15_1",
+          "name": "Ringsaker",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.16_1",
+          "name": "Sør-Odal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.17_1",
+          "name": "Stange",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.18_1",
+          "name": "Stor-Elvdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.19_1",
+          "name": "Tolga",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.20_1",
+          "name": "Trysil",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.21_1",
+          "name": "Tynset",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.6.22_1",
+          "name": "Våler",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.7_1",
+      "name": "Hordaland",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.7.1_1",
+          "name": "Askøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.2_1",
+          "name": "Austevoll",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.3_1",
+          "name": "Austrheim",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.4_1",
+          "name": "Bergen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.5_1",
+          "name": "Bømlo",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.6_1",
+          "name": "Eidfjord",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.7_1",
+          "name": "Etne",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.8_1",
+          "name": "Fedje",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.9_1",
+          "name": "Fitjar",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.10_1",
+          "name": "Fjell",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.11_1",
+          "name": "Fusa",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.12_1",
+          "name": "Granvin",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.13_1",
+          "name": "Jondal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.14_1",
+          "name": "Kvam",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.15_1",
+          "name": "Kvinnherad",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.16_1",
+          "name": "Lindås",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.17_1",
+          "name": "Masfjorden",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.18_1",
+          "name": "Meland",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.19_1",
+          "name": "Modalen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.20_1",
+          "name": "Odda",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.21_1",
+          "name": "Oelen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.22_1",
+          "name": "Os",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.23_1",
+          "name": "Osterøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.24_1",
+          "name": "Øygarden",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.25_1",
+          "name": "Radøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.26_1",
+          "name": "Samnanger",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.27_1",
+          "name": "Stord",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.28_1",
+          "name": "Sund",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.29_1",
+          "name": "Sveio",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.30_1",
+          "name": "Tysnes",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.31_1",
+          "name": "Ullensvang",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.32_1",
+          "name": "Ulvik",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.33_1",
+          "name": "Vaksdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.7.34_1",
+          "name": "Voss",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.8_1",
+      "name": "Møre og Romsdal",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.8.1_1",
+          "name": "Ålesund",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.2_1",
+          "name": "Aukra",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.3_1",
+          "name": "Aure",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.4_1",
+          "name": "Averøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.5_1",
+          "name": "Eide",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.6_1",
+          "name": "Fræna",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.7_1",
+          "name": "Frei",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.8_1",
+          "name": "Giske",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.9_1",
+          "name": "Gjemnes",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.10_1",
+          "name": "Halsa",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.11_1",
+          "name": "Haram",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.12_1",
+          "name": "Hareid",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.13_1",
+          "name": "Herøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.14_1",
+          "name": "Kristiansund",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.15_1",
+          "name": "Midsund",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.16_1",
+          "name": "Molde",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.17_1",
+          "name": "Nesset",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.18_1",
+          "name": "Norddal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.19_1",
+          "name": "Ørskog",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.20_1",
+          "name": "Ørsta",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.21_1",
+          "name": "Rauma",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.22_1",
+          "name": "Rindal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.23_1",
+          "name": "Sande",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.24_1",
+          "name": "Sandøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.25_1",
+          "name": "Skodje",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.26_1",
+          "name": "Smøla",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.27_1",
+          "name": "Stordal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.28_1",
+          "name": "Stranda",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.29_1",
+          "name": "Sula",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.30_1",
+          "name": "Sunndal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.31_1",
+          "name": "Surnadal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.32_1",
+          "name": "Sykkylven",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.33_1",
+          "name": "Tingvoll",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.34_1",
+          "name": "Tustna",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.35_1",
+          "name": "Ulstein",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.36_1",
+          "name": "Vanylven",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.37_1",
+          "name": "Vestnes",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.8.38_1",
+          "name": "Volda",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.9_1",
+      "name": "Nord-Trøndelag",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.9.1_1",
+          "name": "Flatanger",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.2_1",
+          "name": "Fosnes",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.3_1",
+          "name": "Frosta",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.4_1",
+          "name": "Grong",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.5_1",
+          "name": "Høylandet",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.6_1",
+          "name": "Inderøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.7_1",
+          "name": "Leka",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.8_1",
+          "name": "Leksvik",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.9_1",
+          "name": "Levanger",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.10_1",
+          "name": "Lierne",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.11_1",
+          "name": "Mandalseid",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.12_1",
+          "name": "Meråker",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.13_1",
+          "name": "Mosvik",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.14_1",
+          "name": "Nærøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.15_1",
+          "name": "Namsos",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.16_1",
+          "name": "Namsskogan",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.17_1",
+          "name": "Overhalla",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.18_1",
+          "name": "Røyrvik",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.19_1",
+          "name": "Snåsa",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.20_1",
+          "name": "Steinkjer",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.21_1",
+          "name": "Stjørdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.22_1",
+          "name": "Verdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.23_1",
+          "name": "Verran",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.9.24_1",
+          "name": "Vikna",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.10_1",
+      "name": "Nordland",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.10.1_1",
+          "name": "Alstahaug",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.2_1",
+          "name": "Andøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.3_1",
+          "name": "Ballangen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.4_1",
+          "name": "Beiarn",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.5_1",
+          "name": "Bindal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.6_1",
+          "name": "Bø",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.7_1",
+          "name": "Bodø",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.8_1",
+          "name": "Brønnøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.9_1",
+          "name": "Dønna",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.10_1",
+          "name": "Evenes",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.11_1",
+          "name": "Fauske",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.12_1",
+          "name": "Flakstad",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.13_1",
+          "name": "Gildeskål",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.14_1",
+          "name": "Grane",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.15_1",
+          "name": "Hadsel",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.16_1",
+          "name": "Hamarøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.17_1",
+          "name": "Hattfjelldal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.18_1",
+          "name": "Hemnes",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.19_1",
+          "name": "Herøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.20_1",
+          "name": "Leirfjord",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.21_1",
+          "name": "Lødingen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.22_1",
+          "name": "Lurøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.23_1",
+          "name": "Meløy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.24_1",
+          "name": "Moskenes",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.25_1",
+          "name": "Narvik",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.26_1",
+          "name": "Nesna",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.27_1",
+          "name": "Øksnes",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.28_1",
+          "name": "Rana",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.29_1",
+          "name": "Rødøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.30_1",
+          "name": "Røst",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.31_1",
+          "name": "Saltdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.32_1",
+          "name": "Skjerstad",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.33_1",
+          "name": "Sømna",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.34_1",
+          "name": "Sørfold",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.35_1",
+          "name": "Sortland",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.36_1",
+          "name": "Steigen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.37_1",
+          "name": "Tjeldsund",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.38_1",
+          "name": "Træna",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.39_1",
+          "name": "Tysfjord",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.40_1",
+          "name": "Værøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.41_1",
+          "name": "Vågan",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.42_1",
+          "name": "Vefsn",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.43_1",
+          "name": "Vega",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.44_1",
+          "name": "Vestvågøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.10.45_1",
+          "name": "Vevelstad",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.11_1",
+      "name": "Oppland",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.11.1_1",
+          "name": "Dovre",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.2_1",
+          "name": "Etnedal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.3_1",
+          "name": "Gausdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.4_1",
+          "name": "Gjøvik",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.5_1",
+          "name": "Gran",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.6_1",
+          "name": "Jevnaker",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.7_1",
+          "name": "Lesja",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.8_1",
+          "name": "Lillehammer",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.9_1",
+          "name": "Lom",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.10_1",
+          "name": "Lunner",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.11_1",
+          "name": "Nord-Aurdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.12_1",
+          "name": "Nord-Fron",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.13_1",
+          "name": "Nordre Land",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.14_1",
+          "name": "Østre Toten",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.15_1",
+          "name": "Øyer",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.16_1",
+          "name": "Øystre Slidre",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.17_1",
+          "name": "Ringebu",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.18_1",
+          "name": "Sel",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.19_1",
+          "name": "Skjåk",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.20_1",
+          "name": "Søndre Land",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.21_1",
+          "name": "Sør-Aurdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.22_1",
+          "name": "Sør-Fron",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.23_1",
+          "name": "Vågå",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.24_1",
+          "name": "Vang",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.25_1",
+          "name": "Vestre Slidre",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.11.26_1",
+          "name": "Vestre Toten",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.12_1",
+      "name": "Oslo",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.12.1_1",
+          "name": "Oslo",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.13_1",
+      "name": "Rogaland",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.13.1_1",
+          "name": "Bjerkreim",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.2_1",
+          "name": "Bokn",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.3_1",
+          "name": "Eigersund",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.4_1",
+          "name": "Finnøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.5_1",
+          "name": "Forsand",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.6_1",
+          "name": "Gjesdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.7_1",
+          "name": "Hå",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.8_1",
+          "name": "Haugesund",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.9_1",
+          "name": "Hjelmeland",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.10_1",
+          "name": "Karmøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.11_1",
+          "name": "Klepp",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.12_1",
+          "name": "Kvitsøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.13_1",
+          "name": "Lund",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.14_1",
+          "name": "Randaberg",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.15_1",
+          "name": "Rennesøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.16_1",
+          "name": "Sandnes",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.17_1",
+          "name": "Sauda",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.18_1",
+          "name": "Sokndal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.19_1",
+          "name": "Sola",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.20_1",
+          "name": "Stavanger",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.21_1",
+          "name": "Strand",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.22_1",
+          "name": "Suldal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.23_1",
+          "name": "Time",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.24_1",
+          "name": "Tysvær",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.25_1",
+          "name": "Utsira",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.13.26_1",
+          "name": "Vindafjord",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.14_1",
+      "name": "Sogn og Fjordane",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.14.1_1",
+          "name": "Årdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.2_1",
+          "name": "Askvoll",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.3_1",
+          "name": "Aurland",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.4_1",
+          "name": "Balestrand",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.5_1",
+          "name": "Bremanger",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.6_1",
+          "name": "Eid",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.7_1",
+          "name": "Fjaler",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.8_1",
+          "name": "Flora",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.9_1",
+          "name": "Førde",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.10_1",
+          "name": "Gaular",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.11_1",
+          "name": "Gloppen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.12_1",
+          "name": "Gulen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.13_1",
+          "name": "Hornindal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.14_1",
+          "name": "Høyanger",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.15_1",
+          "name": "Hyllestad",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.16_1",
+          "name": "Jølster",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.17_1",
+          "name": "Lærdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.18_1",
+          "name": "Leikanger",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.19_1",
+          "name": "Luster",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.20_1",
+          "name": "Naustdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.21_1",
+          "name": "Selje",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.22_1",
+          "name": "Sogndal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.23_1",
+          "name": "Solund",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.24_1",
+          "name": "Stryn",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.25_1",
+          "name": "Vågsøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.14.26_1",
+          "name": "Vik",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.15_1",
+      "name": "Sør-Trøndelag",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.15.1_1",
+          "name": "Åfjord",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.2_1",
+          "name": "Agdenes",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.3_1",
+          "name": "Bjugn",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.4_1",
+          "name": "Frøya",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.5_1",
+          "name": "Hemne",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.6_1",
+          "name": "Hitra",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.7_1",
+          "name": "Holtålen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.8_1",
+          "name": "Klæbu",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.9_1",
+          "name": "Malvik",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.10_1",
+          "name": "Meldal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.11_1",
+          "name": "Melhus",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.12_1",
+          "name": "Midtre Gauldal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.13_1",
+          "name": "Oppdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.14_1",
+          "name": "Orkdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.15_1",
+          "name": "Ørland",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.16_1",
+          "name": "Osen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.17_1",
+          "name": "Rennebu",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.18_1",
+          "name": "Rissa",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.19_1",
+          "name": "Roan",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.20_1",
+          "name": "Røros",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.21_1",
+          "name": "Selbu",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.22_1",
+          "name": "Skaun",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.23_1",
+          "name": "Snillfjord",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.24_1",
+          "name": "Trondheim",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.15.25_1",
+          "name": "Tydal",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.16_1",
+      "name": "Telemark",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.16.1_1",
+          "name": "Bamble",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.16.2_1",
+          "name": "Bø",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.16.3_1",
+          "name": "Drangedal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.16.4_1",
+          "name": "Fyresdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.16.5_1",
+          "name": "Hjartdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.16.6_1",
+          "name": "Kragerø",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.16.7_1",
+          "name": "Kviteseid",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.16.8_1",
+          "name": "Nissedal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.16.9_1",
+          "name": "Nome",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.16.10_1",
+          "name": "Notodden",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.16.11_1",
+          "name": "Porsgrunn",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.16.12_1",
+          "name": "Sauherad",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.16.13_1",
+          "name": "Seljord",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.16.14_1",
+          "name": "Siljan",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.16.15_1",
+          "name": "Skien",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.16.16_1",
+          "name": "Tinn",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.16.17_1",
+          "name": "Tokke",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.16.18_1",
+          "name": "Vinje",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.17_1",
+      "name": "Troms",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.17.1_1",
+          "name": "Balsfjord",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.2_1",
+          "name": "Bardu",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.3_1",
+          "name": "Berg",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.4_1",
+          "name": "Bjarkøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.5_1",
+          "name": "Dyrøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.6_1",
+          "name": "Gratangen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.7_1",
+          "name": "Harstad",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.8_1",
+          "name": "Ibestad",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.9_1",
+          "name": "Kåfjord",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.10_1",
+          "name": "Karlsøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.11_1",
+          "name": "Kvæfjord",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.12_1",
+          "name": "Kvænangen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.13_1",
+          "name": "Lavangen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.14_1",
+          "name": "Lenvik",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.15_1",
+          "name": "Lyngen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.16_1",
+          "name": "Målselv",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.17_1",
+          "name": "Nordreisa",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.18_1",
+          "name": "Salangen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.19_1",
+          "name": "Skånland",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.20_1",
+          "name": "Skjervøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.21_1",
+          "name": "Sørreisa",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.22_1",
+          "name": "Storfjord",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.23_1",
+          "name": "Torsken",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.24_1",
+          "name": "Tranøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.17.25_1",
+          "name": "Tromsø",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.18_1",
+      "name": "Vest-Agder",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.18.1_1",
+          "name": "Åseral",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.18.2_1",
+          "name": "Audnedal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.18.3_1",
+          "name": "Farsund",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.18.4_1",
+          "name": "Flekkefjord",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.18.5_1",
+          "name": "Hægebostad",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.18.6_1",
+          "name": "Kristiansand",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.18.7_1",
+          "name": "Kvinesdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.18.8_1",
+          "name": "Lindesnes",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.18.9_1",
+          "name": "Lyngdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.18.10_1",
+          "name": "Mandal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.18.11_1",
+          "name": "Marnardal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.18.12_1",
+          "name": "Sirdal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.18.13_1",
+          "name": "Søgne",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.18.14_1",
+          "name": "Songdalen",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.18.15_1",
+          "name": "Vennesla",
+          "type": "Kommuner"
+        }
+      ]
+    },
+    {
+      "id": "NOR.19_1",
+      "name": "Vestfold",
+      "type": "Fylke",
+      "subRegions": [
+        {
+          "id": "NOR.19.1_1",
+          "name": "Andebu",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.19.2_1",
+          "name": "Borre",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.19.3_1",
+          "name": "Hof",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.19.4_1",
+          "name": "Holmestrand",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.19.5_1",
+          "name": "Lardal",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.19.6_1",
+          "name": "Larvik",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.19.7_1",
+          "name": "Nøtterøy",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.19.8_1",
+          "name": "Ramnes",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.19.9_1",
+          "name": "Sande",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.19.10_1",
+          "name": "Sandefjord",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.19.11_1",
+          "name": "Stokke",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.19.12_1",
+          "name": "Svelvik",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.19.13_1",
+          "name": "Tjøme",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.19.14_1",
+          "name": "Tønsberg",
+          "type": "Kommuner"
+        },
+        {
+          "id": "NOR.19.15_1",
+          "name": "Vaale",
+          "type": "Kommuner"
+        }
+      ]
+    }
+  ]
+}

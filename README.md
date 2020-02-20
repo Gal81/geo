@@ -1,4 +1,5 @@
 ### ‘GADM’ geoJson to ‘highmaps’ geoJson
+
 # 1. Download country's ‘Shapefile’ from
     https://gadm.org/download_country_v3.html
 
@@ -14,3 +15,10 @@
     npm run admin1 || admin2 <filename[without ‘gadm36_’ prefix & extension]>
 
 ## Files will be stored into ./maps
+
+
+
+### Regions list
+    npm run regions <country_filename>
+## Example for Norway
+    npm run region NOR
