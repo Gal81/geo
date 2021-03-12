@@ -32,7 +32,7 @@
     "run-sequence": "^2.2.1",
     "simplify-js": "^1.2.4",
     "svg-path-properties": "^1.0.2",
-    "xmldom": "^0.2.1"
+    "xmldom": "^0.5.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
